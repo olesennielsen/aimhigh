@@ -1,0 +1,21 @@
+<% if @attachment.blank? %>
+	<%= "The User has no current file" %>
+	<% else %>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<td>Filename</td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><%= link_to @attachment.title, @attachment.file.url %></td>
+				<td><%= link_to [@athlete,@attachment] , :confirm => "Do you want to remove this attachment from your athlete?", :method => :delete do %>
+					<i class="icon-remove"></i>
+				</td>
+			</tr>
+			<% end %>
+		</tbody>	
+	</table>
+<% end %>

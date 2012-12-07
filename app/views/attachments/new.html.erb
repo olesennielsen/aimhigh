@@ -1,0 +1,24 @@
+<%= form_for [@athlete,@attachment], :html => {:multipart => true} do |f| %>
+	<% if @attachment.errors.any? %>
+	<div id="error_explanation">
+		<h2><%= pluralize(@event.errors.count, "error") %> prohibited this attachment from being saved:</h2>
+		<ul>
+			<% @attachment.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+	<% end %>
+	<div class="field">
+		<label>Upload File</label>
+		<%= f.file_field :file %>
+	</div>
+	<br/>
+	<div class="actions">
+		<% if (@athlete.attachment.nil?) %>
+		<%= f.submit %>
+		<% else %>
+		<%= f.submit :confirm => "This action will delete the current file and upload new events"  %>
+		<% end %>
+	</div>
+	<% end %>

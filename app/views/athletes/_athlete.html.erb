@@ -1,0 +1,10 @@
+﻿<div class="athlete">
+  <h3>
+    <%= link_to h(athlete.email), athlete %>
+    <%= athlete.invitation_accepted_at %>
+  </h3>
+  <div class="actions">
+    <%= link_to "Edit", edit_athlete_path(athlete) %> |
+    <%= link_to "Destroy", athlete, :confirm => 'Are you sure?', :method => :delete %>
+  </div>
+</div>

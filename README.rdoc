@@ -1,0 +1,13 @@
+################# README AIMHIGH ##################
+
+Aimhigh projektet skal inkludere:
+
+- Authentication systemet (Devise_invitable) (Done)
+
+- Stor fokus på smidighed ved planlægningen af træning (jquery) calendar-modulet => formes til et træningsprogram (missing direct event-adding in module and events without time)
+
+- Athlete skal have en egenskab eller sportsgren (ex. landevej, tratlon, løber)
+
+- Databasen over events skal indholde => varighed, title, interval-specifikation osv.
+
+

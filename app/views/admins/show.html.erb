@@ -1,0 +1,12 @@
+﻿<h1>Hello!</h1>
+<% if admin_signed_in? %>
+  <li>
+  <%= link_to 'Logout', destroy_admin_session_path, :method => :delete %>
+  </li>
+<% else %>
+  <li>
+  <%= link_to('Login', new_admin_session_path)  %>  
+  </li>
+<% end %>
+
+<p>Hello World!</p>

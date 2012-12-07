@@ -1,0 +1,11 @@
+﻿<% provide(:title, 'Welcome') %>
+	<div class="hero-unit">
+		<div class="hero-content">
+			<h1>Welcome to Coacher</h1>
+			<p>A simple and flexible communication platform for coaches and athletes</p>
+			<div class="action">
+				<%= link_to "Admin Login", new_admin_session_path, :class => "btn btn-primary btn-large"  %>
+				<%= link_to "Athlete Login", new_athlete_session_path, :class => "btn btn-large"  %> 
+			</div>
+		</div>
+	</div>
