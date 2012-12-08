@@ -1,6 +1,6 @@
 class Attachment < ActiveRecord::Base
     belongs_to :athlete
-    has_many :events
+    has_many :events, :dependent => :destroy
     mount_uploader :file, AttachmentUploader
     attr_accessible :title, :file, :athlete_id
     before_validation :make_title_from_file

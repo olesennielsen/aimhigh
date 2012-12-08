@@ -15,7 +15,12 @@ class AttachmentsController < ApplicationController
   end
 
   def create
+    if !@athlete.attachment.nil? then
+      @athlete.attachment.destroy
+    end
+
     @attachment = @athlete.create_attachment(params[:attachment])
+    
     respond_to do |format|
       unless @attachment.save
         flash[:error] = 'File could not be uploaded'
