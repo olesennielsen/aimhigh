@@ -25,9 +25,9 @@ describe AttachmentsController do
       expect{ post :create, :athlete_id => @athlete.id, :attachment => FactoryGirl.attributes_for(:attachment) }.to change(Attachment,:count).by(1)
     end
         
-    it "should delete all the events when overwriting attachment" do
+    it "should delete existing attachment when creating a new one" do
       @attachment = FactoryGirl.create(:attachment, :athlete_id => @athlete.id)
-      post :create, :attachment => FactoryGirl.attributes_for(:attachment), :athlete_id => @athlete.id  
+      expect {post :create, :attachment => FactoryGirl.attributes_for(:attachment), :athlete_id => @athlete.id}.to_not change(Attachment,:count)  
     end
       
     it "Ensures that the the right xlsx attachment will somewhat alter the event table" do

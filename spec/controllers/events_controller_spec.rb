@@ -21,10 +21,6 @@ describe EventsController do
       expect(assigns(:event)).to eq(@event)
       response.should 
     end  
-     #it "render the show view"
-      #  get :index, :athlete_id => @athlete.id
-      #  response.should be_render
-     # end
   end
 
 end

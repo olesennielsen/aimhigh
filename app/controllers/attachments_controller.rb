@@ -19,7 +19,7 @@ class AttachmentsController < ApplicationController
       @athlete.attachment.destroy
     end
 
-    @attachment = @athlete.create_attachment(params[:attachment])
+    @attachment = @athlete.build_attachment(params[:attachment])
     
     respond_to do |format|
       unless @attachment.save

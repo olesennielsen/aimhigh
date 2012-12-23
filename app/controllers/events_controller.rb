@@ -1,9 +1,11 @@
 class EventsController < ApplicationController
   
   before_filter :find_athlete, :only => [:index, :show, :new, :edit, :create, :destroy]
-  
-  # GET /events
-  # GET /events.xml
+
+=begin
+  Using the index to get events and using get params
+  to query the events between start and end
+=end
   def index   
 	  @attachment = @athlete.attachment
 		@events = Event.where("ends_at < ? AND starts_at > ? AND attachment_id = ?", Event.format_date(params['end']), Event.format_date(params['start']), @attachment.id)
@@ -13,9 +15,11 @@ class EventsController < ApplicationController
       format.xml  { render :xml => @events }   
     end
   end
-  
+=begin
+  Showing the event used in the events/show view
+=end
   def show    
-	@event = Event.find(params[:id])
+	  @event = Event.find(params[:id])
     respond_to do |format|
       format.html { render :html => @event }
       format.xml  { render :xml => @event }
@@ -35,6 +39,10 @@ class EventsController < ApplicationController
   def edit
 	  @event = @athlete.events.find(params[:id])
   end
+
+=begin
+  Used by the event generation in attachment
+=end
 
   def create
 	  @event = @athlete.events.new(params[:event])
