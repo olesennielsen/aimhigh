@@ -84,5 +84,6 @@ class EventsController < ApplicationController
       format.html { redirect_to athletes_path }
       format.xml  { head :ok }
     end
-  end  
+  end 
+  
 end

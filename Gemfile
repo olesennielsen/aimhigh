@@ -29,11 +29,17 @@ group :test do
       gem 'launchy'
 end
 
+# Allow æ,ø,å in strings
+gem 'magic_encoding'
+
 # Files uploading gem
 gem 'carrierwave'
 
 # Spreadsheet parser gem
 gem 'roo'
+
+# Calendar Event Export
+gem 'icalendar'
 
 # Authentication gems
 gem 'devise'

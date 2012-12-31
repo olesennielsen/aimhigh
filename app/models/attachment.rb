@@ -45,10 +45,10 @@ class Attachment < ActiveRecord::Base
       if !cell.nil? then
         date = workbook.cell(row, 'F')                      # Getting data for the event
         title = workbook.cell(row, 'G')
-        duration = workbook.cell(row, 'I')
-        description = workbook.cell(row, 'R')
+        duration = workbook.cell(row, 'H')
+        description = workbook.cell(row, 'Q')
         sessions = []                                       # Making the session array
-        10.upto(17) do |column|                             # Defines the columns of interest and make sure it is not empty or just 'x'
+        9.upto(16) do |column|                             # Defines the columns of interest and make sure it is not empty or just 'x'
           if !workbook.cell(row, column).nil? && workbook.cell(row, column) != "x" then 
             session_title = workbook.cell(row, column) 
             session_focus = find_focus( column )
@@ -84,21 +84,21 @@ class Attachment < ActiveRecord::Base
 =end
   def find_focus( focus_number )
     case focus_number
-    when 13
-      "IG"
-    when 15
-      "Restitution"
-    when 16 
-      "Power"
-    when 17
-      "FS"
-    when 14
-      "GZ"
     when 12
-      "Sub-AT"
+      "IG"
+    when 14
+      "Restitution"
+    when 15 
+      "Power"
+    when 16
+      "FS"
+    when 13
+      "GZ"
     when 11
-      "AT"
+      "Sub-AT"
     when 10
+      "AT"
+    when 9
       "Max"
     else "Unknown"
     end

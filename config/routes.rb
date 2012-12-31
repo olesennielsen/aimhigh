@@ -20,11 +20,11 @@ Aimhigh::Application.routes.draw do
   # Common ressource url for both athletes and admins
   # events are nested for athletes (note: athlete --hasmany--> events)
   
-  resources :athletes do
+  resources :athletes, :except => [:index] do 
     resources :events, :only => [:index, :show] 
-    resources :attachments, :only => [:create, :index, :new, :destroy]      	
-  end
-  
+    resources :attachments, :only => [:create, :index, :new, :destroy]
+    post 'exportcal' => 'athletes#exportcal'      	
+  end 
   resources :admins
 	
   # The priority is based upon order of creation:

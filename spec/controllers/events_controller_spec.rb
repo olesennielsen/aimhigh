@@ -10,7 +10,7 @@ describe EventsController do
 
   describe "GET index" do
     it "assigns all events between the start and end to @events" do
-      get :index, :athlete_id => @athlete.id, :start => DateTime.now - 5.days, :end => DateTime.now + 20.days, :format => :js
+      get :index, :athlete_id => @athlete.id, :start => DateTime.now - 1.days, :end => DateTime.now, :format => :js
       response.body.should  eq([@event].to_json)
     end
   end
@@ -18,8 +18,7 @@ describe EventsController do
   describe "GET show" do
     it "show the right event" do
       get :show, :athlete_id => @athlete.id, :id => @event.id
-      expect(assigns(:event)).to eq(@event)
-      response.should 
+      expect(assigns(:event)).to eq(@event) 
     end  
   end
 
