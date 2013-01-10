@@ -150,6 +150,8 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.2)
     orm_adapter (0.4.0)
+    pg (0.14.1)
+    pg (0.14.1-x86-mingw32)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -285,6 +287,7 @@ DEPENDENCIES
   less-rails-bootstrap
   magic_encoding
   nested_form
+  pg
   rails
   rails3-jquery-autocomplete
   ransack

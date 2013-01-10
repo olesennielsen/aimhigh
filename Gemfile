@@ -52,6 +52,9 @@ gem 'nested_form'
 gem 'ransack'
 gem 'bootstrap-datepicker-rails'
 gem 'rails3-jquery-autocomplete'
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
+gem 'pg'
 gem 'jquery-rails' 
 
