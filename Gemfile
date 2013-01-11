@@ -22,6 +22,7 @@ group :production do
 end
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
@@ -52,7 +53,6 @@ gem 'devise_invitable'
 gem "cancan"
 
 # Calendar features
-gem 'sqlite3'
 gem 'event-calendar', :require => 'event_calendar'
 gem 'bootstrap-sass'
 gem 'nested_form'
