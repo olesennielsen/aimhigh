@@ -3,6 +3,7 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.11'
 gem 'heroku'
+gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -16,13 +17,16 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 group :production do
   gem 'pg'
   gem 'thin'
 end
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
@@ -56,9 +60,6 @@ gem "cancan"
 gem 'event-calendar', :require => 'event_calendar'
 gem 'bootstrap-sass'
 gem 'nested_form'
-gem 'ransack'
 gem 'bootstrap-datepicker-rails'
 gem 'jquery-rails' 
-gem "therubyracer", :group => :assets, :platform => :ruby
-
 
