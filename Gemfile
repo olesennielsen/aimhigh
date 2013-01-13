@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
-ruby '1.9.3'	
 
 gem 'rails', '3.2.11'
 gem 'heroku'
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -17,27 +15,27 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development, :test do
-  gem 'sqlite3'
-end
 
 group :production do
   gem 'pg'
   gem 'thin'
 end
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'capybara'
+  gem 'rb-fsevent', '~> 0.9.1'
+  gem 'factory_girl_rails'
+  gem 'faker'
+
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
-end
-
-group :test do
+  gem 'sqlite3'
   gem "email_spec"
-  gem 'faker'
-  gem 'capybara'
-  gem 'guard-rspec'
   gem 'launchy'
 end
+
+# Search features on objects
+gem 'ransack'
 
 # Allow æ,ø,å in strings
 gem 'magic_encoding'
@@ -60,6 +58,6 @@ gem "cancan"
 gem 'event-calendar', :require => 'event_calendar'
 gem 'bootstrap-sass'
 gem 'nested_form'
-gem 'bootstrap-datepicker-rails'
-gem 'jquery-rails' 
+gem 'jquery-rails'
+
 
