@@ -8,9 +8,10 @@ require 'csv'
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Admin.create(:email => "aimhigh@aimhigh.com", :password => "aimhigh")
-Athlete.create(:email => "athlete@athlete.com", :password => "athlete")
-
+admin = Admin.create(:email => "aimhigh@aimhigh.com", :password => "aimhigh")
+puts admin
+athlete = Athlete.create(:email => "athlete@athlete.com", :password => "athlete")
+puts athlete
 # Seed the static session_descriptions table
 SessionDescription.delete_all
 csv = CSV.open(File.join(Rails.root, 'db/session_desc.csv'))

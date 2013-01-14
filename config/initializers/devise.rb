@@ -84,6 +84,28 @@ Devise.setup do |config|
   # Setup a pepper to generate the encrypted password.
   # config.pepper = "2299e54cdff3169911a34f94b0d2468c3125e41958b489d683a91d99ff0069e7ac8af9616bf2b4c4c78da93f89d7302126fbb42b143d8719c73d082461c6f212"
 
+  # ==> Configuration for :invitable
+  # The period the generated invitation token is valid, after
+  # this period, the invited resource won't be able to accept the invitation.
+  # When invite_for is 0 (the default), the invitation won't expire.
+  # config.invite_for = 2.weeks
+
+  # Number of invitations users can send.
+  # If invitation_limit is nil, users can send unlimited invitations.
+  # If invitation_limit is 0, users can't send invitations.
+  # If invitation_limit n > 0, users can send n invitations.
+  # Default: nil
+  # config.invitation_limit = 5
+
+  # The key to be used to check existing users when sending an invitation
+  # and the regexp used to test it when validate_on_invite is not set.
+  # config.invite_key = {:email => /A[^@]+@[^@]+z/}
+  # config.invite_key = {:email => /A[^@]+@[^@]+z/, :username => nil}
+
+  # Flag that force a record to be valid before being actually invited
+  # Default: false
+  # config.validate_on_invite = true
+
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
   # confirming his account. For instance, if set to 2.days, the user will be
@@ -122,7 +144,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :validatable
   # Range for password length. Default is 8..128.
-  config.password_length = 8..128
+  config.password_length = 6..128
 
   # Email regex used to validate email formats. It simply asserts that
   # an one (and only one) @ exists in the given string. This is mainly
