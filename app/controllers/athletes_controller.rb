@@ -1,9 +1,9 @@
 class AthletesController < ApplicationController
 	before_filter :athlete_filter, :except => :invitation
 	before_filter :authenticate_admin!, :only => :invitation
+	before_filter :find_athlete, :only => [:show]
 	
-	def show  
-    @athlete = Athlete.find(params[:id])
+	def show
 	end
 	
 	def exportcal
@@ -39,5 +39,8 @@ class AthletesController < ApplicationController
   end
 =end
 	
-	
+	protected    
+  def find_athlete
+      @athlete = Athlete.find(params[:id])
+  end	
 end

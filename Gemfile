@@ -15,7 +15,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
 group :production do
   gem 'pg'
   gem 'thin'
@@ -50,7 +49,9 @@ gem 'roo'
 gem 'icalendar'
 
 # Authentication gems
-gem 'devise'
+gem 'devise',
+:git => 'git@github.com:plataformatec/devise.git',
+:branch => 'master'
 gem 'devise_invitable'
 gem "cancan"
 
