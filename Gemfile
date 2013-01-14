@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 gem 'heroku'
+gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -50,7 +51,7 @@ gem 'icalendar'
 
 # Authentication gems
 gem 'devise', :git => "git://github.com/plataformatec/devise.git", :branch => 'master'
-gem 'devise_invitable'
+gem 'devise_invitable', '~> 1.0.0'
 gem "cancan"
 
 # Calendar features
