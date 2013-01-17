@@ -7,8 +7,9 @@ class EventsController < ApplicationController
   to query the events between start and end
 =end
   def index   
-	  @attachment = @athlete.attachment
-		@events = Event.where("ends_at < ? AND starts_at > ? AND attachment_id = ?", Event.format_date(params['end']), Event.format_date(params['start']), @attachment.id)
+	  if @attachment = @athlete.attachment then
+		  @events = Event.where("ends_at < ? AND starts_at > ? AND attachment_id = ?", Event.format_date(params['end']), Event.format_date(params['start']), @attachment.id)
+	  end
  
     respond_to do |format|
       format.js  { render :json => @events }

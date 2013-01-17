@@ -1,7 +1,7 @@
 class AthletesController < ApplicationController
 	before_filter :athlete_filter, :except => :invitation
 	before_filter :authenticate_admin!, :only => :invitation
-	before_filter :find_athlete, :only => [:show]
+	before_filter :find_athlete, :only => [:show, :destroy]
 	
 	def show
 	end
@@ -38,8 +38,16 @@ class AthletesController < ApplicationController
     g.new_event(event)
   end
 =end
+  def destroy
+    @athlete.destroy
+
+    respond_to do |format|
+      format.html { redirect_to admins_path }
+      format.xml  { head :ok }
+    end
+  end
 	
-	protected    
+protected    
   def find_athlete
       @athlete = Athlete.find(params[:id])
   end	

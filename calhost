@@ -1,0 +1,14 @@
+                                    List of databases
+   Name    |     Owner     | Encoding | Collate | Ctype |        Access privileges        
+-----------+---------------+----------+---------+-------+---------------------------------
+ aimhigh   | anderskonring | UTF8     | C       | UTF-8 | =Tc/anderskonring              +
+           |               |          |         |       | anderskonring=CTc/anderskonring+
+           |               |          |         |       | root=CTc/anderskonring
+ postgres  | anderskonring | UTF8     | C       | UTF-8 | 
+ template0 | anderskonring | UTF8     | C       | UTF-8 | =c/anderskonring               +
+           |               |          |         |       | anderskonring=CTc/anderskonring
+ template1 | anderskonring | UTF8     | C       | UTF-8 | =c/anderskonring               +
+           |               |          |         |       | anderskonring=CTc/anderskonring
+ test      | anderskonring | UTF8     | C       | UTF-8 | 
+(5 rows)
+

@@ -1,3 +1,5 @@
 tmp/*
 public/uploads/*
 log/*
+vendor/*
+db/*.sqlite3

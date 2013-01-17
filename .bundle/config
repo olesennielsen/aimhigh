@@ -1,0 +1,3 @@
+---
+BUNDLE_BIN: vendor/bundle/bin
+BUNDLE_WITHOUT: production

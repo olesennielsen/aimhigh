@@ -2,6 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 gem 'heroku'
+
+# DB gems corresponding to heroku standards
+  gem 'thin'
+  gem 'pg'
+  
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -15,22 +20,15 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :production do
-  gem 'pg'
-  gem 'thin'
-end
+group :development, :test do
+  gem "email_spec"
+  gem 'launchy' 
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'capybara'
   gem 'rb-fsevent', '~> 0.9.1'
   gem 'factory_girl_rails'
   gem 'faker'
-
-
-group :development, :test do
-  gem 'sqlite3'
-  gem "email_spec"
-  gem 'launchy'
 end
 
 # Search features on objects
@@ -51,10 +49,8 @@ gem 'icalendar'
 # Authentication gems
 gem 'devise', :git => "git://github.com/plataformatec/devise.git", :branch => 'master'
 gem 'devise_invitable', '~> 1.0.0'
-gem "cancan"
 
 # Calendar features
-gem 'event-calendar', :require => 'event_calendar'
 gem 'bootstrap-sass'
 gem 'nested_form'
 gem 'jquery-rails'
