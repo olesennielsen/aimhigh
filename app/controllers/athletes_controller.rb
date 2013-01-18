@@ -3,8 +3,6 @@ class AthletesController < ApplicationController
 	before_filter :authenticate_admin!, :only => :invitation
 	before_filter :find_athlete, :only => [:show, :destroy]
 	
-	def show
-	end
 	
 	def exportcal
     @athlete = Athlete.find(params[:athlete_id])
