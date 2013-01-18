@@ -5,18 +5,17 @@ Aimhigh::Application.routes.draw do
   # Devise for admins and athletes but no registration possible
   # without an invitation
   
-  devise_for :admins 
-  devise_scope :admins do
+  devise_for :admins, :skip => :registrations 
+  devise_scope :admin do
     get 'admins/edit' => 'devise/registrations#edit', :as => 'edit_admins_registration'
     put 'admins' => 'devise/registrations#update', :as => 'admin_registration'
   end
   
-  devise_for :athletes, :except => :invitable
-  devise_scope :athletes do
-    get 'athletes/edit' => 'devise/registrations#edit', :as => 'edit_athletes_registration'
-    put 'athletes' => 'devise/registrations#update', :as => 'athlete_registration'
+  devise_for :athletes, :skip => :registrations 
+  devise_scope :athlete do 
+    get 'athlete/edit' => 'devise/registrations#edit', :as => 'edit_athletes_registration'
+    put 'athlete' => 'devise/registrations#update', :as => 'athlete_registration'
   end
-  
   # Common ressource url for both athletes and admins
   # events are nested for athletes (note: athlete --hasmany--> events)
   
