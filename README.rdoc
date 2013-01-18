@@ -1,7 +1,0 @@
-################# README AIMHIGH ##################
-
-Aimhigh TODO::
-
-- Test delete events go attachment
-- Paste database of the session list to the database (constant)
-- Export to calendars iCal and google Calendar
