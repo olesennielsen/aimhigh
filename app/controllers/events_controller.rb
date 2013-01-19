@@ -20,7 +20,8 @@ class EventsController < ApplicationController
   Showing the event used in the events/show view
 =end
   def show    
-	  @event = Event.find(params[:id])
+    @event = Event.find(params[:id])
+    @sessions = @event.sessions
     respond_to do |format|
       format.html { render :html => @event }
       format.xml  { render :xml => @event }

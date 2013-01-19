@@ -8,6 +8,7 @@ FactoryGirl.define do
     f.ends_at { DateTime.now + 2.hours }
     f.all_day { false }
     f.description { Faker::Lorem.characters(200) }
+    f.duration { Random.rand(5..200) }
     f.attachment_id { 1 }
   end
 end

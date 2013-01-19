@@ -6,24 +6,23 @@
 </p>
 
 <p>
-  <b>Starts at:</b>
-  <%= @event.starts_at %>
-</p>
-
-<p>
-  <b>Ends at:</b>
-  <%= @event.ends_at %>
-</p>
-
-<p>
-  <b>All day:</b>
-  <%= @event.all_day %>
+  <b>Duration:</b>
+  <%= @event.duration %>
 </p>
 
 <p>
   <b>Description:</b>
   <%= @event.description %>
 </p>
+
+<% unless(@sessions.empty?) %>
+<dl class="dl-horizontal">
+<% @sessions.each do |session| %>
+  <dt><%= session.title %></dt>
+  <dd><%= session.description %></dd>
+  <% end %>
+</dl>
+<% end %>
 
 <%= link_to 'Back', athlete_path(@athlete) %> 
 

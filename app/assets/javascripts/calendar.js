@@ -20,14 +20,15 @@ $(document).ready(function() {
 	header: {
 	    left: 'prev,next today',
 	    center: 'title',
-	    right: 'month,basicWeek'
+	    right: 'month,agendaWeek'
 	},
 	firstDay: 1,
 	defaultView: 'month',
+	allDaySlot: false,
 	height: 600,
 	firstHour: 8,
 	minTime: 6,
-	maxTime: 20,
+	maxTime: 12,
 	editable: false,
 
 	loading: function(bool){

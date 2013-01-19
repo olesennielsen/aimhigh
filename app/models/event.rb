@@ -8,17 +8,16 @@ class Event < ActiveRecord::Base
   before_validation :make_start_time, :make_end_time 
 
   validates :title, :presence => true
-  validate :all_day, :all_day => true
 
-  # These methods makes dummay values for calendar export
-  # such that the events are always placed in the bottum of the calendar 
+  # These methods makes dummy values for calendar export
+  # such that the events are always placed in the bottom of the calendar 
   # (6am-8am)
   def make_start_time
     self.starts_at = (self.starts_at.to_date.to_datetime + 6.hours)
   end
   
   def make_end_time
-    self.ends_at = (self.ends_at.to_date.to_datetime + 8.hours)
+    self.ends_at = (self.ends_at.to_date.to_datetime + 6.hours + duration.minutes)
   end
   
   # The json object configured for the fullcalendar jQuery liberary
@@ -28,9 +27,9 @@ class Event < ActiveRecord::Base
       :id => self.id,
       :title => self.title,
       :description => self.description || "",
-      :start => starts_at.to_date.rfc822,
-      :end => ends_at.to_date.rfc822,
-      :allDay => true,
+      :start => starts_at.rfc822,
+      :end => ends_at.rfc822,
+      :allDay => false,
       :recurring => false
     }
   end

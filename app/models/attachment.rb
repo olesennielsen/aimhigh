@@ -62,7 +62,7 @@ class Attachment < ActiveRecord::Base
         end
         # Reassembling the record which is an event
         record << Event.new(:starts_at => date, :ends_at => date, :title => title, 
-        :duration => duration, :description => description, :sessions => sessions, :attachment_id => self.id)
+        :duration => duration.to_i, :all_day => false, :description => description, :sessions => sessions, :attachment_id => self.id)
       end
     end
     return record
