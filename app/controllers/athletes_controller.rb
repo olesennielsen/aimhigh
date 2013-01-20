@@ -13,8 +13,10 @@ class AthletesController < ApplicationController
     else
       @attachment = @athlete.attachment
       from_date = Date::civil(params[:from][:year].to_i, params[:from][:month].to_i, params[:from][:day].to_i)
-      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ?" , from_date)
+      to_date = Date::civil(params[:to][:year].to_i, params[:to][:month].to_i, params[:to][:day].to_i)
+      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ? AND ends_at < ?" , from_date, to_date)
       @calendar = generate_ical_calendar(@events)
+      @calendar.publish
       headers['Content-Type'] = "text/calendar; charset=UTF-8"
       render :text => @calendar.to_ical
     end
@@ -28,7 +30,8 @@ class AthletesController < ApplicationController
     else
       @attachment = @athlete.attachment
       from_date = Date::civil(params[:from][:year].to_i, params[:from][:month].to_i, params[:from][:day].to_i)
-      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ?" , from_date)
+      to_date = Date::civil(params[:to][:year].to_i, params[:to][:month].to_i, params[:to][:day].to_i)
+      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ? AND ends_at < ?" , from_date, to_date)
       pdf = pdf::EventPdf.new(@athlete, @events )
       send_data pdf.render, filename: "events_#{from_date.strftime("%d/%m/%Y")}.pdf", type: "application/pdf"
       headers['Content-Type'] = "text/pdf; charset=UTF-8"
@@ -168,6 +171,6 @@ class AthletesController < ApplicationController
        cal_event.description = event.description
        calendar.add cal_event
      end
-     return calendar.publish
+     return calendar
    end
  end
