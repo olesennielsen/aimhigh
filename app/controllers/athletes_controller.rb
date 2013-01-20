@@ -91,44 +91,44 @@ class AthletesController < ApplicationController
            end
          else
            event.sessions.each do |session|
-             if session.focus == "MAX" then
+             if session.focus == "Max" then
                event_data[3] = session.title
-             else
+             elsif (event_data[3].nil?)
                event_data[3] = ""
              end
              if session.focus == "AT" then
                event_data[4] = session.title
-             else
+             elsif (event_data[4].nil?)
                event_data[4] = ""
              end
              if session.focus == "Sub-AT" then
                event_data[5] = session.title
-             else
+             elsif (event_data[5].nil?)
                event_data[5] = ""
              end
              if session.focus == "IG" then
                event_data[6] = session.title
-             else
+             elsif (event_data[6].nil?)
                event_data[6] = ""
              end
              if session.focus == "GZ" then
                event_data[7] = session.title
-             else
+             elsif (event_data[7].nil?)
                event_data[7] = ""
              end
              if session.focus == "Resitution" then
                event_data[8] = session.title
-             else
+             elsif (event_data[8].nil?)
                event_data[8] = ""
              end
              if session.focus == "Power" then
                event_data[9] = session.title
-             else
+             elsif (event_data[9].nil?)
                event_data[9] = ""
              end
              if session.focus == "FS" then
                event_data[10] = session.title
-             else
+             elsif (event_data[10].nil?)
                event_data[10] = ""
              end
            end
