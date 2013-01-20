@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class AthletesController < ApplicationController
   before_filter :athlete_filter, :except => :invitation
   before_filter :authenticate_admin!, :only => :invitation
@@ -28,7 +29,7 @@ class AthletesController < ApplicationController
       @attachment = @athlete.attachment
       from_date = Date::civil(params[:from][:year].to_i, params[:from][:month].to_i, params[:from][:day].to_i)
       @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ?" , from_date)
-      pdf = pdf::EventPdf.new( @events )
+      pdf = pdf::EventPdf.new(@athlete, @events )
       send_data pdf.render, filename: "events_#{from_date.strftime("%d/%m/%Y")}.pdf", type: "application/pdf"
       headers['Content-Type'] = "text/pdf; charset=UTF-8"
     end
@@ -58,9 +59,97 @@ class AthletesController < ApplicationController
    end
 
    class EventPdf < Prawn::Document
-     def initialize( events )
-       super()
-       text "This is an aimhigh event list"
+     def initialize( athlete, events )
+       super(:page_size => "A4", :page_layout => :landscape)
+       logo
+       move_down 20
+       unless(athlete.fullname.blank?)
+         text "Navn: #{athlete.fullname}"
+       else
+         text "Email: #{athlete.email}"
+       end
+       move_down 20
+       draw_table(events)
+     end
+
+     def logo
+       logopath =  "#{Rails.root}/app/assets/images/logo1.png"
+       image logopath
+     end
+
+     def create_data(events)
+       data = [[" ","Træningsform", "Tid", "Max", "AT","Sub-AT", "Int. Grundt.","Grundt.",
+         "Rest", "Power", "Funk. Styrke","Andet"]]
+       events.each do |event|
+         event_data = Array.new(12)
+         event_data[0] = event.starts_at.to_date.to_formatted_s(:short)
+         event_data[1] = event.title
+         event_data[2] = event.duration
+         if(event.sessions.empty?)
+           (1..8).each do 
+             event_data | [""]
+           end
+         else
+           event.sessions.each do |session|
+             if session.focus == "MAX" then
+               event_data[3] = session.title
+             else
+               event_data[3] = ""
+             end
+             if session.focus == "AT" then
+               event_data[4] = session.title
+             else
+               event_data[4] = ""
+             end
+             if session.focus == "Sub-AT" then
+               event_data[5] = session.title
+             else
+               event_data[5] = ""
+             end
+             if session.focus == "IG" then
+               event_data[6] = session.title
+             else
+               event_data[6] = ""
+             end
+             if session.focus == "GZ" then
+               event_data[7] = session.title
+             else
+               event_data[7] = ""
+             end
+             if session.focus == "Resitution" then
+               event_data[8] = session.title
+             else
+               event_data[8] = ""
+             end
+             if session.focus == "Power" then
+               event_data[9] = session.title
+             else
+               event_data[9] = ""
+             end
+             if session.focus == "FS" then
+               event_data[10] = session.title
+             else
+               event_data[10] = ""
+             end
+           end
+         end
+         unless(event.description.blank?)
+           event_data[11] = event.description
+         else 
+           event_data[11] = ""
+         end
+         data << event_data
+       end
+       return data
+     end
+
+     def draw_table(events)
+       data = create_data(events)
+       table (data) do
+         self.header = true
+
+         columns(2).align = :right
+       end
      end
    end
 
