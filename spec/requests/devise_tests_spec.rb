@@ -9,7 +9,6 @@ describe "DeviseTests" do
     visit new_athlete_invitation_path
     fake_email = Faker::Internet.email
     fill_in "athlete[email]", :with => fake_email
-    puts page.html
     click_button('Send an invitation')
     last_email.to.should include( fake_email )
   end
