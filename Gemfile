@@ -44,7 +44,7 @@ gem 'carrierwave'
 gem 'roo'
 
 # PDF generator gem
-gem "prawn", "~> 0.12.0"
+gem "prawn"
 
 # Calendar Event Export
 gem 'icalendar'
