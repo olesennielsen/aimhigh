@@ -59,7 +59,9 @@ class AthletesController < ApplicationController
         text "Email: #{athlete.email}", :size => 20
       end
       draw_table(events)
+      move_down 20
       stroke_horizontal_rule
+      move_down 10
       draw_descriptions(events)
     end
 
@@ -139,6 +141,7 @@ class AthletesController < ApplicationController
     def draw_table(events)
       data = create_data(events)
       table data, :row_colors => ["F3A648", '878786'] do
+
         cells.borders = []
         cells.size = 9
         row(0).borders      = [:bottom]
@@ -149,6 +152,22 @@ class AthletesController < ApplicationController
     end
 
     def draw_descriptions(events)
+      session_descriptions = []
+      events.each do |event|
+        event.sessions.each do |session|
+          unless (session_descriptions.include?(session.session_description) || session.session_description.nil?)
+            session_descriptions << session.session_description
+          end
+        end
+      end
+      unless session_descriptions.empty? 
+        text "Beskrivelser", :size => 20
+        move_down 10
+        session_descriptions.each do |desc|
+          text desc.description, :size => 8
+          move_down 2
+        end
+      end
     end
   end
 
