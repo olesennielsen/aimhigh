@@ -54,10 +54,10 @@ class Attachment < ActiveRecord::Base
             session_focus = find_focus( column )
             session_findings = SessionDescription.find_by_name(session_focus + ": " + session_title) # Locate training in the static table sessiondescription
             unless session_findings.nil? # Check for null before calling description on the findings
-              session_description = session_findings.description
+              session_description_id = session_findings.id
             end
             # Reassembling the session array
-            sessions << Session.new(:title => session_title, :focus => session_focus, :description => session_description)
+            sessions << Session.new(:title => session_title, :focus => session_focus, :session_description_id => session_description_id)
           end
         end
         # Reassembling the record which is an event

@@ -3,7 +3,7 @@
 FactoryGirl.define do
   factory :session do
     title "Fake::Name.name"
-    description "Fake::Lorem.sentence"
+    session_description_id Random.rand(5..50)
     focus "Max"
   end
 end

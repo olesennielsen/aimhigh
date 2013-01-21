@@ -1,3 +1,4 @@
 class SessionDescription < ActiveRecord::Base
-  attr_accessible :description, :name, :time
+  has_one :session
+  attr_accessible :description, :name, :time, :id
 end

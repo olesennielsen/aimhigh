@@ -1,4 +1,5 @@
 class Session < ActiveRecord::Base
   belongs_to :event
-  attr_accessible :description, :focus, :title
+  belongs_to :session_description
+  attr_accessible :session_description_id, :focus, :title
 end
