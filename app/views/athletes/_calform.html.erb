@@ -5,19 +5,18 @@
 	</div>
 	<div class="modal-body">
 		<%= form_tag(:controller => "athletes", :action => "exportcal", :athlete_id => @athlete.id) do %>	
-		
-		<%= label_tag(:icalendar, "Export to ICal") %>
-		<%= radio_button_tag(:cal, "true", "ical") %>
-		<br />
-		<br />		
-		<%= label_tag(:gcalendar, "Export to Google Calendar") %>
-		<%= radio_button_tag(:cal, "gcal") %>
-		<br />
 		<br />
 		Export Events From:
 		<br />
 		<br />
-		<%= select_date Date.today - 30.days, :prefix => 'from' %>		
+		<%= select_date Date.today , :prefix => 'from' %>		
+		<br />
+		<br />
+		To:
+		<br />
+		<br />
+		<%= select_date Date.today + 7.days, :prefix => 'to' %>		
+
 	</div>
 	<div class="modal-footer">
 		<%= submit_tag("Export",:class => "btn btn-primary" ) %>

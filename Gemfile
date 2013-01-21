@@ -43,6 +43,9 @@ gem 'carrierwave'
 # Spreadsheet parser gem
 gem 'roo'
 
+# PDF generator gem
+gem "prawn"
+
 # Calendar Event Export
 gem 'icalendar'
 

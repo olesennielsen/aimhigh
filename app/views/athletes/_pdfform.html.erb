@@ -1,0 +1,23 @@
+<div class="modal hide" id="pdfModal">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<h3>Export Configurations</h3>
+	</div>
+	<div class="modal-body">
+		<%= form_tag(:controller => "athletes", :action => "exportpdf", :athlete_id => @athlete.id) do %>	
+		<br />
+		Export Events From:
+		<br />
+		<br />
+		<%= select_date Date.today, :prefix => 'from' %>		
+		<br />
+		<br />
+		<%= select_date Date.today + 7.days, :prefix => 'to' %>		
+
+	</div>
+	<div class="modal-footer">
+		<%= submit_tag("Export",:class => "btn btn-primary" ) %>
+		<a href="#" class="btn" data-dismiss="modal">Close</a>
+	</div>
+	<% end %>
+</div>

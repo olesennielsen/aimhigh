@@ -4,8 +4,8 @@ describe AttachmentsController do
   before do
     controller.stub(:authenticate_admin!).and_return true
     @athlete = FactoryGirl.create(:athlete)
-    
   end
+  
   describe "GET index" do
     it "assigns all attachments to @attachments" do
       @attachment = FactoryGirl.create(:attachment, :athlete_id => @athlete.id)
