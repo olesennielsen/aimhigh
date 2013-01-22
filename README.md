@@ -1,14 +1,14 @@
-<h1>Aimhigh Training Center</h1>
-<hr> 
-<h3>TODO List</h3>
-<li><strike>Attach real forname and lastname to athletes</strike>
-<li>Make the duration of the session visible in calendar
-<li>Take out all of the information in excelfile (interval)
-<li>Make PDF template for export
-<li><strike>Ability to Destroy Athlete</strike>
-<li>Passive and Active Athletes
-<li>Page Design as in aimhigh.dk
-<li>Prevent email from ending up in spamfilter
+#Aimhigh Training Center
 
-
+## TODO List
+<del>Attach real firstname and lastname to athletes</del>
+<del>Make the duration of the session visible in calendar</del>
+<del>Take out all of the information in excelfile (interval)</del>
+<del>Choose an end date when exporting to pdf and cal</del>
+<del>Make PDF template for export</del>
+<del>Ability to Destroy Athlete</del>
+<del>Make jquery on calendar export parameters</del>
+Passive and Active Athletes
+Page Design as in aimhigh.dk
+Prevent email from ending up in spamfilter
 
