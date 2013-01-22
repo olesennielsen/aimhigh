@@ -16,6 +16,27 @@ $(document).ready(function() {
 	var athlete_id = parseInt(match[0], 10);
     }
 
+    $('#start_date_cal').datepicker({
+	format: "dd-mm-yyyy",
+        autoclose: true
+    });
+
+    $('#end_date_cal').datepicker({
+	format: "dd-mm-yyyy",
+        autoclose: true
+    });
+    $('#start_date_pdf').datepicker({
+	format: "dd-mm-yyyy",
+        autoclose: true
+    });
+
+    $('#end_date_pdf').datepicker({
+	format: "dd-mm-yyyy",
+        autoclose: true
+    });
+    
+
+
     var calendar = $('#calendar').fullCalendar({    
 	header: {
 	    left: 'prev,next today',
