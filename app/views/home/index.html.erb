@@ -1,11 +1,10 @@
 ﻿<% provide(:title, 'Welcome') %>
-	<div class="hero-unit">
-		<div class="hero-content">
-			<h1>Welcome to AimHigh</h1>
-			<p>A simple and flexible communication platform for coaches and athletes</p>
+	<div class="page-header">
+	  <h1>Welcome to AimHigh<small> <br/>A simple and flexible communication platform</small></h1>
+	</div>
 			<div class="action">
 				<%= link_to "Admin Login", new_admin_session_path, :class => "btn btn-primary btn-large"  %>
-				<%= link_to "Athlete Login", new_athlete_session_path, :class => "btn btn-large"  %> 
+				<%= link_to "Athlete Login", new_athlete_session_path, :class => "btn btn-warning btn-large"  %> 
 			</div>
 		</div>
 	</div>
