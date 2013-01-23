@@ -8,7 +8,7 @@ class EventsController < ApplicationController
 =end
   def index   
 	  if @attachment = @athlete.attachment then
-		  @events = Event.where("ends_at < ? AND starts_at > ? AND attachment_id = ?", Event.format_date(params['end']), Event.format_date(params['start']), @attachment.id)
+		  @events = Event.where("ends_at <= ? AND starts_at >= ? AND attachment_id = ?", Event.format_date(params['end']), Event.format_date(params['start']), @attachment.id)
 	  end
  
     respond_to do |format|

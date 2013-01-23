@@ -47,10 +47,12 @@ $(document).ready(function() {
 	defaultView: 'month',
 	allDaySlot: false,
 	height: 600,
-	firstHour: 8,
-	minTime: 6,
-	maxTime: 12,
+	firstHour: 0,
+	minTime: 0,
+	maxTime: 5,
+	timeFormat: "{H 'h' mm 'min\n'}",
 	editable: false,
+	axisFormat: '',
 
 	loading: function(bool){
 	    if (bool) 
@@ -65,10 +67,8 @@ $(document).ready(function() {
 	    url: "/athletes/" + athlete_id + "/events/",
 	    color: '#FFFFF',
 	    textColor: 'white',
-	    ignoreTimezone: true
 	}],
 
-	timeFormat: 'h:mm t{ - h:mm t} ',
 	dragOpacity: "0.5",
 
 	/* 	This modal is used to create event directly in 

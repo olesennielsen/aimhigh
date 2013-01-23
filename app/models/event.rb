@@ -13,11 +13,11 @@ class Event < ActiveRecord::Base
   # such that the events are always placed in the bottom of the calendar 
   # (6am-8am)
   def make_start_time
-    self.starts_at = (self.starts_at.to_date.to_datetime + 1.days + 6.hours)
+    self.starts_at = (self.starts_at.to_date.to_datetime + 1.days)
   end
   
   def make_end_time
-    self.ends_at = (self.ends_at.to_date.to_datetime + 1.days + 6.hours + duration.minutes)
+    self.ends_at = (self.ends_at.to_date.to_datetime + 1.days + duration.minutes)
   end
   
   # The json object configured for the fullcalendar jQuery liberary
@@ -27,8 +27,8 @@ class Event < ActiveRecord::Base
       :id => self.id,
       :title => self.title,
       :description => self.description || "",
-      :start => starts_at.rfc822,
-      :end => ends_at.rfc822,
+      :start => starts_at.to_time.iso8601,
+      :end => ends_at.to_time.iso8601,
       :allDay => false,
       :recurring => false
     }
