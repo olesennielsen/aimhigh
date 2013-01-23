@@ -24,6 +24,7 @@ describe AttachmentUploader do
     it "allow excel files: xlsx" do
        expect {@uploader.store!(File.open(File.join(Rails.root, '/spec/files/stub.xlsx')))}.to_not raise_error     
      end
+     
   end
 
 end

@@ -80,52 +80,16 @@ class AthletesController < ApplicationController
         event_data[0] = event.starts_at.to_date.to_formatted_s(:short)
         event_data[1] = event.title
         event_data[2] = event.duration
+        unless event.focus.blank? 
+          event_data[find_focus(event.focus)] = "x"
+        end
         if(event.sessions.empty?)
           (1..8).each do 
             event_data | [""]
           end
         else
           event.sessions.each do |session|
-            if session.focus == "Max" then
-              event_data[3] = session.title
-            elsif (event_data[3].nil?)
-              event_data[3] = ""
-            end
-            if session.focus == "AT" then
-              event_data[4] = session.title
-            elsif (event_data[4].nil?)
-              event_data[4] = ""
-            end
-            if session.focus == "Sub-AT" then
-              event_data[5] = session.title
-            elsif (event_data[5].nil?)
-              event_data[5] = ""
-            end
-            if session.focus == "IG" then
-              event_data[6] = session.title
-            elsif (event_data[6].nil?)
-              event_data[6] = ""
-            end
-            if session.focus == "GZ" then
-              event_data[7] = session.title
-            elsif (event_data[7].nil?)
-              event_data[7] = ""
-            end
-            if session.focus == "Resitution" then
-              event_data[8] = session.title
-            elsif (event_data[8].nil?)
-              event_data[8] = ""
-            end
-            if session.focus == "Power" then
-              event_data[9] = session.title
-            elsif (event_data[9].nil?)
-              event_data[9] = ""
-            end
-            if session.focus == "FS" then
-              event_data[10] = session.title
-            elsif (event_data[10].nil?)
-              event_data[10] = ""
-            end
+            event_data[find_focus(session.focus)] = session.title
           end
         end
         unless(event.description.blank?)
@@ -167,6 +131,29 @@ class AthletesController < ApplicationController
           text desc.description, :size => 8
           move_down 2
         end
+      end
+    end
+    
+    protected
+    def find_focus( focus_string )
+      case focus_string
+      when "Max"
+        3
+      when "AT"
+        4
+      when "Sub-AT" 
+        5
+      when "IG"
+        6
+      when "GZ"
+        7
+      when "Restitution"
+        8
+      when "Power"
+        9
+      when "FS"
+        10
+      else 7
       end
     end
   end

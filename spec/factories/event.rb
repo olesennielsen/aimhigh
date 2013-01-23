@@ -10,5 +10,6 @@ FactoryGirl.define do
     f.description { Faker::Lorem.characters(200) }
     f.duration { Random.rand(5..200) }
     f.attachment_id { 1 }
+    f.focus { "Max" }
   end
 end

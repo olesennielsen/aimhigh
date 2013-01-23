@@ -47,8 +47,16 @@ class Attachment < ActiveRecord::Base
         title = workbook.cell(row, 'G')
         duration = workbook.cell(row, 'H')
         description = workbook.cell(row, 'Q')
+        event_focus = nil
         sessions = []                                       # Making the session array
-        9.upto(16) do |column|                             # Defines the columns of interest and make sure it is not empty or just 'x'
+        9.upto(16) do |column|
+          if workbook.cell(row, column) == "x" then
+            if (event_focus) then
+              event_focus = ""
+            else
+              event_focus = find_focus( column )
+            end
+          end                   # Defines the columns of interest and make sure it is not empty or just 'x'
           if !workbook.cell(row, column).nil? && workbook.cell(row, column) != "x" then 
             session_title = workbook.cell(row, column) 
             session_focus = find_focus( column )
@@ -62,7 +70,7 @@ class Attachment < ActiveRecord::Base
         end
         # Reassembling the record which is an event
         record << Event.new(:starts_at => date, :ends_at => date, :title => title, 
-        :duration => duration.to_i, :all_day => false, :description => description, :sessions => sessions, :attachment_id => self.id)
+        :duration => duration.to_i, :all_day => false, :description => description, :sessions => sessions, :attachment_id => self.id, :focus => event_focus)
       end
     end
     return record
