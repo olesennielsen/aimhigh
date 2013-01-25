@@ -16,12 +16,10 @@
 </head>
 <body>
 	<header class="navbar navbar">
-		<div class="strip">
 			<div id="strip">
-				<a href="http://aimhigh.dk/" title="AimHigh" rel="home"><img src="/logo.png" /></a>
+				<%= link_to image_tag("logo1.png", :border=>0), root_url %>
 				<%= render 'layouts/navigation' %>
 			</div>
-		</div>
 	</header>
 	<div id="main" role="main">
 		<div class="container">

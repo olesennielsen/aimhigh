@@ -1,4 +1,8 @@
+<% provide(:title, 'Attachment') %>
+<div class="alert alert-block">
 <%= form_for [@athlete,@attachment], :html => {:multipart => true} do |f| %>
+	<fieldset>
+	<legend>Attachment</legend>
 	<% if @attachment.errors.any? %>
 	<div id="error_explanation">
 		<h2><%= pluralize(@event.errors.count, "error") %> prohibited this attachment from being saved:</h2>
@@ -16,9 +20,12 @@
 	<br/>
 	<div class="actions">
 		<% if (@athlete.attachment.nil?) %>
-		<%= f.submit %>
+		<%= f.submit "Upload", :class => "btn btn-primary" %>
 		<% else %>
-		<%= f.submit :confirm => "This action will delete the current file and upload new events"  %>
+		<%= f.submit :confirm => "This action will delete the current file and upload new events", :class => "btn btn-primary" %>
 		<% end %>
 	</div>
+	</fieldset>
 	<% end %>
+	</div>
+	

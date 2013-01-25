@@ -14,10 +14,18 @@ describe "DeviseTests" do
   end
   
   it "athlete is unable to invite" do
-    admin = FactoryGirl.create(:athlete)
-    login_as(admin, :scope => :athlete)
+    athlete = FactoryGirl.create(:athlete)
+    login_as(athlete, :scope => :athlete)
     visit new_athlete_invitation_path
     page.should_not have_content("invitation")
+  end
+  
+  it "athlete should not access another athletes page" do
+    athlete = FactoryGirl.create(:athlete)
+    athlete2 = FactoryGirl.create(:athlete)
+    login_as(athlete, :scope => :athlete)
+    visit athlete_path(athlete2)
+    current_path.should == athlete_path(athlete)
   end
   
 end

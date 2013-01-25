@@ -13,8 +13,8 @@ Aimhigh::Application.routes.draw do
   
   devise_for :athletes, :skip => :registrations 
   devise_scope :athlete do 
-    get 'athlete/edit' => 'devise/registrations#edit', :as => 'edit_athletes_registration'
-    put 'athlete' => 'devise/registrations#update', :as => 'athlete_registration'
+    get 'athletes/edit' => 'devise/registrations#edit', :as => 'edit_athletes_registration'
+    put 'athletes' => 'devise/registrations#update', :as => 'athlete_registration'
   end
   # Common ressource url for both athletes and admins
   # events are nested for athletes (note: athlete --hasmany--> events)

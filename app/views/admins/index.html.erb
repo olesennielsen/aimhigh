@@ -1,20 +1,43 @@
 ﻿<% provide(:title, 'Administration') %>
-<h1>Hello <%= current_admin.email %> </h1>
-<p>This page should contain information about all the athletes</p>
-<%= search_form_for @search, :url => admins_path do |f| %>
-  <p>
-    <%= f.label :email_cont %>
-    <%= f.text_field :email_cont %>
-    <%= f.submit "Submit" %>
-  </p>
-<% end %>
-
-<p>
-  Sort by:
-  <%= sort_link @search, :email %> |
-  <%= sort_link @search, :invitation_accepted_at %>
-</p>
-
-<%= render @athletes %>
-<br/>
-<p><%= link_to "Invite New Athlete", new_athlete_invitation_path %></p>
+<div class="alert alert-block">
+	<h1>Welcome <%= current_admin.email %></h1>
+	<p><%= link_to "Invite New Athlete", new_athlete_invitation_path %></p>
+	<%= search_form_for @search, :url => admins_path, :class => "form-search" do |f| %>
+	<%= f.label :email_cont %>
+	<%= f.text_field :email_cont, :class => "input-medium search-query" %>
+	<%= f.submit "Search", :class => "btn btn-primary"  %>
+	<% end %>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th><%= sort_link @search, :id %></th>
+				<th><%= sort_link @search, :email %></th>
+				<th><%= sort_link @search, :firstname, "Name" %></th> 
+				<th><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
+				<th>Status</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @athletes.each do |athlete|%>
+			<tr>
+				<td><%= athlete.id %></td>
+				<td><%= link_to h(athlete.email), athlete %></td>
+				<td><% unless athlete.fullname.empty? then%>
+					<%= link_to h(athlete.fullname), athlete %>
+					<% end %>
+				</td>
+				<td><% unless athlete.invitation_accepted_at.nil? then%>
+						<%= athlete.invitation_accepted_at.to_date.to_s %>
+						<% end %>
+						</td>
+				<td>active</td>
+				<td><%= link_to athlete_attachments_path(athlete) do %><i class="icon-file"></i><% end %></td>	
+				<td><%= link_to athlete, :confirm => "Do you really want to delete this athlete and all its files?", :method => :delete do %>
+					<i class="icon-remove"></i><% end %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>

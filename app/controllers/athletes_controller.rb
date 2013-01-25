@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 class AthletesController < ApplicationController
-  before_filter :athlete_filter, :except => :invitation
-  before_filter :authenticate_admin!, :only => :invitation
+  load_and_authorize_resource
   before_filter :find_athlete, :only => [:show, :destroy]
-
-
   def exportcal
     @athlete = Athlete.find(params[:athlete_id])
     if(@athlete.attachment.nil?)
@@ -37,7 +34,7 @@ class AthletesController < ApplicationController
       headers['Content-Type'] = "text/pdf; charset=UTF-8"
     end
   end
-  
+
   def destroy
     @athlete.destroy
 
@@ -66,9 +63,7 @@ class AthletesController < ApplicationController
     end
 
     def logo
-      headerpath = "#{Rails.root}/app/assets/images/header.jpg"
       logopath =  "#{Rails.root}/app/assets/images/logo1.png"
-      image headerpath, :position => -40
       image logopath, :vposition => 10, :scale => 0.8
     end
 
@@ -104,7 +99,7 @@ class AthletesController < ApplicationController
 
     def draw_table(events)
       data = create_data(events)
-      table data, :row_colors => ["F3A648", '878786'] do
+      table data do
 
         cells.borders = []
         cells.size = 9
@@ -112,6 +107,8 @@ class AthletesController < ApplicationController
         row(0).font_style   = :bold
         self.header = true
         columns(2).align = :right
+        columns(3..10).align = :center
+        
       end
     end
 

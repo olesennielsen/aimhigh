@@ -53,6 +53,9 @@ gem 'icalendar'
 gem 'devise', :git => "git://github.com/plataformatec/devise.git", :branch => 'master'
 gem 'devise_invitable', '~> 1.0.0'
 
+# Authorization gem
+gem 'cancan'
+
 # Calendar features
 gem 'bootstrap-sass'
 gem 'nested_form'

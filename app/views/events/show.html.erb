@@ -1,28 +1,28 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
+<% provide(:title, 'Event') %>
+<div class="alert alert-block">
+<h5>
+   Type: 
   <%= @event.title %>
-</p>
-
-<p>
-  <b>Duration:</b>
+</h5>
+<h5>
+   Tid: 
   <%= @event.duration %>
-</p>
+</h5>
 
-<p>
-  <b>Description:</b>
+<h5>
+	Andet:
   <%= @event.description %>
-</p>
+</h5>
 
 <% unless(@sessions.empty?) %>
 <dl class="dl-horizontal">
 <% @sessions.each do |session| %>
-  <dt><%= session.title %></dt>
-  <dd><%= unless (session.session_description.nil?) then session.session_description.description end %></dd>
-  <% end %>
+  <dt><%= session.focus %></dt>
+  <dd><%= unless (session.session_description.nil?) then session.session_description.description else "-" end %></dd>
+<% end %>
 </dl>
 <% end %>
 
 <%= link_to 'Back', athlete_path(@athlete) %> 
+</div>
 
