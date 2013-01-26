@@ -75,14 +75,10 @@ class AthletesController < ApplicationController
         event_data[0] = event.starts_at.to_date.to_formatted_s(:short)
         event_data[1] = event.title
         event_data[2] = event.duration
-        unless event.focus.blank? 
-          event_data[find_focus(event.focus)] = "x"
+        event.focus_areas.each do |focus|
+            event_data[find_focus(focus.code)] = "x"
         end
-        if(event.sessions.empty?)
-          (1..8).each do 
-            event_data | [""]
-          end
-        else
+        unless event.sessions.empty? then 
           event.sessions.each do |session|
             event_data[find_focus(session.focus)] = session.title
           end
@@ -100,7 +96,6 @@ class AthletesController < ApplicationController
     def draw_table(events)
       data = create_data(events)
       table data do
-
         cells.borders = []
         cells.size = 9
         row(0).borders      = [:bottom]

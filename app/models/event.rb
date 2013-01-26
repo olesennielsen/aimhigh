@@ -1,8 +1,9 @@
 class Event < ActiveRecord::Base
   belongs_to :attachment
   has_many :sessions, :dependent => :destroy
+  has_and_belongs_to_many :focus_areas, :uniq => true, :autosave => true
 
-  attr_accessible :title, :description, :duration, :all_day, :starts_at, :ends_at, :attachment_id, :sessions, :focus
+  attr_accessible :title, :description, :duration, :all_day, :starts_at, :ends_at, :attachment_id, :sessions, :focus_areas
 
   # Creating dummy values in the start and end attributes
   before_validation :make_start_time, :make_end_time 

@@ -22,20 +22,18 @@ class Attachment < ActiveRecord::Base
     return Excelx.new(file_path)
   end
 
-=begin
-  Getting the athletes name according to the xlsx file
-  NOTICE: Not yet used
-=end  
+  # Getting the athletes name according to the xlsx file
+  # NOTICE: Not yet used
   def get_name( workbook )
     workbook.default_sheet = workbook.sheets[2]
     return workbook.cell('G',2)
   end
 
-=begin
-  Method responsible for retrieving data from the attachment/workbook
-  and storing them in events. It utilizes the 'roo' gem to get access to the cells
-  NOTICE: Ugly implementation because of the workbook reference that has to be kept
-=end
+  
+  # Method responsible for retrieving data from the attachment/workbook
+  # and storing them in events. It utilizes the 'roo' gem to get access to the cells
+  # NOTICE: Ugly implementation because of the workbook reference that has to be kept
+  
 
   def get_data( workbook )
     workbook.default_sheet = workbook.sheets[2]
@@ -47,16 +45,12 @@ class Attachment < ActiveRecord::Base
         title = workbook.cell(row, 'G')
         duration = workbook.cell(row, 'H')
         description = workbook.cell(row, 'Q')
-        event_focus = nil
+        event_focus = []
         sessions = []                                       # Making the session array
         9.upto(16) do |column|
           if workbook.cell(row, column) == "x" then
-            if (event_focus) then
-              event_focus = ""
-            else
-              event_focus = find_focus( column )
-            end
-          end                   # Defines the columns of interest and make sure it is not empty or just 'x'
+            event_focus.concat(FocusArea.where(:code => find_focus(column)))
+          end   # Defines the columns of interest and make sure it is not empty or just 'x'
           if !workbook.cell(row, column).nil? && workbook.cell(row, column) != "x" then 
             session_title = workbook.cell(row, column) 
             session_focus = find_focus( column )
@@ -65,20 +59,23 @@ class Attachment < ActiveRecord::Base
               session_description_id = session_findings.id
             end
             # Reassembling the session array
-            sessions << Session.new(:title => session_title, :focus => session_focus, :session_description_id => session_description_id)
+            sessions << Session.new(:title => session_title, :focus => session_focus, 
+                                    :session_description_id => session_description_id)
           end
         end
         # Reassembling the record which is an event
         record << Event.new(:starts_at => date, :ends_at => date, :title => title, 
-        :duration => duration.to_i, :all_day => false, :description => description, :sessions => sessions, :attachment_id => self.id, :focus => event_focus)
+                            :duration => duration.to_i, :all_day => false, 
+                            :description => description, :sessions => sessions, 
+                            :attachment_id => self.id, :focus_areas => event_focus)
       end
     end
     return record
   end
 
-=begin 
-  Get data via get_data and for each event store them in the event table
-=end
+
+  # Get data via get_data and for each event store them in the event table
+  
   def generate_events
     events = get_data(@workbook)                            
     events.each do |event|
@@ -86,10 +83,10 @@ class Attachment < ActiveRecord::Base
     end
   end  
 
-=begin
-  Find focues eases the use of correlation between column number and
-  session intensity which is defined by strings
-=end
+
+  # Find focues eases the use of correlation between column number and
+  # session intensity which is defined by strings
+
   def find_focus( focus_number )
     case focus_number
     when 12
@@ -111,5 +108,4 @@ class Attachment < ActiveRecord::Base
     else "Unknown"
     end
   end
-
 end

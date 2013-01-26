@@ -20,3 +20,14 @@ csv.each do |row|
     SessionDescription.create(:name => row[0], :time => row[2], :description => row[4])
   end
 end
+
+FocusArea.delete_all
+FocusArea.create(:code => "Max", :name => "Max")
+FocusArea.create(:code => "AT", :name => "AT")
+FocusArea.create(:code => "Sub-AT", :name => "Sub-AT")
+FocusArea.create(:code => "IG", :name => "Intensiv Grundzone")
+FocusArea.create(:code => "GZ", :name => "Grundzone")
+FocusArea.create(:code => "Restitution", :name => "Restitution")
+FocusArea.create(:code => "Power", :name => "Power")
+FocusArea.create(:code => "FS", :name => "Funtionel Styrke")
+
