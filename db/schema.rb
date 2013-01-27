@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130126122027) do
+ActiveRecord::Schema.define(:version => 20130127085555) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                :default => "", :null => false
@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(:version => 20130126122027) do
   add_index "admins", ["reset_password_token"], :name => "index_admins_on_reset_password_token", :unique => true
 
   create_table "athletes", :force => true do |t|
-    t.string   "email",                                :default => "", :null => false
+    t.string   "email",                                :default => "",   :null => false
     t.string   "encrypted_password",                   :default => ""
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(:version => 20130126122027) do
     t.string   "invited_by_type"
     t.string   "firstname"
     t.string   "lastname"
+    t.boolean  "status",                               :default => true
   end
 
   add_index "athletes", ["email"], :name => "index_athletes_on_email", :unique => true

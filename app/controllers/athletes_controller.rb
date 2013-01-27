@@ -35,6 +35,14 @@ class AthletesController < ApplicationController
     end
   end
 
+  def changestatus
+    @athlete = Athlete.find(params[:athlete_id])
+    @athlete.toggle!(:status)
+    respond_to do |format|
+      format.html { redirect_to admins_path }
+    end
+  end
+
   def destroy
     @athlete.destroy
 

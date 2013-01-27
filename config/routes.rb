@@ -22,6 +22,7 @@ Aimhigh::Application.routes.draw do
   resources :athletes do 
     resources :events, :only => [:index, :show] 
     resources :attachments, :only => [:create, :index, :new, :destroy]
+    put 'changestatus' => 'athletes#changestatus'
     post 'exportcal' => 'athletes#exportcal'      	
     post 'exportpdf' => 'athletes#exportpdf'      	
   end 
