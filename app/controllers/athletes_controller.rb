@@ -11,7 +11,7 @@ class AthletesController < ApplicationController
       @attachment = @athlete.attachment
       from_date = params[:start_date_cal].to_datetime
       to_date = params[:end_date_cal].to_datetime
-      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ? AND ends_at < ?" , from_date, to_date)
+      @events = Event.where(:attachment_id => @attachment.id).where("starts_at >= ? AND ends_at <= ?" , from_date, to_date)
       @calendar = generate_ical_calendar(@events)
       @calendar.publish
       headers['Content-Type'] = "text/calendar; charset=UTF-8"
@@ -28,7 +28,7 @@ class AthletesController < ApplicationController
       @attachment = @athlete.attachment
       from_date = params[:start_date_pdf].to_datetime
       to_date = params[:end_date_pdf].to_datetime
-      @events = Event.where(:attachment_id => @attachment.id).where("starts_at > ? AND ends_at < ?" , from_date, to_date)
+      @events = Event.where(:attachment_id => @attachment.id).where("starts_at >= ? AND ends_at <= ?" , from_date, to_date)
       pdf = pdf::EventPdf.new(@athlete, @events )
       send_data pdf.render, filename: "events_#{from_date.strftime("%d/%m/%Y")}.pdf", type: "application/pdf"
       headers['Content-Type'] = "text/pdf; charset=UTF-8"
@@ -167,8 +167,8 @@ class AthletesController < ApplicationController
     calendar = Icalendar::Calendar.new
     events.each do |event|
       cal_event = Icalendar::Event.new
-      cal_event.start = event.starts_at.strftime("%Y%m%dT%H%M%S")
-      cal_event.end = event.ends_at.strftime("%Y%m%dT%H%M%S")
+      cal_event.start = (event.starts_at + 6.hours).strftime("%Y%m%dT%H%M%S")
+      cal_event.end = (event.ends_at + 6.hours).strftime("%Y%m%dT%H%M%S")
       cal_event.summary = event.title
       cal_event.description = event.description
       calendar.add cal_event
