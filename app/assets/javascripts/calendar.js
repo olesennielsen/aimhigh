@@ -18,21 +18,25 @@ $(document).ready(function() {
 
     $('#start_date_cal').datepicker({
 	format: "dd-mm-yyyy",
-        autoclose: true
+        autoclose: true,
+	weekStart: 1
     });
 
     $('#end_date_cal').datepicker({
 	format: "dd-mm-yyyy",
-        autoclose: true
+        autoclose: true,
+	weekStart: 1
     });
     $('#start_date_pdf').datepicker({
 	format: "dd-mm-yyyy",
-        autoclose: true
+        autoclose: true,
+	weekStart: 1
     });
 
     $('#end_date_pdf').datepicker({
 	format: "dd-mm-yyyy",
-        autoclose: true
+        autoclose: true,
+	weekStart: 1
     });
     
 

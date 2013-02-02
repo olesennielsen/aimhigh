@@ -54,7 +54,7 @@ class AthletesController < ApplicationController
 
   class EventPdf < Prawn::Document
     def initialize( athlete, events )
-      super(:page_size => "A4", :page_layout => :landscape)
+      super(:page_size => "A4", :page_layout => :landscape, :top_margin => 10)
       font = "Helvetica"
       logo
       move_down 20
@@ -71,7 +71,7 @@ class AthletesController < ApplicationController
     end
 
     def logo
-      logopath =  "#{Rails.root}/app/assets/images/logo1.png"
+      logopath =  "#{Rails.root}/app/assets/images/logopdf.png"
       image logopath, :vposition => 10, :scale => 0.8
     end
 
@@ -166,13 +166,33 @@ class AthletesController < ApplicationController
   def generate_ical_calendar( events )
     calendar = Icalendar::Calendar.new
     events.each do |event|
-      cal_event = Icalendar::Event.new
-      cal_event.start = (event.starts_at + 6.hours).strftime("%Y%m%dT%H%M%S")
-      cal_event.end = (event.ends_at + 6.hours).strftime("%Y%m%dT%H%M%S")
-      cal_event.summary = event.title
-      cal_event.description = event.description
+      cal_event = to_ics( event )
       calendar.add cal_event
     end
     return calendar
+  end
+
+  def to_ics( event ) 
+    cal_event = Icalendar::Event.new
+    cal_event.start = (event.starts_at + 6.hours).strftime("%Y%m%dT%H%M%S")
+    cal_event.end = (event.ends_at + 6.hours).strftime("%Y%m%dT%H%M%S")
+    cal_event.summary = event.title
+    cal_event.description = description_to_ics( event )
+    return cal_event
+  end
+
+  def description_to_ics ( event )
+    description = event.description
+    sessions = event.sessions
+    description_string = ""
+    unless sessions.empty? then
+      sessions.each do |session|
+        description_string = description_string + session.session_description.description + " :: "
+      end
+    end
+    unless event.description.nil? then
+      description_string = description_string + "Andet: " + description
+    end
+    return description_string
   end
 end
