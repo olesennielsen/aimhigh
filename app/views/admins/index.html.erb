@@ -7,14 +7,14 @@
 	<%= search_form_for @search, :url => admins_path, :class => "form-search" do |f| %>
 	<%= f.label :email_cont %>
 	<%= f.text_field :email_cont, :class => "input-medium search-query" %>
-	<%= f.submit "Search", :class => "btn btn-primary"  %>
+	<%= f.submit "Search", :class => "btn btn-warning"  %>
 	<% end %>
 	<table class="table table-bordered">
 		<thead>
 			<tr>
 				<th style="text-align:center;"><%= sort_link @search, :id %></th>
 				<th><%= sort_link @search, :email %></th>
-				<th><%= sort_link @search, :firstname, "Name" %></th> 
+				<th><%= sort_link @search, :name, "Name" %></th> 
 				<th><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
 				<th><%= sort_link @search, :status, "Status" %></th>
 				<th></th>
@@ -26,8 +26,8 @@
 			<tr>
 				<td style="text-align:center;"><%= athlete.id %></td>
 				<td><%= link_to h(athlete.email), athlete %></td>
-				<td><% unless athlete.fullname.empty? then%>
-					<%= link_to h(athlete.fullname), athlete %>
+				<td><% unless athlete.name.nil? then%>
+					<%= link_to h(athlete.name), athlete %>
 					<% end %>
 				</td>
 				<td style="text-align:right;"><% unless athlete.invitation_accepted_at.nil? then%>

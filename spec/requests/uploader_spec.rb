@@ -3,7 +3,8 @@ describe AttachmentUploader do
 
   before do
     AttachmentUploader.enable_processing = true
-    @attachment = FactoryGirl.create(:attachment)
+    @athlete = FactoryGirl.create(:athlete)
+    @attachment = FactoryGirl.create(:attachment, :athlete_id => @athlete.id)
     @uploader = AttachmentUploader.new(@attachment, :file)    
   end
 

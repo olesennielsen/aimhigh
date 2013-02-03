@@ -14,6 +14,13 @@ class Attachment < ActiveRecord::Base
   # Parsing the document
   def parse_document
     @workbook = get_workbook(self.file.current_path.to_s)
+    @athlete = Athlete.find(self.athlete_id)
+    unless get_name( @workbook ).nil? then
+      name = get_name( @workbook )
+    else
+      name = ""
+    end
+    @athlete.update_attribute(:name, name)
     generate_events   
   end
 
@@ -23,7 +30,6 @@ class Attachment < ActiveRecord::Base
   end
 
   # Getting the athletes name according to the xlsx file
-  # NOTICE: Not yet used
   def get_name( workbook )
     workbook.default_sheet = workbook.sheets[2]
     return workbook.cell('G',2)

@@ -57,9 +57,10 @@ class AthletesController < ApplicationController
       super(:page_size => "A4", :page_layout => :landscape, :top_margin => 10)
       font = "Helvetica"
       logo
-      move_down 20
-      unless(athlete.fullname.blank?)
-        text "Navn: #{athlete.fullname}", :size => 20
+      pulsbox
+      move_down 40
+      unless(athlete.name.blank?)
+        text "Navn: #{athlete.name}", :size => 20
       else
         text "Email: #{athlete.email}", :size => 20
       end
@@ -73,6 +74,14 @@ class AthletesController < ApplicationController
     def logo
       logopath =  "#{Rails.root}/app/assets/images/logopdf.png"
       image logopath, :vposition => 10, :scale => 0.8
+    end
+
+    def pulsbox
+      text_box "Zoner (Puls / Effekt)\nmax: 193 / 361\nAT: 178 / 313 \nmax-zone: 183-193 / 327-361\nAT-zone 174-182 / 304-326\nsub-AT-zone: 166-173 / 279-303\nint. grund-zone: 157-165 / 257-278\ngrundtræning: 125-156 / 188-256\nrestitution: 89-124 / 94-187",
+      :at => [550, 550],
+      :height => 100,
+      :width => 200,
+      :size => 8
     end
 
     def create_data(events)

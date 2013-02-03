@@ -6,18 +6,10 @@ class Athlete < ActiveRecord::Base
   :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :firstname, :lastname, :id, :status
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :name, :id, :status
   
   has_one :attachment
   has_many :events, :through => :attachment
-  
-  def fullname
-    if self.firstname.blank? && self.lastname.blank? then
-      ""
-    else 
-      self.firstname + " " + self.lastname
-    end
-  end
   
   def active_for_authentication?
     #remember to call the super

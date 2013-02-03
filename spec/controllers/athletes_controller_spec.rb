@@ -9,7 +9,7 @@ describe AthletesController do
   
   describe "POST exportcal" do
     it "returns a file when hit exportcal" do
-      @attachment = FactoryGirl.create(:attachment)
+      @attachment = FactoryGirl.create(:attachment, :athlete_id => @athlete.id)
       @athlete.attachment = @attachment
       session[:athlete_id] = @athlete.id
       post :exportcal, :athlete_id => @athlete.id, :start_date_cal => DateTime.now - 1.days, :end_date_cal => DateTime.now
@@ -25,7 +25,7 @@ describe AthletesController do
   
   describe "POST exportpdf" do
     it "returns a file when hit exportpdf" do
-      @attachment = FactoryGirl.create(:attachment)
+      @attachment = FactoryGirl.create(:attachment, :athlete_id => @athlete.id)
       @athlete.attachment = @attachment
       post :exportpdf, :athlete_id => @athlete.id, :start_date_pdf => DateTime.now - 1.days, :end_date_pdf => DateTime.now
       response.header.should have_text('pdf') 

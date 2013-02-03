@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe Attachment do
   it "has a valid factory" do
-    FactoryGirl.create(:attachment).should be_valid 
+    athlete = FactoryGirl.create :athlete
+    (FactoryGirl.create :attachment, :athlete_id => athlete.id).should be_valid 
   end
   
   it "should not accept exe file in model" do
