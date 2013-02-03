@@ -196,7 +196,9 @@ class AthletesController < ApplicationController
     description_string = ""
     unless sessions.empty? then
       sessions.each do |session|
-        description_string = description_string + session.session_description.description + " :: "
+        unless(session.session_description.nil?) then
+          description_string = description_string + session.session_description.description + " :: "
+        end
       end
     end
     unless event.description.nil? then

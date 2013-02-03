@@ -1,6 +1,7 @@
 <% provide(:title, 'Invitations') %>
 <div class="alert alert-block">
-<h2><%= t "devise.invitations.new.header" %></h2>
+<h4><%= t "devise.invitations.new.header" %></h4>
+<br/>
 
 <%= form_for resource, :as => resource_name, :url => invitation_path(resource_name), :html => {:method => :post} do |f| %>
   <%= devise_error_messages! %>
