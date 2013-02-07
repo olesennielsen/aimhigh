@@ -57,18 +57,22 @@ class AthletesController < ApplicationController
       super(:page_size => "A4", :page_layout => :landscape, :top_margin => 10)
       font = "Helvetica"
       logo
-      pulsbox
       move_down 40
       unless(athlete.name.blank?)
-        text "Navn: #{athlete.name}", :size => 20
+        text "Navn: #{athlete.name}", :size => 12
       else
-        text "Email: #{athlete.email}", :size => 20
+        text "Email: #{athlete.email}", :size => 12
       end
       draw_table(events)
       move_down 20
       stroke_horizontal_rule
       move_down 10
       draw_descriptions(events)
+#      unless(athlete.max_puls.nil?)
+        indent(600) do
+          pulsbox(athlete)
+ #       end
+      end
     end
 
     def logo
@@ -76,12 +80,19 @@ class AthletesController < ApplicationController
       image logopath, :vposition => 10, :scale => 0.8
     end
 
-    def pulsbox
-      text_box "Zoner (Puls / Effekt)\nmax: 193 / 361\nAT: 178 / 313 \nmax-zone: 183-193 / 327-361\nAT-zone 174-182 / 304-326\nsub-AT-zone: 166-173 / 279-303\nint. grund-zone: 157-165 / 257-278\ngrundtræning: 125-156 / 188-256\nrestitution: 89-124 / 94-187",
-      :at => [550, 550],
-      :height => 100,
-      :width => 200,
-      :size => 8
+    def pulsbox(athlete)
+      data = [["Zone","Puls","Effekt"],
+              ["Max", "#{athlete.max_puls}", "#{athlete.max_effect}"],
+              ["AT", "#{athlete.at_puls}", "#{athlete.at_effect}"]]
+      table data do
+        cells.size = 6
+        cells.border_width = 0.1
+        cells.borders = []
+        self.header = true
+        columns(1..2).align = :center
+        columns(0).borders = [:left]
+      end
+
     end
 
     def create_data(events)
@@ -113,14 +124,15 @@ class AthletesController < ApplicationController
     def draw_table(events)
       data = create_data(events)
       table data do
-        cells.borders = []
-        cells.size = 9
+        cells.size = 7
+        cells.borders = [:bottom, :top, :right, :left]
+        cells.border_width = 0.1
         row(0).borders      = [:bottom]
         row(0).font_style   = :bold
         self.header = true
         columns(2).align = :right
         columns(3..10).align = :center
-        
+        columns(3..10).width = 60
       end
     end
 
@@ -134,7 +146,7 @@ class AthletesController < ApplicationController
         end
       end
       unless session_descriptions.empty? 
-        text "Beskrivelser", :size => 20
+        text "Beskrivelser", :size => 12
         move_down 10
         session_descriptions.each do |desc|
           text desc.description, :size => 8

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130203093912) do
+ActiveRecord::Schema.define(:version => 20130207130949) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                :default => "", :null => false
@@ -56,6 +56,10 @@ ActiveRecord::Schema.define(:version => 20130203093912) do
     t.string   "invited_by_type"
     t.boolean  "status",                               :default => true
     t.string   "name"
+    t.integer  "max_puls"
+    t.integer  "max_effect"
+    t.integer  "at_puls"
+    t.integer  "at_effect"
   end
 
   add_index "athletes", ["email"], :name => "index_athletes_on_email", :unique => true

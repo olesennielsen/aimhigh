@@ -21,6 +21,7 @@ class Attachment < ActiveRecord::Base
       name = ""
     end
     @athlete.update_attribute(:name, name)
+    @athlete.update_attributes(get_athlete_data( @workbook ))
     generate_events   
   end
 
@@ -35,7 +36,15 @@ class Attachment < ActiveRecord::Base
     return workbook.cell('G',2)
   end
 
-  
+  def get_athlete_data( workbook )
+    workbook.default_sheet = workbook.sheets[2]
+    max_puls = workbook.cell('Y',5)
+    max_effect = workbook.cell('AB',5)
+    at_puls = workbook.cell('Y',6)
+    at_effect = workbook.cell('AB',6)
+    return {:max_puls => max_puls, :max_effect => max_effect, :at_puls => at_puls, :at_effect => at_effect }
+  end
+    
   # Method responsible for retrieving data from the attachment/workbook
   # and storing them in events. It utilizes the 'roo' gem to get access to the cells
   # NOTICE: Ugly implementation because of the workbook reference that has to be kept
