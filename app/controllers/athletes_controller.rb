@@ -68,10 +68,10 @@ class AthletesController < ApplicationController
       stroke_horizontal_rule
       move_down 10
       draw_descriptions(events)
-#      unless(athlete.max_puls.nil?)
+      unless(athlete.max_puls.nil?)
         indent(600) do
           pulsbox(athlete)
- #       end
+        end
       end
     end
 
@@ -81,9 +81,19 @@ class AthletesController < ApplicationController
     end
 
     def pulsbox(athlete)
+      max_puls = athlete.max_puls
+      max_effect = athlete.max_effect
+      at_puls = athlete.at_puls
+      at_effect = athlete.at_effect
       data = [["Zone","Puls","Effekt"],
-              ["Max", "#{athlete.max_puls}", "#{athlete.max_effect}"],
-              ["AT", "#{athlete.at_puls}", "#{athlete.at_effect}"]]
+              ["Max", "#{max_puls}", "#{max_effect}"],
+              ["AT", "#{at_puls}", "#{at_effect}"],
+              ["Max-Zone","#{(at_puls*1.02).round + 1} - #{max_puls}","#{(at_effect*1.04).round + 1} - #{max_effect}"],
+              ["AT-Zone", "#{(at_puls*0.98).round} - #{(at_puls*1.02).round}","#{(at_effect*0.97).round} - #{(at_effect*1.04).round}"],
+              ["sub-AT-Zone", "#{(at_puls*0.93).round} - #{(at_puls*0.98).round - 1}","#{(at_effect*0.89).round} - #{(at_effect*0.97).round - 1}"],
+              ["int. grundzone", "#{(at_puls*0.88).round} - #{(at_puls*0.93).round - 1}","#{(at_effect*0.82).round} - #{(at_effect*0.89).round - 1}"],
+              ["grundtræning", "#{(at_puls*0.70).round} - #{(at_puls*0.88).round - 1}","#{(at_effect*0.60).round} - #{(at_effect*0.82).round - 1}"],
+              ["restitution","#{(at_puls*0.50).round} - #{(at_puls*0.70).round - 1}","#{(at_effect*0.30).round} - #{(at_effect*0.60).round - 1}"]]
       table data do
         cells.size = 6
         cells.border_width = 0.1
