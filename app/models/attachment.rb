@@ -1,3 +1,4 @@
+require 'iconv'
 class Attachment < ActiveRecord::Base
   belongs_to :athlete
   has_many :events, :dependent => :destroy
