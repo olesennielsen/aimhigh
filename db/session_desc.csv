@@ -1,158 +1,229 @@
 ,,,,
 Navn,Interval,tid,IF,Intervalbeskrivelse
 ,Int. grundtrænin.,,0.68,
-IG: 1x(3-2-1)m,1x(3-2-1)m,6,4.08,"Int. grund: 1x(3-2-1)m køres som 1 interval á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 15 slag under og 1 min. 10 slag under AT. "
-IG: 1x(5-3-2)m,1x(5-3-2)m,10,6.8,"Int. grund.: 1x(5-3-2)m køres som 1 interval á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. "
-IG: 1x(10-3-2)m,1x(10-3-2)m,15,10.2,"Int. grund.: 1x(10-3-2)m køres som 1 interval á i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT."
-IG: 1x(10-5-2)m,1x(10-5-2)m,17,11.56,"Int. grund.: 1x(10-5-2)m køres som 1 interval á i alt 17 min. (10 minutter 20 pulsslag under AT, 5 min 15 slag under og 2 min. 10 slag under AT."
-IG: 1x(10-8-2)m,1x(10-8-2)m,20,13.6,"Int. grund.: 1x(10-8-2)m køres som 1 interval  á i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. "
+IG: 1x(3-2-1)m,1x(3-2-1)m,6,4.08,"Int. grund: 1x(3-2-1)m køres som 1 interval af i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 15 slag under og 1 min. 10 slag under AT. "
+IG: 1x(5-3-2)m,1x(5-3-2)m,10,6.8,"Int. grund.: 1x(5-3-2)m køres som 1 interval af i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. "
+IG: 1x(10-3-2)m,1x(10-3-2)m,15,10.2,"Int. grund.: 1x(10-3-2)m køres som 1 interval af i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT."
+IG: 1x(10-5-2)m,1x(10-5-2)m,17,11.56,"Int. grund.: 1x(10-5-2)m køres som 1 interval af i alt 17 min. (10 minutter 20 pulsslag under AT, 5 min 15 slag under og 2 min. 10 slag under AT."
+IG: 1x(10-8-2)m,1x(10-8-2)m,20,13.6,"Int. grund.: 1x(10-8-2)m køres som 1 interval  af i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. "
+IG: 1x(20-8-2)m,1x(20-8-2)m,30,20.4,"Int. grund.: 1x(20-8-2)m køres som 1 interval  af i alt 30 min. (20 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. "
 ,,,,
 ,,,,
-IG: 2x(3-2-1)m,2x(3-2-1)m,12,8.16,"Int. grund.: 2x(3-2-1)m køres som 2 intervaller  á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 15 slag under og 1 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-IG: 2x(5-3-2)m,2x(5-3-2)m,20,13.6,"Int. grund.: 2x(5-3-2)m køres som 2 intervaller  á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-IG: 2x(10-3-2)m,2x(10-3-2)m,30,20.4,"Int. grund.: 2x(10-3-2)m køres som 2 intervaller  á i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-IG: 2x(10-5-2)m,2x(10-5-2)m,34,23.12,"Int. grund.: 2x(10-5-2)m køres som 2 intervaller  á i alt 17 min. (10 minutter 20 pulsslag under AT, 5 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-IG: 2x(10-8-2)m,2x(10-8-2)m,40,27.2,"Int. grund.: 2x(10-8-2)m køres som 2 intervaller  á i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 2x(3-2-1)m,2x(3-2-1)m,12,8.16,"Int. grund.: 2x(3-2-1)m køres som 2 intervaller  af i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 15 slag under og 1 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 2x(5-3-2)m,2x(5-3-2)m,20,13.6,"Int. grund.: 2x(5-3-2)m køres som 2 intervaller  af i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 2x(10-3-2)m,2x(10-3-2)m,30,20.4,"Int. grund.: 2x(10-3-2)m køres som 2 intervaller  af i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 2x(10-5-2)m,2x(10-5-2)m,34,23.12,"Int. grund.: 2x(10-5-2)m køres som 2 intervaller  af i alt 17 min. (10 minutter 20 pulsslag under AT, 5 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 2x(10-8-2)m,2x(10-8-2)m,40,27.2,"Int. grund.: 2x(10-8-2)m køres som 2 intervaller  af i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 2x(20-8-2)m,2x(20-8-2)m,60,40.8,"Int. grund.: 2x(20-8-2)m køres som 2 intervaler  af i alt 30 min. (20 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier "
 ,,,,
 ,,,,
-IG: 3x(5-3-2)m,3x(5-3-2)m,30,20.4,"Int. grund.: 3x(5-3-2)m køres som 3 intervaller  á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-IG: 3x(10-3-2)m,3x(10-3-2)m,45,30.6,"Int. grund.: 3x(10-3-2)m køres som 3 intervaller  á i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 3x(5-3-2)m,3x(5-3-2)m,30,20.4,"Int. grund.: 3x(5-3-2)m køres som 3 intervaller  af i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 3x(10-3-2)m,3x(10-3-2)m,45,30.6,"Int. grund.: 3x(10-3-2)m køres som 3 intervaller  af i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+IG: 3x(10-8-2)m,3x(10-8-2)m,60,40.8,"Int. grund.: 3x(10-8-2)m køres som 3 intervaller  af i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
 ,,,,
-IG: 4x(5-3-2)m,4x(5-3-2)m,40,27.2,"Int. grund.: 4x(5-3-2)m køres som 4 intervaller  á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 4x(5-3-2)m,4x(5-3-2)m,40,27.2,"Int. grund.: 4x(5-3-2)m køres som 4 intervaller  af i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 15 slag under og 2 min. 10 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
 ,,,,
 ,,,,
-IG: 1x4m,1x4m,4,2.72,"Int. grund.: 1x4m køres som ét interval á 4 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x5m,1x5m,5,3.4,"Int. grund.: 1x5m køres som ét interval á 5 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x8m,1x8m,8,5.44,"Int. grund.: 1x8m køres som ét interval á 8 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x10m,1x10m,10,6.8,"Int. grund.: 1x10m køres som ét interval á 10 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x12m,1x12m,12,8.16,"Int. grund.: 1x12m køres som ét interval á 12 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x15m,1x15m,15,10.2,"Int. grund.: 1x15m køres som ét interval á 15 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x20m,1x20m,20,13.6,"Int. grund.: 1x20m køres som ét interval á 20 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x25m,1x25m,25,17,"Int. grund.: 1x25m køres som ét interval á 25 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 1x30m,1x30m,30,20.4,"Int. grund.: 1x30m køres som ét interval á 30 min. Kadance 80-100, puls 10-20 slag under AT"
+IG: 1x4m,1x4m,4,2.72,"Int. grund.: 1x4m køres som 1 interval af 4 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x5m,1x5m,5,3.4,"Int. grund.: 1x5m køres som 1 interval af 5 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x8m,1x8m,8,5.44,"Int. grund.: 1x8m køres som 1 interval af 8 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x10m,1x10m,10,6.8,"Int. grund.: 1x10m køres som 1 interval af 10 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x12m,1x12m,12,8.16,"Int. grund.: 1x12m køres som 1 interval af 12 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x15m,1x15m,15,10.2,"Int. grund.: 1x15m køres som 1 interval af 15 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x20m,1x20m,20,13.6,"Int. grund.: 1x20m køres som 1 interval af 20 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x25m,1x25m,25,17,"Int. grund.: 1x25m køres som 1 interval af 25 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 1x30m,1x30m,30,20.4,"Int. grund.: 1x30m køres som 1 interval af 30 min. kadence 80-100, puls 10-20 slag under AT"
 ,,,,
-IG: 2x4m,2x4m,8,5.44,"Int. grund.: 2x4m køres som 2 intervaller á 4 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x5m,2x5m,10,6.8,"Int. grund.: 2x5m køres som 2 intervaller á 5 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x8m,2x8m,16,10.88,"Int. grund.: 2x8m køres som 2 intervaller á 8 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x10m,2x10m,20,13.6,"Int. grund.: 2x10m køres som 2 intervaller á 10 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x12m,2x12m,24,16.32,"Int. grund.: 2x12m køres som 2 intervaller á 12 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x15m,2x15m,30,20.4,"Int. grund.: 2x15m køres som 2 intervaller á 15 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x20m,2x20m,40,27.2,"Int. grund.: 2x20m køres som 2 intervaller á 20 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x25m,2x25m,50,34,"Int. grund.: 2x25m køres som 2 intervaller á 25 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 2x30m,2x30m,60,40.8,"Int. grund.: 2x30m køres som 2 intervaller á 30 min. Kadance 80-100, puls 10-20 slag under AT"
+IG: 2x4m,2x4m,8,5.44,"Int. grund.: 2x4m køres som 2 intervaller af 4 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x5m,2x5m,10,6.8,"Int. grund.: 2x5m køres som 2 intervaller af 5 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x8m,2x8m,16,10.88,"Int. grund.: 2x8m køres som 2 intervaller af 8 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x10m,2x10m,20,13.6,"Int. grund.: 2x10m køres som 2 intervaller af 10 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x12m,2x12m,24,16.32,"Int. grund.: 2x12m køres som 2 intervaller af 12 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x15m,2x15m,30,20.4,"Int. grund.: 2x15m køres som 2 intervaller af 15 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x20m,2x20m,40,27.2,"Int. grund.: 2x20m køres som 2 intervaller af 20 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x25m,2x25m,50,34,"Int. grund.: 2x25m køres som 2 intervaller af 25 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 2x30m,2x30m,60,40.8,"Int. grund.: 2x30m køres som 2 intervaller af 30 min. kadence 80-100, puls 10-20 slag under AT"
 ,,,,
-IG: 3x5m,3x5m,15,10.2,"Int. grund.: 3x5m køres som 3 intervaller á 5 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 3x8m,3x8m,24,16.32,"Int. grund.: 3x8m køres som 3 intervaller á 8 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 3x10m,3x10m,30,20.4,"Int. grund.: 3x10m køres som 3 intervaller á 10 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 3x12m,3x12m,36,24.48,"Int. grund.: 3x12m køres som 3 intervaller á 12 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 3x15m,3x15m,45,30.6,"Int. grund.: 3x15m køres som 3 intervaller á 15 min. Kadance 80-100, puls 10-20 slag under AT"
-IG: 3x20m,3x20m,60,40.8,"Int. grund.: 3x20m køres som 3 intervaller á 20 min. Kadance 80-100, puls 10-20 slag under AT"
+IG: 3x5m,3x5m,15,10.2,"Int. grund.: 3x5m køres som 3 intervaller af 5 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 3x8m,3x8m,24,16.32,"Int. grund.: 3x8m køres som 3 intervaller af 8 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 3x10m,3x10m,30,20.4,"Int. grund.: 3x10m køres som 3 intervaller af 10 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 3x12m,3x12m,36,24.48,"Int. grund.: 3x12m køres som 3 intervaller af 12 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 3x15m,3x15m,45,30.6,"Int. grund.: 3x15m køres som 3 intervaller af 15 min. kadence 80-100, puls 10-20 slag under AT"
+IG: 3x20m,3x20m,60,40.8,"Int. grund.: 3x20m køres som 3 intervaller af 20 min. kadence 80-100, puls 10-20 slag under AT"
 ,,,,
 ,,eks,,
-IG: 4+1+4…m,4+1+4…m,1x15,11.1,"Int. grund.: 4+1+4…m, køres som 4 min ca 15-20 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca 15-20 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
-IG: 3+1+3…m,3+1+3…m,1x12,9.1,"Int. grund.: 3+1+3…m, køres som 3 min ca 15-20 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca 15-20 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+IG: 4+1+4…m,4+1+4…m,1x15,11.1,"Int. grund.: 4+1+4…m, køres som 4 min ca. 15-20 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca. 15-20 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+IG: 3+1+3…m,3+1+3…m,1x12,9.1,"Int. grund.: 3+1+3…m, køres som 3 min ca. 15-20 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca. 15-20 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
 ,,,,
 IG: 1x3(5m+30s),1x3(5m+30s),15_6,22.2,"Int. grund.: 1x3(5m+30s) køres som 1 interval af ialt 16.30m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 IG: 1x4(5m+30s),1x4(5m+30s),20_8,29.6,"Int. grund.: 1x4(5m+30s) køres som 1 interval af ialt 22min. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
-IG: 2x3(5m+30s),2x3(5m+30s),30_12,44.4,"Int. grund.: 2x3(5m+30s) køres som 2  intervaller af ialt 16.30m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
-IG: 2x4(5m+30s),2x4(5m+30s),40_16,59.2,"Int. grund.: 2x4(5m+30s) køres som 2  intervaller af ialt 22m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
+IG: 2x3(5m+30s),2x3(5m+30s),30_12,44.4,"Int. grund.: 2x3(5m+30s) køres som 2 intervaller af ialt 16.30m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
+IG: 2x4(5m+30s),2x4(5m+30s),40_16,59.2,"Int. grund.: 2x4(5m+30s) køres som 2 intervaller af ialt 22m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
-IG: 3x3(5m+30s),3x3(5m+30s),45_18,66.6,"Int. grund.: 3x3(5m+30s) køres som 3  intervaller af ialt 16.30m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
+IG: 3x3(5m+30s),3x3(5m+30s),45_18,66.6,"Int. grund.: 3x3(5m+30s) køres som 3 intervaller af ialt 16.30m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
 ,,,,
 IG: 1x3(3m+30s),1x3(3m+30s),15_6,22.2,"Int. grund.: 1x3(3m+30s) køres som 1 interval af ialt 10.30m. Der køres 3 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 3 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 IG: 1x4(3m+30s),1x4(3m+30s),20_8,29.6,"Int. grund.: 1x4(3m+30s) køres som 1 interval af ialt 14min. Der køres 3 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 3 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
-IG: 2x3(3m+30s),2x3(3m+30s),30_12,44.4,"Int. grund.: 2x3(3m+30s) køres som 2  intervaller af ialt 10.30m. Der køres 3 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 3 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
-IG: 2x3(3m+30s),2x3(3m+30s),40_16,59.2,"Int. grund.: 2x4(3m+30s) køres som 2  intervaller af ialt 14m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
+IG: 2x3(3m+30s),2x3(3m+30s),30_12,44.4,"Int. grund.: 2x3(3m+30s) køres som 2 intervaller af ialt 10.30m. Der køres 3 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 3 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
+IG: 2x3(3m+30s),2x3(3m+30s),40_16,59.2,"Int. grund.: 2x4(3m+30s) køres som 2 intervaller af ialt 14m. Der køres 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
 IG: 3x3(3m+30s),3x3(3m+30s),45_18,66.6,"Int. grund.: 3x3(3m+30s) køres som 3  intervaller af ialt 10.30m. Der køres 3 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 3 min Int. grund.... osv. De 30 sek køres med konstant stigende power."
 ,,,,
 ,,,,
-IG: 15x(3+1)m,15x(3+1)m,45,30.6,"Int. grund.: 15x(3+1)m køres som 15 intervaller á 3 min med 1 min pause. Kadance 80-100, puls 10-20 slag under AT"
+IG: 15x(3+1)m,15x(3+1)m,45,30.6,"Int. grund.: 15x(3+1)m køres som 15 intervaller af 3 min med 1 min pause. kadence 80-100, puls 10-20 slag under AT"
+,,,,
+,,,,
+,,,,
+IG: 1x(3-2-1)m ,1x(3-2-1)m ,6,13.6,"Int. grund.: 1x(3-2-1)m løbes som 1 interval á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 18 slag under og 1 min. 10 slag under AT. "
+IG: 1x(5-3-2)m ,1x(5-3-2)m ,10,6.8,"Int. grund.: 1x(5-3-2)m løbes som 1 interval á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. "
+IG: 1x(10-3-2)m ,1x(10-3-2)m ,15,10.2,"Int. grund.: 1x(10-3-2)m løbes som 1 interval á i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT."
+IG: 1x(10-8-2)m ,1x(10-8-2)m ,20,13.6,"Int. grund.: 1x(10-8-2)m løbes som 1 interval  á i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 18 slag under og 2 min. 10 slag under AT. "
+,,,,
+,,,,
+IG: 2x(3-2-1)m ,2x(3-2-1)m ,12,8.16,"Int. grund.: 2x(3-2-1)m løbes som 2 intervaller  á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 18 slag under og 1 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 2x(5-3-2)m ,2x(5-3-2)m ,20,13.6,"Int. grund.: 2x(5-3-2)m løbes som 2 intervaller  á i alt 10 min. (5 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 2x(10-3-2)m ,2x(10-3-2)m ,30,20.4,"Int. grund.: 2x(10-3-2)m løbes som 2 intervaller  á i alt 15 min. (10 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+IG: 2x(10-8-2)m ,2x(10-8-2)m ,40,27.2,"Int. grund.: 2x(10-8-2)m løbes som 2 intervaller  á i alt 20 min. (10 minutter 20 pulsslag under AT, 8 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+,,,,
+,,,,
+IG: 3x(3-2-1)m ,3x(3-2-1)m ,18,12.24,"Int. grund.: 3x(3-2-1)m løbes som 3 intervaller  á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 18 slag under og 1 min. 10 slag under AT. Minimum. 4 min pause mellem de 3 intervalserier"
+IG: 3x(5-3-2)m ,3x(5-3-2)m ,30,20.4,"Int. grund.: 3x(5-3-2)m løbes som 3 intervaller  á 10 min. (5 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 3 intervalserier"
+IG: 3x(10-3-2)m ,3x(10-3-2)m ,45,30.6,"Int. grund.: 3x(10-3-2)m løbes som 3 intervaller  á 15 min. (10 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 3 intervalserier"
+,,,,
+,,,,
+IG: 4x(3-2-1)m ,4x(3-2-1)m ,24,16.32,"Int. grund.: 4x(3-2-1)m løbes som 4 intervaller  á i alt 6 min. (3 minutter 20 pulsslag under AT, 2 min 18 slag under og 1 min. 10 slag under AT. Minimum. 4 min pause mellem de 4 intervalserier"
+IG: 4x(8-3-2)m ,4x(8-3-2)m ,52,35.36,"Int. grund.: 4x(8-3-2)m løbes som 4 intervaller  á 13 min. (8 minutter 20 pulsslag under AT, 3 min 18 slag under og 2 min. 10 slag under AT. Minimum. 4 min pause mellem de 4 intervalserier"
+,,,,
+,,,,
+IG: 1x4m ,1x4m ,4,2.72,Int. grund.: 1x4m løbes som ét interval á 4 min. Puls 10-20 slag under AT
+IG: 1x5m ,1x5m ,5,3.4,Int. grund.: 1x5m løbes som ét interval á 8 min. Puls 10-20 slag under AT
+IG: 1x8m ,1x8m ,8,5.44,Int. grund.: 1x8m løbes som ét interval á 8 min. Puls 10-20 slag under AT
+IG: 1x10 m ,1x10 m ,10,6.8,Int. grund.: 1x10m løbes som ét interval á 10 min. Puls 10-20 slag under AT
+IG: 1x12m ,1x12m ,12,8.16,Int. grund.: 1x12m løbes som ét interval á 12 min. Puls 10-20 slag under AT
+IG: 1x15m ,1x15m ,15,10.2,Int. grund.: 1x15m løbes som ét interval á 15 min. Puls 10-20 slag under AT
+IG: 1x20m ,1x20m ,20,13.6,Int. grund.: 1x20m løbes som ét interval á 20 min. Puls 10-20 slag under AT
+IG: 1x25m ,1x25m ,25,17,Int. grund.: 1x25m løbes som ét interval á 25 min. Puls 10-20 slag under AT
+IG: 1x30m ,1x30m ,30,20.4,Int. grund.: 1x30m løbes som ét interval á 30 min. Puls 10-20 slag under AT
+,,,,
+IG: 2x4m ,2x4m ,8,5.44,Int. grund.: 2x4m løbes som 2 intervaller á 4 min. Puls 10-20 slag under AT
+IG: 2x5m ,2x5m ,10,6.8,Int. grund.: 2x5m løbes som 2 intervaller á 5 min. Puls 10-20 slag under AT
+IG: 2x8m ,2x8m ,16,10.88,Int. grund.: 2x8m løbes som 2 intervaller á 8 min. Puls 10-20 slag under AT
+IG: 2x10m ,2x10m ,20,13.6,Int. grund.: 2x10m løbes som 2 intervaller á 10 min. Puls 10-20 slag under AT
+IG: 2x12m ,2x12m ,24,16.32,Int. grund.: 2x12m løbes som 2 intervaller á 12 min. Puls 10-20 slag under AT
+IG: 2x15m ,2x15m ,30,20.4,Int. grund.: 2x15m løbes som 2 intervaller á 15 min. Puls 10-20 slag under AT
+IG: 2x20m ,2x20m ,40,27.2,Int. grund.: 2x20m løbes som 2 intervaller á 20 min. Puls 10-20 slag under AT
+IG: 2x25m ,2x25m ,50,34,Int. grund.: 2x25m løbes som 2 intervaller á 25 min. Puls 10-20 slag under AT
+IG: 2x30m ,2x30m ,60,40.8,Int. grund.: 2x30m løbes som 2 intervaller á 30 min. Puls 10-20 slag under AT
+,,,,
+IG: 3x5m ,3x5m ,15,10.2,Int. grund.: 3x5m løbes som 3 intervaller á 5 min. Puls 10-20 slag under AT
+IG: 3x8m ,3x8m ,24,16.32,Int. grund.: 3x8m løbes som 3 intervaller á 8 min. Puls 10-20 slag under AT
+IG: 3x10m ,3x10m ,30,20.4,Int. grund.: 3x10m løbes som 3 intervaller á 10 min. Puls 10-20 slag under AT
+IG: 3x12m ,3x12m ,36,24.48,Int. grund.: 3x12m løbes som 3 intervaller á 12 min. Puls 10-20 slag under AT
+IG: 3x15m ,3x15m ,45,30.6,Int. grund.: 3x15m løbes som 3 intervaller á 15 min. Puls 10-20 slag under AT
+IG: 3x20m ,3x20m ,60,40.8,Int. grund.: 3x20m løbes som 3 intervaller á 20 min. Puls 10-20 slag under AT
+,,,,
+,,,,
+,,,,
+IG: 2x(3+1)m ,2x(3+1)m ,6,4.08,Int. grund.: 2x(3+1)m løbes som 1 intervalserie med 2 gentagelser af 3 minutters arbejde og 1 minutters pause. Puls i Int. grund.-zone
+IG: 3x(3+1)m ,3x(3+1)m ,9,6.12,Int. grund.: 3x(3+1)m løbes som 1 intervalserie med 3 gentagelser af 3 minutters arbejde og 1 minutters pause. Puls i Int. grund.-zone
+IG: 4x(3+1)m ,4x(3+1)m ,12,8.16,Int. grund.: 4x(3+1)m løbes som 1 intervalserie med 4 gentagelser af 3 minutters arbejde og 1 minutters pause. Puls i Int. grund.-zone
+IG: 5x(3+1)m ,5x(3+1)m ,15,10.2,Int. grund.: 5x(3+1)m løbes som 1 intervalserie med 5 gentagelser af 3 minutters arbejde og 1 minutters pause. Puls i Int. grund.-zone
+,,,,
+,,,,
+IG: 4+1+4…m ,4+1+4…m ,4_1,3.72,"Int. grund.: 4+1+4…m, løbes som 4 min ca. 10-18 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca. 10-18 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+IG: 3+1+3…m ,3+1+3…m ,3_1,"3, 04","Int. grund.: 3+1+3…m, løbes som 3 min ca. 10-18 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca. 10-18 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+,,,,
+IG: 1x3(5m+30s) ,1x3(5m+30s) ,18_6,22.2,"Int. grund.: 1x3(5m+30s) løbes som 1 interval af ialt 16.30m. Der løbes 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek løbes med konstant stigende power."
+IG: 2x3(5m+30s) ,2x3(5m+30s) ,30_12,44.4,"Int. grund.: 2x3(5m+30s) løbes som 2  intervaller af ialt 16.30m. Der løbes 5 min i Int. grund.-zone efterfølgende af 30 sek. power på stigning, derefter 5 min Int. grund.... osv. De 30 sek løbes med konstant stigende power."
+,,,,
+,,,,
 ,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,Sub-AT,,,
 ,,,,
 ,,,0.77,
-Sub-AT: 1x(3-2-1)m,1x(3-2-1)m,6,4.62,"Sub-AT: 1x(3-2-1)m køres som 1 interval á i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
-Sub-AT: 1x(5-3-2)m,1x(5-3-2)m,10,7.7,"Sub-AT: 1x(5-3-2)m køres som 1 interval á i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
-Sub-AT: 1x(10-3-2)m,1x(10-3-2)m,15,11.55,"Sub-AT: 1x(10-3-2)m køres som 1 interval á i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
-Sub-AT: 1x(10-5-2)m,1x(10-5-2)m,17,13.09,"Sub-AT: 1x(10-5-2)m køres som 1 interval á i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT."
-Sub-AT: 1x(15-8-2)m,1x(15-8-2)m,25,19.25,"Sub-AT: 1x(110-15-2)m køres som 1 interval á i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT."
+Sub-AT: 1x(3-2-1)m,1x(3-2-1)m,6,4.62,"Sub-AT: 1x(3-2-1)m køres som 1 interval af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
+Sub-AT: 1x(5-3-2)m,1x(5-3-2)m,10,7.7,"Sub-AT: 1x(5-3-2)m køres som 1 interval af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
+Sub-AT: 1x(10-3-2)m,1x(10-3-2)m,15,11.55,"Sub-AT: 1x(10-3-2)m køres som 1 interval af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
+Sub-AT: 1x(10-5-2)m,1x(10-5-2)m,17,13.09,"Sub-AT: 1x(10-5-2)m køres som 1 interval af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT."
+Sub-AT: 1x(15-8-2)m,1x(15-8-2)m,25,19.25,"Sub-AT: 1x(15-8-2)m køres som 1 interval af i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT."
 ,,,,
 ,,,,
-Sub-AT: 2x(3-2-1)m,2x(3-2-1)m,12,9.24,"Sub-AT: 2x(3-2-1)m køres som 2 intervaller á i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
-Sub-AT: 2x(5-3-2)m,2x(5-3-2)m,20,15.4,"Sub-AT: 2x(5-3-2)m køres som 2 intervaller  á i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 2x(10-3-2)m,2x(10-3-2)m,30,23.1,"Sub-AT: 2x(10-3-2)m køres som 2 intervaller  á i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 2x(10-5-2)m,2x(10-5-2)m,34,26.18,"Sub-AT: 2x(10-5-2)m køres som 2 intervaller  á i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 2x(15-8-2)m,2x(15-8-2)m,50,38.5,"Sub-AT: 2x(110-15-2)m køres som 2 intervaller  á i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(3-2-1)m,2x(3-2-1)m,12,9.24,"Sub-AT: 2x(3-2-1)m køres som 2 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(5-3-2)m,2x(5-3-2)m,20,15.4,"Sub-AT: 2x(5-3-2)m køres som 2 intervaller  af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(10-3-2)m,2x(10-3-2)m,30,23.1,"Sub-AT: 2x(10-3-2)m køres som 2 intervaller  af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(10-5-2)m,2x(10-5-2)m,34,26.18,"Sub-AT: 2x(10-5-2)m køres som 2 intervaller  af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(15-8-2)m,2x(15-8-2)m,50,38.5,"Sub-AT: 2x(15-8-2)m køres som 2 intervaller  af i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
 ,,,,
 ,,,,
-Sub-AT: 3x(3-2-1)m,3x(3-2-1)m,18,13.86,"Sub-AT: 3x(3-2-1)m køres som 3 intervaller á i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
-Sub-AT: 3x(5-3-2)m,3x(5-3-2)m,30,23.1,"Sub-AT: 3x(5-3-2)m køres som 3 intervaller  á i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 3x(10-3-2)m,3x(10-3-2)m,45,34.65,"Sub-AT: 3x(10-3-2)m køres som 3 intervaller  á i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 3x(10-5-2)m,3x(10-5-2)m,51,39.27,"Sub-AT: 3x(10-5-2)m køres som 3 intervaller  á i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-Sub-AT: 3x(15-8-2)m,3x(15-8-2)m,75,57.75,"Sub-AT: 3x(110-15-2)m køres som 3 intervaller  á i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(3-2-1)m,3x(3-2-1)m,18,13.86,"Sub-AT: 3x(3-2-1)m køres som 3 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(5-3-2)m,3x(5-3-2)m,30,23.1,"Sub-AT: 3x(5-3-2)m køres som 3 intervaller  af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(10-3-2)m,3x(10-3-2)m,45,34.65,"Sub-AT: 3x(10-3-2)m køres som 3 intervaller  af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(10-5-2)m,3x(10-5-2)m,51,39.27,"Sub-AT: 3x(10-5-2)m køres som 3 intervaller  af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(15-8-2)m,3x(15-8-2)m,75,57.75,"Sub-AT: 3x(15-8-2)m køres som 3 intervaller  af i alt 25 min. (15 minutter 10 pulsslag under AT, 8 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
 ,,,,
-Sub-AT: 4x(3-2-1)m,4x(3-2-1)m,24,18.48,"Sub-AT: 4x(3-2-1)m køres som 4 intervaller á i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
-Sub-AT: 4x(5-3-2)m,4x(5-3-2)m,40,30.8,"Sub-AT: 4x(5-3-2)m køres som 4 intervaller  á i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
-,,,,
-,,,,
-Sub-AT: 1x2m,1x2m,2,1.54,"Sub-AT: 1x2m køres som ét interval á 2 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x3m,1x3m,3,2.31,"Sub-AT: 1x3m køres som ét interval á 3 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x4m,1x4m,4,3.08,"Sub-AT: 1x4m køres som ét interval á 4 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x5m,1x5m,5,3.85,"Sub-AT: 1x5m køres som ét interval á 5 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x8m,1x8m,8,6.16,"Sub-AT: 1x8m køres som ét interval á 8 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x10m,1x10m,10,7.7,"Sub-AT: 1x10m køres som ét interval á 10 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x12m,1x12m,12,9.24,"Sub-AT: 1x12m køres som ét interval á 12 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x15m,1x15m,15,11.55,"Sub-AT: 1x15m køres som ét interval á 15 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x20m,1x20m,20,15.4,"Sub-AT: 1x20m køres som ét interval á 20 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x25m,1x25m,25,19.25,"Sub-AT: 1x25m køres som ét interval á 25 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 1x30m,1x30m,30,23.1,"Sub-AT: 1x30m køres som ét interval á 30 min. Kadance 85-100, puls 5-10 slag under AT"
-,,,,
-Sub-AT: 2x3m,2x3m,6,4.62,"Sub-AT: 2x3m køres som 2 intervaller á 4 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x4m,2x4m,8,6.16,"Sub-AT: 2x4m køres som 2 intervaller á 4 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x5m,2x5m,10,7.7,"Sub-AT: 2x5m køres som 2 intervaller á 5 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x8m,2x8m,16,12.32,"Sub-AT: 2x8m køres som 2 intervaller á 8 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x10m,2x10m,20,15.4,"Sub-AT: 2x10m køres som 2 intervaller á 10 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x12m,2x12m,24,18.48,"Sub-AT: 2x12m køres som 2 intervaller á 12 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x15m,2x15m,30,23.1,"Sub-AT: 2x15m køres som 2 intervaller á 15 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x20m,2x20m,40,30.8,"Sub-AT: 2x20m køres som 2 intervaller á 20 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x25m,2x25m,50,38.5,"Sub-AT: 2x25m køres som 2 intervaller á 25 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 2x30m,2x30m,60,46.2,"Sub-AT: 2x30m køres som 2 intervaller á 30 min. Kadance 85-100, puls 5-10 slag under AT"
-,,,,
-Sub-AT: 3x3m,3x3m,9,6.93,"Sub-AT: 3x3m køres som 3 intervaller á 3 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x4m,3x4m,12,9.24,"Sub-AT: 3x4m køres som 3 intervaller á 4 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x5m,3x5m,15,11.55,"Sub-AT: 3x5m køres som 3 intervaller á 5 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x8m,3x8m,24,18.48,"Sub-AT: 3x8m køres som 3 intervaller á 8 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x10m,3x10m,30,23.1,"Sub-AT: 3x10m køres som 3 intervaller á 10 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x12m,3x12m,36,27.72,"Sub-AT: 3x12m køres som 3 intervaller á 12 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x15m,3x15m,45,34.65,"Sub-AT: 3x15m køres som 3 intervaller á 15 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 3x20m,3x20m,60,46.2,"Sub-AT: 3x20m køres som 3 intervaller á 20 min. Kadance 85-100, puls 5-10 slag under AT"
-,,,,
-Sub-AT: 4x3m,4x3m,12,9.24,"Sub-AT: 4x3m køres som 4 intervaller á 3 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 4x4m,4x4m,16,12.32,"Sub-AT: 4x4m køres som 4 intervaller á 4 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 4x5m,4x5m,20,15.4,"Sub-AT: 4x5m køres som 4 intervaller á 5 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 4x8m,4x8m,32,24.64,"Sub-AT: 4x8m køres som 4 intervaller á 8 min. Kadance 85-100, puls 5-10 slag under AT"
-,,,,
-Sub-AT: 5x5m,5x5m,25,19.25,"Sub-AT: 5x5m køres som 5 intervaller á 5 min. Kadance 85-100, puls 5-10 slag under AT"
-Sub-AT: 5x8m,5x8m,40,30.8,"Sub-AT: 5x8m køres som 5 intervaller á 8 min. Kadance 85-100, puls 5-10 slag under AT"
+Sub-AT: 4x(3-2-1)m,4x(3-2-1)m,24,18.48,"Sub-AT: 4x(3-2-1)m køres som 4 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
+Sub-AT: 4x(5-3-2)m,4x(5-3-2)m,40,30.8,"Sub-AT: 4x(5-3-2)m køres som 4 intervaller  af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum 4 min pause mellem de 2 intervalserier"
 ,,,,
 ,,,,
+Sub-AT: 1x2m,1x2m,2,1.54,"Sub-AT: 1x2m køres som 1 interval af 2 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x3m,1x3m,3,2.31,"Sub-AT: 1x3m køres som 1 interval af 3 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x4m,1x4m,4,3.08,"Sub-AT: 1x4m køres som 1 interval af 4 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x5m,1x5m,5,3.85,"Sub-AT: 1x5m køres som 1 interval af 5 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x8m,1x8m,8,6.16,"Sub-AT: 1x8m køres som 1 interval af 8 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x10m,1x10m,10,7.7,"Sub-AT: 1x10m køres som 1 interval af 10 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x12m,1x12m,12,9.24,"Sub-AT: 1x12m køres som 1 interval af 12 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x15m,1x15m,15,11.55,"Sub-AT: 1x15m køres som 1 interval af 15 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x20m,1x20m,20,15.4,"Sub-AT: 1x20m køres som 1 interval af 20 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x25m,1x25m,25,19.25,"Sub-AT: 1x25m køres som 1 interval af 25 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 1x30m,1x30m,30,23.1,"Sub-AT: 1x30m køres som 1 interval af 30 min. kadence 85-100, puls 5-10 slag under AT"
 ,,,,
-Sub-AT: 4+1+4…m,4+1+4…m,1x15,12.2,"Sub-AT: 4+1+4…m, køres som 4 min ca 10-15 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca 10-15 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
-Sub-AT: 3+1+3…m,3+1+3…m,1x12,10,"Sub-AT: 3+1+3…m, køres som 3 min ca 10-15 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca 10-15 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+Sub-AT: 2x3m,2x3m,6,4.62,"Sub-AT: 2x3m køres som 2 intervaller af 3 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x4m,2x4m,8,6.16,"Sub-AT: 2x4m køres som 2 intervaller af 4 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x5m,2x5m,10,7.7,"Sub-AT: 2x5m køres som 2 intervaller af 5 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x8m,2x8m,16,12.32,"Sub-AT: 2x8m køres som 2 intervaller af 8 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x10m,2x10m,20,15.4,"Sub-AT: 2x10m køres som 2 intervaller af 10 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x12m,2x12m,24,18.48,"Sub-AT: 2x12m køres som 2 intervaller af 12 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x15m,2x15m,30,23.1,"Sub-AT: 2x15m køres som 2 intervaller af 15 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x20m,2x20m,40,30.8,"Sub-AT: 2x20m køres som 2 intervaller af 20 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x25m,2x25m,50,38.5,"Sub-AT: 2x25m køres som 2 intervaller af 25 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 2x30m,2x30m,60,46.2,"Sub-AT: 2x30m køres som 2 intervaller af 30 min. kadence 85-100, puls 5-10 slag under AT"
+,,,,
+Sub-AT: 3x3m,3x3m,9,6.93,"Sub-AT: 3x3m køres som 3 intervaller af 3 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x4m,3x4m,12,9.24,"Sub-AT: 3x4m køres som 3 intervaller af 4 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x5m,3x5m,15,11.55,"Sub-AT: 3x5m køres som 3 intervaller af 5 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x8m,3x8m,24,18.48,"Sub-AT: 3x8m køres som 3 intervaller af 8 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x10m,3x10m,30,23.1,"Sub-AT: 3x10m køres som 3 intervaller af 10 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x12m,3x12m,36,27.72,"Sub-AT: 3x12m køres som 3 intervaller af 12 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x15m,3x15m,45,34.65,"Sub-AT: 3x15m køres som 3 intervaller af 15 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 3x20m,3x20m,60,46.2,"Sub-AT: 3x20m køres som 3 intervaller af 20 min. kadence 85-100, puls 5-10 slag under AT"
+,,,,
+Sub-AT: 4x3m,4x3m,12,9.24,"Sub-AT: 4x3m køres som 4 intervaller af 3 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 4x4m,4x4m,16,12.32,"Sub-AT: 4x4m køres som 4 intervaller af 4 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 4x5m,4x5m,20,15.4,"Sub-AT: 4x5m køres som 4 intervaller af 5 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 4x8m,4x8m,32,24.64,"Sub-AT: 4x8m køres som 4 intervaller af 8 min. kadence 85-100, puls 5-10 slag under AT"
+,,,,
+Sub-AT: 5x5m,5x5m,25,19.25,"Sub-AT: 5x5m køres som 5 intervaller af 5 min. kadence 85-100, puls 5-10 slag under AT"
+Sub-AT: 5x8m,5x8m,40,30.8,"Sub-AT: 5x8m køres som 5 intervaller af 8 min. kadence 85-100, puls 5-10 slag under AT"
 ,,,,
 ,,,,
-Sub-AT: 2x(5+3),2x(5+3),10,7.7,"Sub-AT: 2x(5+3)m køres som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
-Sub-AT: 3x(5+3),3x(5+3),15,11.55,"Sub-AT: 3x(5+3)m køres som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
-Sub-AT: 4x(5+3),4x(5+3),20,15.4,"Sub-AT: 4x(5+3)m køres som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
-Sub-AT: 5x(5+3),5x(5+3),25,19.25,"Sub-AT: 5x(5+3)m køres som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
-Sub-AT: 6x(5+3),6x(5+3),30,23.1,"Sub-AT: 6x(5+3)m køres som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
-Sub-AT: 7x(5+3),7x(5+3),35,26.95,"Sub-AT: 7x(5+3)m køres som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i Sub-AT-zone"
 ,,,,
+Sub-AT: 4+1+4…m,4+1+4…m,1x15,12.2,"Sub-AT: 4+1+4…m, køres som 4 min ca. 10-15 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca. 10-15 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+Sub-AT: 3+1+3…m,3+1+3…m,1x12,10,"Sub-AT: 3+1+3…m, køres som 3 min ca. 10-15 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca. 10-15 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+,,,,
+,,,,
+Sub-AT: 2x(5+2)m,2x(5+2)m,10,7.7,"Sub-AT: 2x(5+2)m køres som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 3x(5+2)m,3x(5+2)m,15,11.55,"Sub-AT: 3x(5+2)m køres som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 4x(5+2)m,4x(5+2)m,20,15.4,"Sub-AT: 4x(5+2)m køres som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 5x(5+2)m,5x(5+2)m,25,19.25,"Sub-AT: 5x(5+2)m køres som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 6x(5+2)m,6x(5+2)m,30,23.1,"Sub-AT: 6x(5+2)m køres som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 7x(5+2)m,7x(5+2)m,35,26.95,"Sub-AT: 7x(5+2)m køres som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 8x(5+2)m,8x(5+2)m,40,30.8,"Sub-AT: 8x(5+2)m køres som 1 intervalserie med 8 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 9x(5+2)m,9x(5+2)m,45,34.65,"Sub-AT: 9x(5+2)m køres som 1 intervalserie med 9 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
+Sub-AT: 10x(5+2)m,10x(5+2)m,50,38.5,"Sub-AT: 10x(5+2)m køres som 1 intervalserie med 10 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i Sub-AT-zone"
 ,,,,
 ,,,,
 Sub-AT: 1x3(5m+30s),1x3(5m+30s),15_6,23.55,"Sub-AT: 1x3(5m+30s) køres som 1 interval af ialt 16.30m. Der køres 5 min i sub-AT-zone efterfølgende af 30 sek. power på stigning, derefter 5 min sub-AT... osv. De 30 sek køres med konstant stigende power."
@@ -173,317 +244,732 @@ Sub-AT: 2x4(3m+30s),2x4(3m+30s),32_16,56.64,"Sub-AT: 2x4(3m+30s) køres som 2  i
 ,,,,
 ,,,,
 Sub-AT: 3x3(3m+30s),3x3(3m+30s),27_18,56.79,"Sub-AT: 3x3(3m+30s) køres som 3  intervaller af ialt 16.30m. Der køres 3 min i sub-AT-zone efterfølgende af 30 sek. power på stigning, derefter 3 min sub-AT... osv. De 30 sek køres med konstant stigende power."
+,,,,
+,,,,
+,,,,
+Sub-AT: 1x(3-2-1)m ,1x(3-2-1)m ,6,4.62,"Sub-AT: 1x(3-2-1)m løbes som 1 interval af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 5 slag under og 1 min. 3 slag under AT. "
+Sub-AT: 1x(5-3-2)m ,1x(5-3-2)m ,10,7.7,"Sub-AT: 1x(5-3-2)m løbes som 1 interval af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
+Sub-AT: 1x(10-3-2)m ,1x(10-3-2)m ,15,11.55,"Sub-AT: 1x(10-3-2)m løbes som 1 interval af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. "
+Sub-AT: 1x(10-5-2)m ,1x(10-5-2)m ,17,13.09,"Sub-AT: 1x(10-5-2)m løbes som 1 interval af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT."
+Sub-AT: 1x(15-5-2)m ,1x(15-5-2)m ,22,16.94,"Sub-AT: 1x(15-5-2)m løbes som 1 interval af i alt 22 min. (15 minutter 10 pulsslag under AT, 5 min 5 slag under og 2 min. 3 slag under AT."
+,,,,
+,,,,
+,,,,
+,,,,
+Sub-AT: 2x(3-2-1)m ,2x(3-2-1)m ,12,9.24,"Sub-AT: 2x(3-2-1)m løbes som 2 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 8 slag under og 1 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(5-3-2)m ,2x(5-3-2)m ,20,15.4,"Sub-AT: 2x(5-3-2)m løbes som 2 intervaller af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(10-3-2)m ,2x(10-3-2)m ,30,23.1,"Sub-AT: 2x(10-3-2)m løbes som 2 intervaller af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(10-5-2)m ,2x(10-5-2)m ,34,26.18,"Sub-AT: 2x(10-5-2)m løbes som 2 intervaller af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 2x(15-5-2)m ,2x(15-5-2)m ,44,33.88,"Sub-AT: 2x(15-5-2)m løbes som 2 intervaller af i alt 22 min. (15 minutter 10 pulsslag under AT, 5 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+,,,,
+,,,,
+,,,,
+Sub-AT: 3x(3-2-1)m ,3x(3-2-1)m ,18,13.86,"Sub-AT: 3x(3-2-1)m løbes som 3 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 8 slag under og 1 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(5-3-2)m ,3x(5-3-2)m ,30,23.1,"Sub-AT: 3x(5-3-2)m løbes som 3 intervaller af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(10-3-2)m ,3x(10-3-2)m ,45,34.65,"Sub-AT: 3x(10-3-2)m løbes som 3 intervaller af i alt 15 min. (10 minutter 10 pulsslag under AT, 3 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(10-5-2)m ,3x(10-5-2)m ,51,39.27,"Sub-AT: 3x(10-5-2)m løbes som 3 intervaller af i alt 17 min. (10 minutter 10 pulsslag under AT, 5 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 3x(15-5-2)m ,3x(15-5-2)m ,66,50.82,"Sub-AT: 3x(15-5-2)m løbes som 3 intervaller af i alt 22 min. (15 minutter 10 pulsslag under AT, 5 min 8 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+,,,,
+Sub-AT: 4x(3-2-1)m ,4x(3-2-1)m ,24,18.48,"Sub-AT: 4x(3-2-1)m løbes som 4 intervaller af i alt 6 min. (3 minutter 10 pulsslag under AT, 2 min 8 slag under og 1 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+Sub-AT: 4x(5-3-2)m ,4x(5-3-2)m ,40,30.8,"Sub-AT: 4x(5-3-2)m løbes som 4 intervaller af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+,,,,
+Sub-AT: 5x(5-3-2)m ,5x(5-3-2)m ,50,38.5,"Sub-AT: 5x(5-3-2)m løbes som 4 intervaller af i alt 10 min. (5 minutter 10 pulsslag under AT, 3 min 5 slag under og 2 min. 3 slag under AT. Minimum. 4 min pause mellem de 2 intervalserier"
+,,,,
+,,,,
+Sub-AT: 1x2m ,1x2m ,2,1.54,Sub-AT: 1x2m løbes som ét interval af 2 min. Puls 8-10 slag under AT
+Sub-AT: 1x3m ,1x3m ,3,2.31,Sub-AT: 1x3m løbes som ét interval af 3 min. Puls 8-10 slag under AT
+Sub-AT: 1x4m ,1x4m ,4,3.08,Sub-AT: 1x4m løbes som ét interval af 4 min. Puls 8-10 slag under AT
+Sub-AT: 1x5m ,1x5m ,5,3.85,Sub-AT: 1x5m løbes som ét interval af 5 min. Puls 5-10 slag under AT
+Sub-AT: 1x8m ,1x8m ,8,6.16,Sub-AT: 1x8m løbes som ét interval af 8 min. Puls 8-10 slag under AT
+Sub-AT: 1x10m ,1x10m ,10,7.7,Sub-AT: 1x10m løbes som ét interval af 10 min. Puls 8-10 slag under AT
+Sub-AT: 1x12m ,1x12m ,12,9.24,Sub-AT: 1x12m løbes som ét interval af 12 min. Puls 8-10 slag under AT
+Sub-AT: 1x15m ,1x15m ,15,11.55,Sub-AT: 1x15m løbes som ét interval af 15 min. Puls 8-10 slag under AT
+Sub-AT: 1x20m ,1x20m ,20,15.4,Sub-AT: 1x20m løbes som ét interval af 20 min. Puls 8-10 slag under AT
+Sub-AT: 1x25m ,1x25m ,25,19.25,Sub-AT: 1x25m løbes som ét interval af 25 min. Puls 8-10 slag under AT
+Sub-AT: 1x30m ,1x30m ,30,23.1,Sub-AT: 1x30m løbes som ét interval af 30 min. Puls 8-10 slag under AT
+,,,,
+Sub-AT: 2x2m ,2x2m ,4,3.08,Sub-AT: 2x2m løbes som 2 intervaller af 2 min. Puls 8-10 slag under AT
+Sub-AT: 2x3m ,2x3m ,6,4.62,Sub-AT: 2x3m løbes som 2 intervaller af 3 min. Puls 8-10 slag under AT
+Sub-AT: 2x4m ,2x4m ,8,6.16,Sub-AT: 2x4m løbes som 2 intervaller af 4 min. Puls 8-10 slag under AT
+Sub-AT: 2x5m ,2x5m ,10,7.7,Sub-AT: 2x5m løbes som 2 intervaller af 5 min. Puls 8-10 slag under AT
+Sub-AT: 2x8m ,2x8m ,16,12.32,Sub-AT: 2x8m løbes som 2 intervaller af 8 min. Puls 8-10 slag under AT
+Sub-AT: 2x10m ,2x10m ,20,15.4,Sub-AT: 2x10m løbes som 2 intervaller af 10 min. Puls 8-10 slag under AT
+Sub-AT: 2x12m ,2x12m ,24,18.48,Sub-AT: 2x12m løbes som 2 intervaller af 12 min. Puls 8-10 slag under AT
+Sub-AT: 2x15m ,2x15m ,30,23.1,Sub-AT: 2x15m løbes som 2 intervaller af 15 min. Puls 8-10 slag under AT
+Sub-AT: 2x20m ,2x20m ,40,30.8,Sub-AT: 2x20m løbes som 2 intervaller af 20 min. Puls 8-10 slag under AT
+Sub-AT: 2x25m ,2x25m ,50,38.5,Sub-AT: 2x25m løbes som 2 intervaller af 25 min. Puls 8-10 slag under AT
+Sub-AT: 2x30m ,2x30m ,60,46.2,Sub-AT: 2x30m løbes som 2 intervaller af 30 min. Puls 8-10 slag under AT
+,,,,
+Sub-AT: 3x2m ,3x2m ,6,4.62,Sub-AT: 3x2m løbes som 3 intervaller af 2 min. Puls 8-10 slag under AT
+Sub-AT: 3x3m ,3x3m ,9,6.93,Sub-AT: 3x3m løbes som 3 intervaller af 3 min. Puls 8-10 slag under AT
+Sub-AT: 3x4m ,3x4m ,12,9.24,Sub-AT: 3x4m løbes som 3 intervaller af 4 min. Puls 8-10 slag under AT
+Sub-AT: 3x5m ,3x5m ,15,11.55,Sub-AT: 3x5m løbes som 3 intervaller af 5 min. Puls 5-10 slag under AT
+Sub-AT: 3x8m ,3x8m ,24,18.48,Sub-AT: 3x8m løbes som 3 intervaller af 8 min. Puls 8-10 slag under AT
+Sub-AT: 3x10m ,3x10m ,30,23.1,Sub-AT: 3x10m løbes som 3 intervaller af 10 min. Puls 8-10 slag under AT
+Sub-AT: 3x12m ,3x12m ,36,27.72,Sub-AT: 3x12m løbes som 3 intervaller af 12 min. Puls 8-10 slag under AT
+Sub-AT: 3x15m ,3x15m ,45,34.65,Sub-AT: 3x15m løbes som 3 intervaller af 15 min. Puls 8-10 slag under AT
+Sub-AT: 3x20m ,3x20m ,60,46.2,Sub-AT: 3x20m løbes som 3 intervaller af 20 min. Puls 8-10 slag under AT
+,,,,
+Sub-AT: 4x4m ,4x4m ,16,12.32,Sub-AT: 4x4m løbes som 4 intervaller af 4 min. Puls 8-10 slag under AT
+Sub-AT: 4x5m ,4x5m ,20,15.4,Sub-AT: 4x5m løbes som 4 intervaller af 5 min. Puls 5-10 slag under AT
+Sub-AT: 4x8 m ,4x8 m ,32,24.64,Sub-AT: 4x8m løbes som 4 intervaller af 8 min. Puls 8-10 slag under AT
+,,,,
+Sub-AT: 5x4m ,5x4m ,20,15.4,Sub-AT: 5x4m løbes som 5 intervaller af 4 min. Puls 8-10 slag under AT
+Sub-AT: 5x5m ,5x5m ,25,19.25,Sub-AT:5x5m løbes som 5 intervaller af 5 min. Puls 8-10 slag under AT
+,,,,
+Sub-AT: 4+1+4…m ,4+1+4…m ,1x15,12.2,"Sub-AT: 4+1+4…m, løbes som 4 min ca. 8-10 slag under AT + 1 min med øget belastning mod AT-zone + 4 min ca. 8-10 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+Sub-AT: 3+1+3…m ,3+1+3…m ,1x12,10,"Sub-AT: 3+1+3…m, løbes som 3 min ca. 8-10 slag under AT + 1 min med øget belastning mod AT-zone + 3 min ca. 8-10 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+Sub-AT: 2+1+2…m ,2+1+2…m ,1x12,10.2,"Sub-AT: 2+1+2…m, løbes som 2 min ca. 8-10 slag under AT + 1 min med øget belastning mod AT-zone + 2 min ca. 8-10 slag under AT.. osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+,,,,
+Sub-AT: 2x(3+1)m ,2x(3+1)m ,6,4.62,Sub-AT: 2x(3+1)m løbes som 1 intervalserie med 2 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 3x(3+1)m ,3x(3+1)m ,9,6.93,Sub-AT: 3x(3+1)m løbes som 1 intervalserie med 3 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 4x(3+1)m ,4x(3+1)m ,12,9.24,Sub-AT: 4x(3+1)m løbes som 1 intervalserie med 4 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 5x(3+1)m ,5x(3+1)m ,15,11.55,Sub-AT: 5x(3+1)m løbes som 1 intervalserie med 5 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 6x(3+1)m ,6x(3+1)m ,18,13.86,Sub-AT: 6x(3+1)m løbes som 1 intervalserie med 6 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 7x(3+1)m ,7x(3+1)m ,21,16.17,Sub-AT: 7x(3+1)m løbes som 1 intervalserie med 7 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+Sub-AT: 8x(3+1)m ,8x(3+1)m ,24,18.48,Sub-AT: 8x(3+1)m løbes som 1 intervalserie med 8 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i Sub-AT-zone
+,,,,
+,,,,
+Sub-AT: 2x(5+2)m ,2x(5+2)m ,10,7.7,Sub-AT: 2x(5+2)m løbes som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 3x(5+2)m ,3x(5+2)m ,15,11.55,Sub-AT: 3x(5+2)m løbes som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 4x(5+2)m ,4x(5+2)m ,20,15.4,Sub-AT: 4x(5+2)m løbes som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 5x(5+2)m ,5x(5+2)m ,25,19.25,Sub-AT: 5x(5+2)m løbes som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 6x(5+2)m ,6x(5+2)m ,30,23.1,Sub-AT: 6x(5+2)m løbes som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 7x(5+2)m ,7x(5+2)m ,33,25.41,Sub-AT: 7x(5+2)m løbes som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 8x(5+2)m ,8x(5+2)m ,36,27.72,Sub-AT: 8x(5+2)m løbes som 1 intervalserie med 8 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 9x(5+2)m ,9x(5+2)m ,39,30.03,Sub-AT: 9x(5+2)m løbes som 1 intervalserie med 9 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+Sub-AT: 10x(5+2)m ,10x(5+2)m ,42,32.34,Sub-AT: 10x(5+2)m løbes som 1 intervalserie med 10 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i Sub-AT-zone
+,,,,
+,,,,
+,,,,
+Sub-AT: 1x3(5m+30s) ,1x3(5m+30s) ,15_6,23.55,"Sub-AT: 1x3(5m+30s) løbes som 1 sammenhængende interval af ialt 16.30m. Der løbes 5 min i sub-AT-zone efterfølgende af 30 sek. power på stigning, derefter 5 min sub-AT... osv. De 30 sek løbes med konstant stigende power."
+Sub-AT: 2x3(5m+30s) ,2x3(5m+30s) ,30_12,47.2,"Sub-AT: 2x3(5m+30s) løbes som 2 sammenhængende intervaller af ialt 16.30m. Der løbes 5 min i sub-AT-zone efterfølgende af 30 sek. power på stigning, derefter 5 min sub-AT... osv. De 30 sek løbes med konstant stigende power."
+,,,,
+,,,,
 ,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,,,,
 ,AT,,,
 ,,,1.0,
-AT: 1x3m,1x3m,3,3,"AT: 1x3m køres som ét interval á 3 min. Kadance 85-100, puls i AT-zone"
-AT: 1x4m,1x4m,4,4,"AT: 1x4m køres som ét interval á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 1x5m,1x5m,5,5,"AT: 1x5m køres som ét interval á 5 min. Kadance 85-100, puls i AT-zone"
-AT: 1x8m,1x8m,8,8,"AT: 1x8m køres som ét interval á 8 min. Kadance 85-100, puls i AT-zone"
-AT: 1x10m,1x10m,10,10,"AT: 1x10m køres som ét interval á 10 min. Kadance 85-100, puls i AT-zone"
-AT: 1x12m,1x12m,12,12,"AT: 1x12m køres som ét interval á 12 min. Kadance 85-100, puls i AT-zone"
-AT: 1x15m,1x15m,15,15,"AT: 1x15m køres som ét interval á 15 min. Kadance 85-100, puls i AT-zone"
-AT: 1x20m,1x20m,20,20,"AT: 1x20m køres som ét interval á 20 min. Kadance 85-100, puls i AT-zone"
-AT: 1x25m,1x25m,25,25,"AT: 1x25m køres som ét interval á 25 min. Kadance 85-100, puls i AT-zone"
-AT: 1x30m,1x30m,30,30,"AT: 1x30m køres som ét interval á 30 min. Kadance 85-100, puls i AT-zone"
-AT: 1x40m,1x40m,40,40,"AT: 1x40m køres som ét interval á 40 min. Kadance 85-100, puls i AT-zone"
-AT: 2x3m,2x3m,6,6,"AT: 2x3m køres som 2 intervaller á 3 min. Kadance 85-100, puls i AT-zone"
-AT: 2x4m,2x4m,8,8,"AT: 2x4m køres som 2 intervaller á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 2x5m,2x5m,10,10,"AT: 2x5m køres som 2 intervaller á 5 min. Kadance 85-100, puls i AT-zone"
-AT: 2x8m,2x8m,16,16,"AT: 2x8m køres som 2 intervaller á 8 min. Kadance 85-100, puls i AT-zone"
-AT: 2x10m,2x10m,20,20,"AT: 2x10m køres som 2 intervaller á 10 min. Kadance 85-100, puls i AT-zone"
-AT: 2x12m,2x12m,24,24,"AT: 2x12m køres som 2 intervaller á 12 min. Kadance 85-100, puls i AT-zone"
-AT: 2x15m,2x15m,30,30,"AT: 2x15m køres som 2 intervaller á 15 min. Kadance 85-100, puls i AT-zone"
-AT: 2x20m,2x20m,40,40,"AT: 2x20m køres som 2 intervaller á 20 min. Kadance 85-100, puls i AT-zone"
-AT: 2x25m,2x25m,50,50,"AT: 2x25m køres som 2 intervaller á 25 min. Kadance 85-100, puls i AT-zone"
-AT: 2x30m,2x30m,60,60,"AT: 2x30m køres som 2 intervaller á 30 min. Kadance 85-100, puls i AT-zone"
+AT: 1x3m,1x3m,3,3,"AT: 1x3m køres som 1 interval af 3 min. kadence 85-100, puls i AT-zone"
+AT: 1x4m,1x4m,4,4,"AT: 1x4m køres som 1 interval af 4 min. kadence 85-100, puls i AT-zone"
+AT: 1x5m,1x5m,5,5,"AT: 1x5m køres som 1 interval af 5 min. kadence 85-100, puls i AT-zone"
+AT: 1x8m,1x8m,8,8,"AT: 1x8m køres som 1 interval af 8 min. kadence 85-100, puls i AT-zone"
+AT: 1x10m,1x10m,10,10,"AT: 1x10m køres som 1 interval af 10 min. kadence 85-100, puls i AT-zone"
+AT: 1x12m,1x12m,12,12,"AT: 1x12m køres som 1 interval af 12 min. kadence 85-100, puls i AT-zone"
+AT: 1x15m,1x15m,15,15,"AT: 1x15m køres som 1 interval af 15 min. kadence 85-100, puls i AT-zone"
+AT: 1x20m,1x20m,20,20,"AT: 1x20m køres som 1 interval af 20 min. kadence 85-100, puls i AT-zone"
+AT: 1x25m,1x25m,25,25,"AT: 1x25m køres som 1 interval af 25 min. kadence 85-100, puls i AT-zone"
+AT: 1x30m,1x30m,30,30,"AT: 1x30m køres som 1 interval af 30 min. kadence 85-100, puls i AT-zone"
 ,,,,
-AT: 3x3m,3x3m,9,9,"AT: 3x3m køres som 3 intervaller á 3 min. Kadance 85-100, puls i AT-zone"
-AT: 3x4m,3x4m,12,12,"AT: 3x4m køres som 3 intervaller á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 3x5m,3x5m,15,15,"AT: 3x5m køres som 3 intervaller á 5 min. Kadance 85-100, puls i AT-zone"
-AT: 3x8m,3x8m,24,24,"AT: 3x8m køres som 3 intervaller á 8 min. Kadance 85-100, puls i AT-zone"
-AT: 3x10m,3x10m,30,30,"AT: 3x10m køres som 3 intervaller á 10 min. Kadance 85-100, puls i AT-zone"
-AT: 3x12m,3x12m,36,36,"AT: 3x12m køres som 3 intervaller á 12 min. Kadance 85-100, puls i AT-zone"
-AT: 3x15m,3x15m,45,45,"AT: 3x15m køres som 3 intervaller á 15 min. Kadance 85-100, puls i AT-zone"
-AT: 3x20m,3x20m,60,60,"AT: 3x20m køres som 3 intervaller á 30 min. Kadance 85-100, puls i AT-zone"
+AT: 2x3m,2x3m,6,6,"AT: 2x3m køres som 2 intervaller af 3 min. kadence 85-100, puls i AT-zone"
+AT: 2x4m,2x4m,8,8,"AT: 2x4m køres som 2 intervaller af 4 min. kadence 85-100, puls i AT-zone"
+AT: 2x5m,2x5m,10,10,"AT: 2x5m køres som 2 intervaller af 5 min. kadence 85-100, puls i AT-zone"
+AT: 2x8m,2x8m,16,16,"AT: 2x8m køres som 2 intervaller af 8 min. kadence 85-100, puls i AT-zone"
+AT: 2x10m,2x10m,20,20,"AT: 2x10m køres som 2 intervaller af 10 min. kadence 85-100, puls i AT-zone"
+AT: 2x12m,2x12m,24,24,"AT: 2x12m køres som 2 intervaller af 12 min. kadence 85-100, puls i AT-zone"
+AT: 2x15m,2x15m,30,30,"AT: 2x15m køres som 2 intervaller af 15 min. kadence 85-100, puls i AT-zone"
+AT: 2x20m,2x20m,40,40,"AT: 2x20m køres som 2 intervaller af 20 min. kadence 85-100, puls i AT-zone"
+AT: 2x25m,2x25m,50,50,"AT: 2x25m køres som 2 intervaller af 25 min. kadence 85-100, puls i AT-zone"
+AT: 2x30m,2x30m,60,60,"AT: 2x30m køres som 2 intervaller af 30 min. kadence 85-100, puls i AT-zone"
 ,,,,
-AT: 4x3m,4x3m,12,12,"AT: 4x3m køres som 3 intervaller á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 4x4m,4x4m,16,16,"AT: 4x4m køres som 4 intervaller á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 4x5m,4x5m,20,20,"AT: 4x5m køres som 4 intervaller á 5 min. Kadance 85-100, puls i AT-zone"
-AT: 4x8m,4x8m,32,32,"AT: 4x8m køres som 4 intervaller á 8 min. Kadance 85-100, puls i AT-zone"
-AT: 4x10m,4x10m,40,40,"AT: 4x10m køres som 4 intervaller á 10 min. Kadance 85-100, puls i AT-zone"
-AT: 4x15m,4x15m,60,60,"AT: 4x15m køres som 4 intervaller á 15 min. Kadance 85-100, puls i AT-zone"
+AT: 3x3m,3x3m,9,9,"AT: 3x3m køres som 3 intervaller af 3 min. kadence 85-100, puls i AT-zone"
+AT: 3x4m,3x4m,12,12,"AT: 3x4m køres som 3 intervaller af 4 min. kadence 85-100, puls i AT-zone"
+AT: 3x5m,3x5m,15,15,"AT: 3x5m køres som 3 intervaller af 5 min. kadence 85-100, puls i AT-zone"
+AT: 3x8m,3x8m,24,24,"AT: 3x8m køres som 3 intervaller af 8 min. kadence 85-100, puls i AT-zone"
+AT: 3x10m,3x10m,30,30,"AT: 3x10m køres som 3 intervaller af 10 min. kadence 85-100, puls i AT-zone"
+AT: 3x12m,3x12m,36,36,"AT: 3x12m køres som 3 intervaller af 12 min. kadence 85-100, puls i AT-zone"
+AT: 3x15m,3x15m,45,45,"AT: 3x15m køres som 3 intervaller af 15 min. kadence 85-100, puls i AT-zone"
+AT: 3x20m,3x20m,60,60,"AT: 3x20m køres som 3 intervaller af 30 min. kadence 85-100, puls i AT-zone"
 ,,,,
-,,,,
-AT: 5x4m,5x4m,20,20,"AT: 5x4m køres som 5 intervaller á 4 min. Kadance 85-100, puls i AT-zone"
-AT: 5x5m,5x5m,25,25,"AT: 5x5m køres som 5 intervaller á 5 min. Kadance 85-100, puls i AT-zone"
-AT: 5x8m,5x8m,40,40,"AT: 5x8m køres som 5 intervaller á 8 min. Kadance 85-100, puls i AT-zone"
-,,,,
-AT: 6x5m,6x5m,30,30,"AT: 6x5m køres som 6 intervaller á 5 min. Kadance 85-100, puls i AT-zone"
+AT: 4x3m,4x3m,12,12,"AT: 4x3m køres som 4 intervaller af  min. kadence 85-100, puls i AT-zone"
+AT: 4x4m,4x4m,16,16,"AT: 4x4m køres som 4 intervaller af 4 min. kadence 85-100, puls i AT-zone"
+AT: 4x5m,4x5m,20,20,"AT: 4x5m køres som 4 intervaller af 5 min. kadence 85-100, puls i AT-zone"
+AT: 4x8m,4x8m,32,32,"AT: 4x8m køres som 4 intervaller af 8 min. kadence 85-100, puls i AT-zone"
+AT: 4x10m,4x10m,40,40,"AT: 4x10m køres som 4 intervaller af 10 min. kadence 85-100, puls i AT-zone"
+AT: 4x15m,4x15m,60,60,"AT: 4x15m køres som 4 intervaller af 15 min. kadence 85-100, puls i AT-zone"
 ,,,,
 ,,,,
-AT: 3x(3+3),3x(3+3),9,9,"AT: 3x(3+3)m køres som 1 intervalserie med 3 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 4x(3+3),4x(3+3),12,12,"AT: 4x(3+3)m køres som 1 intervalserie med 4 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 5x(3+3)m,5x(3+3)m,15,15,"AT: 5x(3+3)m køres som 1 intervalserie med 5 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 6x(3+3)m,6x(3+3)m,18,18,"AT: 6x(3+3)m køres som 1 intervalserie med 6 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 7x(3+3)m,7x(3+3)m,21,21,"AT: 7x(3+3)m køres som 1 intervalserie med 7 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 8x(3+3)m,8x(3+3)m,24,24,"AT: 8x(3+3)m køres som 1 intervalserie med 8 gentagelser af 3 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
+AT: 5x4m,5x4m,20,20,"AT: 5x4m køres som 5 intervaller af 4 min. kadence 85-100, puls i AT-zone"
+AT: 5x5m,5x5m,25,25,"AT: 5x5m køres som 5 intervaller af 5 min. kadence 85-100, puls i AT-zone"
+AT: 5x8m,5x8m,40,40,"AT: 5x8m køres som 5 intervaller af 8 min. kadence 85-100, puls i AT-zone"
+,,,,
+AT: 6x5m,6x5m,30,30,"AT: 6x5m køres som 6 intervaller af 5 min. kadence 85-100, puls i AT-zone"
 ,,,,
 ,,,,
-AT: 2x(5+3),2x(5+3),10,10,"AT: 2x(5+3)m køres som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 3x(5+3),3x(5+3),15,15,"AT: 3x(5+3)m køres som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 4x(5+3),4x(5+3),20,20,"AT: 4x(5+3)m køres som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 5x(5+3),5x(5+3),25,25,"AT: 5x(5+3)m køres som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 6x(5+3),6x(5+3),30,30,"AT: 6x(5+3)m køres som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 7x(5+3),7x(5+3),35,35,"AT: 7x(5+3)m køres som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
-AT: 8x(5+3),8x(5+3),40,40,"AT: 8x(5+3)m køres som 1 intervalserie med 8 gentagelser af 5 minutters arbejde og 3 minutters pause. Kadance 85-100, puls i AT-zone"
+AT: 3x(3+1)m,3x(3+1)m,9,9,"AT: 3x(3+1)m køres som 1 intervalserie med 3 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 4x(3+1)m,4x(3+1)m,12,12,"AT: 4x(3+1)m køres som 1 intervalserie med 4 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 5x(3+1)m,5x(3+1)m,15,15,"AT: 5x(3+1)m køres som 1 intervalserie med 5 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 6x(3+1)m,6x(3+1)m,18,18,"AT: 6x(3+1)m køres som 1 intervalserie med 6 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 7x(3+1)m,7x(3+1)m,21,21,"AT: 7x(3+1)m køres som 1 intervalserie med 7 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 8x(3+1)m,8x(3+1)m,24,24,"AT: 8x(3+1)m køres som 1 intervalserie med 8 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 9x(3+1)m,9x(3+1)m,27,27,"AT: 9x(3+1)m køres som 1 intervalserie med 9 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+AT: 10x(3+1)m,10x(3+1)m,30,30,"AT: 10x(3+1)m køres som 1 intervalserie med 10 gentagelser af 3 minutters arbejde og 1 minuts pause. kadence 85-100, puls i AT-zone"
+,,,,
+,,,,
+AT: 2x(5+2)m,2x(5+2)m,10,10,"AT: 2x(5+2)m køres som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 3x(5+2)m,3x(5+2)m,15,15,"AT: 3x(5+2)m køres som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 4x(5+2)m,4x(5+2)m,20,20,"AT: 4x(5+2)m køres som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 5x(5+2)m,5x(5+2)m,25,25,"AT: 5x(5+2)m køres som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 6x(5+2)m,6x(5+2)m,30,30,"AT: 6x(5+2)m køres som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 7x(5+2)m,7x(5+2)m,35,35,"AT: 7x(5+2)m køres som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 8x(5+2)m,8x(5+2)m,40,40,"AT: 8x(5+2)m køres som 1 intervalserie med 8 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 9x(5+2)m,9x(5+2)m,40,40,"AT: 9x(5+2)m køres som 1 intervalserie med 9 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
+AT: 10x(5+2)m,10x(5+2)m,40,40,"AT: 10x(5+2)m køres som 1 intervalserie med 10 gentagelser af 5 minutters arbejde og 2 minutters pause. kadence 85-100, puls i AT-zone"
 ,,,,
 ,,eks,,
 AT: 2+1+2…m,2+1+2…m,1x12,16,"AT: 2+1+2…m, køres som 2 min på AT niveau + 1 min med øget belastning mod max + 2 min på AT niveau osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
 AT: 3+1+3…m,3+1+3…m,1x12,15,"AT: 3+1+3…m, køres som 3 min på AT niveau + 1 min med øget belastning mod max + 3 min på AT niveau osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
 ,,,,
 ,,,,
-AT: 2x8(75+15)s,2x8(75+15)s,20,20,"AT: 2x8(75+15)s køres som 2 intervalserier med 8 gentagelser af 75 sekunders arbejde og 15 sekunders pause. Kadance 85-100, puls i AT-zone"
-AT: 1x8(75+15)s,1x8(75+15)s,10,10,"AT: 1x8(75+15)s køres som 1 intervalserie med 8 gentagelser af 75 sekunders arbejde og 15 sekunders pause. Kadance 85-100, puls i AT-zone"
+AT: 1x8(75+15)s,1x8(75+15)s,10,10,"AT: 1x8(75+15)s køres som 1 intervalserie med 8 gentagelser af 75 sekunders arbejde og 15 sekunders pause. kadence 85-100, puls i AT-zone"
+AT: 2x8(75+15)s,2x8(75+15)s,20,20,"AT: 2x8(75+15)s køres som 2 intervalserier med 8 gentagelser af 75 sekunders arbejde og 15 sekunders pause. kadence 85-100, puls i AT-zone"
+,,,,
+,,,,
+AT: 1x2m ,1x2m ,2,2,AT: 1x2m løbes som 1 interval af 2 min. Puls i AT-zone
+AT: 1x3m ,1x3m ,3,3,AT: 1x3m løbes som 1 interval af 3 min. Puls i AT-zone
+AT: 1x4 m ,1x4 m ,4,4,AT: 1x4m løbes som 1 interval af 4 min. Puls i AT-zone
+AT: 1x5m ,1x5m ,5,5,AT: 1x5m løbes som 1 interval af 5 min. Puls i AT-zone
+AT: 1x8m ,1x8m ,8,8,AT: 1x8m løbes som 1 interval af 8 min. Puls i AT-zone
+AT: 1x10m ,1x10m ,10,10,AT: 1x10m løbes som 1 interval af 10 min. Puls i AT-zone
+AT: 1x12m ,1x12m ,12,12,AT: 1x12m løbes som 1 interval af 12 min. Puls i AT-zone
+AT: 1x15m ,1x15m ,15,15,AT: 1x18m løbes som 1 interval af 15 min. Puls i AT-zone
+AT: 1x20m ,1x20m ,20,20,AT: 1x20m løbes som 1 interval af 20 min. Puls i AT-zone
+AT: 1x25m ,1x25m ,25,25,AT: 1x28m løbes som 1 interval af 25 min. Puls i AT-zone
+AT: 1x30m ,1x30m ,30,30,AT: 1x30m løbes som 1 interval af 30 min. Puls i AT-zone
+,,,,
+AT: 2x2m ,2x2m ,4,4,AT: 2x2m løbes som 2 intervaller af 2 min. Puls i AT-zone
+AT: 2x3m ,2x3m ,6,6,AT: 2x3m løbes som 2 intervaller af 3 min. Puls i AT-zone
+AT: 2x4m ,2x4m ,8,8,AT: 2x4m løbes som 2 intervaller af 4 min. Puls i AT-zone
+AT: 2x5m ,2x5m ,10,10,AT: 2x5m løbes som 2 intervaller af 5 min. Puls i AT-zone
+AT: 2x8m ,2x8m ,16,16,AT: 2x8m løbes som 2 intervaller af 8 min. Puls i AT-zone
+AT: 2x10m ,2x10m ,20,20,AT: 2x10m løbes som 2 intervaller af 10 min. Puls i AT-zone
+AT: 2x12m ,2x12m ,24,24,AT: 2x12m løbes som 2 intervaller af 12 min. Puls i AT-zone
+AT: 2x15m ,2x15m ,30,30,AT: 2x15m løbes som 2 intervaller af 15 min. Puls i AT-zone
+AT: 2x20m ,2x20m ,40,40,AT: 2x20m løbes som 2 intervaller af 20 min. Puls i AT-zone
+AT: 2x25m ,2x25m ,50,50,AT: 2x25m løbes som 2 intervaller af 25 min. Puls i AT-zone
+AT: 2x30m ,2x30m ,60,60,AT: 2x30m løbes som 2 intervaller af 30 min. Puls i AT-zone
+,,,,
+AT: 3x2m ,3x2m ,6,6,AT: 3x2m løbes som 3 intervaller af 2 min. Puls i AT-zone
+AT: 3x3m ,3x3m ,9,9,AT: 3x3m løbes som 3 intervaller af 3 min. Puls i AT-zone
+AT: 3x4m ,3x4m ,12,12,AT: 3x4m løbes som 3 intervaller af 4 min. Puls i AT-zone
+AT: 3x5m ,3x5m ,15,15,AT: 3x5m løbes som 3 intervaller af 5 min. Puls i AT-zone
+AT: 3x8m ,3x8m ,24,24,AT: 3x8m løbes som 3 intervaller af 8 min. Puls i AT-zone
+AT: 3x10m ,3x10m ,30,30,AT: 3x10m løbes som 3 intervaller af 10 min. Puls i AT-zone
+AT: 3x12m ,3x12m ,36,36,AT: 3x12m løbes som 3 intervaller af 12 min. Puls i AT-zone
+AT: 3x15m ,3x15m ,45,45,AT: 3x18m løbes som 3 intervaller af 15 min. Puls i AT-zone
+AT: 3x20m ,3x20m ,60,60,AT: 3x20m løbes som 3 intervaller af 30 min. Puls i AT-zone
+,,,,
+AT: 4x2m ,4x2m ,8,8,AT: 4x2m løbes som 4 intervaller af 2 min. Puls i AT-zone
+AT: 4x3m ,4x3m ,12,12,AT: 4x3m løbes som 4 intervaller af 3 min. Puls i AT-zone
+AT: 4x4m ,4x4m ,16,16,AT: 4x4m løbes som 4 intervaller af 4 min. Puls i AT-zone
+AT: 4x5m ,4x5m ,20,20,AT: 4x5m løbes som 4 intervaller af 5 min. Puls i AT-zone
+AT: 4x8m ,4x8m ,32,32,AT: 4x8m løbes som 4 intervaller af 8 min. Puls i AT-zone
+AT: 4x10m ,4x10m ,40,40,AT: 4x10m løbes som 4 intervaller af 10 min. Puls i AT-zone
+AT: 4x12m ,4x12m ,52,52,AT: 4x12m løbes som 4 intervaller af 12 min. Puls i AT-zone
+AT: 4x15m ,4x15m ,60,60,AT: 4x15m løbes som 4 intervaller af 15 min. Puls i AT-zone
+,,,,
+AT: 5x2m ,5x2m ,10,10,AT: 5x2m løbes som 5 intervaller af 2 min. Puls i AT-zone
+AT: 5x3m ,5x3m ,15,15,AT: 5x3m løbes som 5 intervaller af 3 min. Puls i AT-zone
+AT: 5x4m ,5x4m ,20,20,AT: 5x4m løbes som 5 intervaller af 4 min. Puls i AT-zone
+AT: 5x5m ,5x5m ,25,25,AT: 5x5m løbes som 5 intervaller af 5 min. Puls i AT-zone
+,,,,
+AT: 6x3m ,6x3m ,18,18,AT: 6x3m løbes som 6 intervaller af 3 min. Puls i AT-zone
+AT: 6x4m ,6x4m ,24,24,AT: 6x4m løbes som 6 intervaller af 4 min. Puls i AT-zone
+AT: 6x5m ,6x5m ,30,30,AT: 6x5m løbes som 6 intervaller af 5 min. Puls i AT-zone
+,,,,
+AT: 7x3m ,7x3m ,21,21,AT: 7x3m løbes som 7 intervaller af 3 min. Puls i AT-zone
+AT: 7x4m ,7x4m ,28,28,AT: 7x4m løbes som 7 intervaller af 4 min. Puls i AT-zone
+AT: 7x5m ,7x5m ,35,35,AT: 7x5m løbes som 7 intervaller af 5 min. Puls i AT-zone
+,,,,
+AT: 8x3m ,8x3m ,24,24,AT: 8x3m løbes som 8 intervaller af 3 min. Puls i AT-zone
+AT: 8x4m ,8x4m ,32,32,AT: 8x4m løbes som 8 intervaller af 4 min. Puls i AT-zone
+AT: 8x5m ,8x5m ,40,40,AT: 8x5m løbes som 8 intervaller af 5 min. Puls i AT-zone
+,,,,
+,,,,
+AT: 2x(3+1)m ,2x(3+1)m ,6,6,AT: 2x(3+1)m løbes som 1 intervalserie med 2 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 3x(3+1)m ,3x(3+1)m ,9,9,AT: 3x(3+1)m løbes som 1 intervalserie med 3 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 4x(3+1)m ,4x(3+1)m ,12,12,AT: 4x(3+1)m løbes som 1 intervalserie med 4 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 5x(3+1)m ,5x(3+1)m ,15,15,AT: 5x(3+1)m løbes som 1 intervalserie med 5 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 6x(3+1)m ,6x(3+1)m ,18,18,AT: 6x(3+1)m løbes som 1 intervalserie med 6 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 7x(3+1)m ,7x(3+1)m ,21,21,AT: 7x(3+1)m løbes som 1 intervalserie med 7 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 8x(3+1)m ,8x(3+1)m ,24,24,AT: 8x(3+1)m løbes som 1 intervalserie med 8 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 9x(3+1)m ,9x(3+1)m ,27,27,AT: 9x(3+1)m løbes som 1 intervalserie med 9 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+AT: 10x(3+1)m ,10x(3+1)m ,30,30,AT: 10x(3+1)m løbes som 1 intervalserie med 10 gentagelser af 3 minutters arbejde og 1 minuts pause. Puls i AT-zone
+,,,,
+,,,,
+AT: 2x(5+2)m ,2x(5+2)m ,10,10,AT: 2x(5+2)m løbes som 1 intervalserie med 2 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 3x(5+2)m ,3x(5+2)m ,15,15,AT: 3x(5+2)m løbes som 1 intervalserie med 3 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 4x(5+2)m ,4x(5+2)m ,20,20,AT: 4x(5+2)m løbes som 1 intervalserie med 4 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 5x(5+2)m ,5x(5+2)m ,25,25,AT: 5x(5+2)m løbes som 1 intervalserie med 5 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 6x(5+2)m ,6x(5+2)m ,30,30,AT: 6x(5+2)m løbes som 1 intervalserie med 6 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 7x(5+2)m ,7x(5+2)m ,35,35,AT: 7x(5+2)m løbes som 1 intervalserie med 7 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 8x(5+2)m ,8x(5+2)m ,40,40,AT: 8x(5+2)m løbes som 1 intervalserie med 8 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 9x(5+2)m ,9x(5+2)m ,40,40,AT: 9x(5+2)m løbes som 1 intervalserie med 9 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+AT: 10x(5+2)m ,10x(5+2)m ,40,40,AT: 10x(5+2)m løbes som 1 intervalserie med 10 gentagelser af 5 minutters arbejde og 2 minutters pause. Puls i AT-zone
+,,,,
+,,,,
+AT: 2+1+2…m ,2+1+2…m ,1x12,16,"max: 2+1+2…m, løbes som 2 min på AT niveau + 1 min med øget belastning mod max + 2 min på AT niveau osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+AT: 3+1+3…m ,3+1+3…m ,1x12,15,"AT: 3+1+3…m, løbes som 3 min på AT niveau + 1 min med øget belastning mod max + 3 min på AT niveau osv. Tidsperiode for intervalserien er nævnt i ""Andet"""
+,,,,
+,,,,
+,,,,
+,,,,
 ,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,Max,,,
 ,,,2.0,
-Max: 1x4(30+30)s,1x4(30+30)s,2.00,4,"max: 1x4(30+30)s, køres som 1 intervalserie med 4 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x5(30+30)s,1x5(30+30)s,2.50,5,"max: 1x5(30+30)s, køres som 1 intervalserie med 5 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x6(30+30)s,1x6(30+30)s,3.00,6,"max: 1x6(30+30)s, køres som 1 intervalserie med 6 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x7(30+30)s,1x7(30+30)s,3.50,7,"max: 1x7(30+30)s, køres som 1 intervalserie med 7 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x8(30+30)s,1x8(30+30)s,4.00,8,"max: 1x8(30+30)s, køres som 1 intervalserie med 8 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x9(30+30)s,1x9(30+30)s,4.50,9,"max: 1x9(30+30)s, køres som 1 intervalserie med 9 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 1x10(30+30)s,1x10(30+30)s,5.00,10,"max: 1x10(30+30)s, køres som 1 intervalserie med 10 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x4(30+30)s,1x4(30+30)s,2.00,4,"max: 1x4(30+30)s, køres som 1 intervalserie med 4 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x5(30+30)s,1x5(30+30)s,2.50,5,"max: 1x5(30+30)s, køres som 1 intervalserie med 5 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x6(30+30)s,1x6(30+30)s,3.00,6,"max: 1x6(30+30)s, køres som 1 intervalserie med 6 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x7(30+30)s,1x7(30+30)s,3.50,7,"max: 1x7(30+30)s, køres som 1 intervalserie med 7 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x8(30+30)s,1x8(30+30)s,4.00,8,"max: 1x8(30+30)s, køres som 1 intervalserie med 8 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x9(30+30)s,1x9(30+30)s,4.50,9,"max: 1x9(30+30)s, køres som 1 intervalserie med 9 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 1x10(30+30)s,1x10(30+30)s,5.00,10,"max: 1x10(30+30)s, køres som 1 intervalserie med 10 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
-Max: 2x4(30+30)s,2x4(30+30)s,4.00,8,"max: 2x4(30+30)s, køres som 2 intervalserier med 4 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x5(30+30)s,2x5(30+30)s,5.00,10,"max: 2x5(30+30)s, køres som 2 intervalserier med 5 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x6(30+30)s,2x6(30+30)s,6.00,12,"max: 2x6(30+30)s, køres som 2 intervalserier med 6 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x7(30+30)s,2x7(30+30)s,7.00,14,"max: 2x7(30+30)s, køres som 2 intervalserier med 7 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x8(30+30)s,2x8(30+30)s,8.00,16,"max: 2x8(30+30)s, køres som 2 intervalserier med 8 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x9(30+30)s,2x9(30+30)s,9.00,18,"max: 2x9(30+30)s, køres som 2 intervalserier med 9 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 2x10(30+30)s,2x10(30+30)s,10.00,20,"max: 2x10(30+30)s, køres som 2 intervalserier med 10 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x4(30+30)s,2x4(30+30)s,4.00,8,"max: 2x4(30+30)s, køres som 2 intervalserier med 4 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x5(30+30)s,2x5(30+30)s,5.00,10,"max: 2x5(30+30)s, køres som 2 intervalserier med 5 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x6(30+30)s,2x6(30+30)s,6.00,12,"max: 2x6(30+30)s, køres som 2 intervalserier med 6 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x7(30+30)s,2x7(30+30)s,7.00,14,"max: 2x7(30+30)s, køres som 2 intervalserier med 7 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x8(30+30)s,2x8(30+30)s,8.00,16,"max: 2x8(30+30)s, køres som 2 intervalserier med 8 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x9(30+30)s,2x9(30+30)s,9.00,18,"max: 2x9(30+30)s, køres som 2 intervalserier med 9 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 2x10(30+30)s,2x10(30+30)s,10.00,20,"max: 2x10(30+30)s, køres som 2 intervalserier med 10 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
-Max: 3x8(30+30)s,3x8(30+30)s,12.00,24,"max: 3x8(30+30)s, køres som 3 intervalserier med 8 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
-Max: 3x10(30+30)s,3x10(30+30)s,15.00,30,"max: 3x10(30+30)s, køres som 3 intervalserier med 10 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Kadance 95-110. Køres med samme belastning i hele intervallet"
+Max: 3x6(30+30)s,3x6(30+30)s,9.00,18,"max: 3x6(30+30)s, køres som 3 intervalserier med 6 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 3x7(30+30)s,3x7(30+30)s,10.50,21,"max: 3x7(30+30)s, køres som 3 intervalserier med 7 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 3x8(30+30)s,3x8(30+30)s,12.00,24,"max: 3x8(30+30)s, køres som 3 intervalserier med 8 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
+Max: 3x10(30+30)s,3x10(30+30)s,13.50,27,"max: 3x10(30+30)s, køres som 3 intervalserier med 10 gentagelser af 30 sekunders arbejde og 30 sekunders pause, i hver serie. kadence 95-110. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
-Max: 1x4(40+20)s,1x4(40+20)s,2.66,5.32,"max: 1x4(40+20)s, køres som 1 intervalserie med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x5(40+20)s,1x5(40+20)s,3.33,6.66,"max: 1x5(40+20)s, køres som 1 intervalserie med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x6(40+20)s,1x6(40+20)s,4.00,8,"max: 1x6(40+20)s, køres som 1 intervalserie med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x7(40+20)s,1x7(40+20)s,4.66,9.32,"max: 1x7(40+20)s, køres som 1 intervalserie med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x8(40+20)s,1x8(40+20)s,5.33,10.66,"max: 1x8(40+20)s, køres som 1 intervalserie med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x9(40+20)s,1x9(40+20)s,6.00,12,"max: 1x9(40+20)s, køres som 1 intervalserie med 9 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 1x10(40+20)s,1x10(40+20)s,6.66,13.32,"max: 1x10(40+20)s, køres som 1 intervalserie med 10 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x4(40+20)s,1x4(40+20)s,2.66,5.32,"max: 1x4(40+20)s, køres som 1 intervalserie med 4 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x5(40+20)s,1x5(40+20)s,3.33,6.66,"max: 1x5(40+20)s, køres som 1 intervalserie med 5 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x6(40+20)s,1x6(40+20)s,4.00,8,"max: 1x6(40+20)s, køres som 1 intervalserie med 6 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x7(40+20)s,1x7(40+20)s,4.66,9.32,"max: 1x7(40+20)s, køres som 1 intervalserie med 7 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x8(40+20)s,1x8(40+20)s,5.33,10.66,"max: 1x8(40+20)s, køres som 1 intervalserie med 8 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x9(40+20)s,1x9(40+20)s,6.00,12,"max: 1x9(40+20)s, køres som 1 intervalserie med 9 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x10(40+20)s,1x10(40+20)s,6.66,13.32,"max: 1x10(40+20)s, køres som 1 intervalserie med 10 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
-Max: 2x4(40+20)s,2x4(40+20)s,5.33,10.66,"max: 2x4(40+20)s, køres som 2 intervalserier med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x5(40+20)s,2x5(40+20)s,6.66,13.32,"max: 2x5(40+20)s, køres som 2 intervalserier med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x6(40+20)s,2x6(40+20)s,8.00,16,"max: 2x6(40+20)s, køres som 2 intervalserier med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x7(40+20)s,2x7(40+20)s,9.33,18.66,"max: 2x7(40+20)s, køres som 2 intervalserier med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x8(40+20)s,2x8(40+20)s,10.66,21.32,"max: 2x8(40+20)s, køres som 2 intervalserier med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x9(40+20)s,2x9(40+20)s,12.00,24,"max: 2x9(40+20)s, køres som 2 intervalserier med 9 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x10(40+20)s,2x10(40+20)s,13.33,26.66,"max: 2x10(40+20)s, køres som 2 intervalserier med 10 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x4(40+20)s,2x4(40+20)s,5.33,10.66,"max: 2x4(40+20)s, køres som 2 intervalserier med 4 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x5(40+20)s,2x5(40+20)s,6.66,13.32,"max: 2x5(40+20)s, køres som 2 intervalserier med 5 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x6(40+20)s,2x6(40+20)s,8.00,16,"max: 2x6(40+20)s, køres som 2 intervalserier med 6 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x7(40+20)s,2x7(40+20)s,9.33,18.66,"max: 2x7(40+20)s, køres som 2 intervalserier med 7 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x8(40+20)s,2x8(40+20)s,10.66,21.32,"max: 2x8(40+20)s, køres som 2 intervalserier med 8 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x9(40+20)s,2x9(40+20)s,12.00,24,"max: 2x9(40+20)s, køres som 2 intervalserier med 9 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x10(40+20)s,2x10(40+20)s,13.33,26.66,"max: 2x10(40+20)s, køres som 2 intervalserier med 10 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
-Max: 3x4(40+20)s,3x4(40+20)s,8.00,16,"max: 3x4(40+20)s, køres som 3 intervalserier med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x5(40+20)s,3x5(40+20)s,10.00,20,"max: 3x5(40+20)s, køres som 3 intervalserier med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x6(40+20)s,3x6(40+20)s,12.00,24,"max: 3x6(40+20)s, køres som 3 intervalserier med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x7(40+20)s,3x7(40+20)s,14.00,28,"max: 3x7(40+20)s, køres som 3 intervalserier med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x8(40+20)s,3x8(40+20)s,16.00,32,"max: 3x8(40+20)s, køres som 3 intervalserier med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Kadance 90-100. Køres med samme belastning i hele intervallet"
-,,,,
-Max: 1x1m,1x1m,1.00,2,"max: 1x1m, køres som 1 interval á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x1m,2x1m,2.00,4,"max: 2x1m, køres som 2 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x1m,3x1m,3.00,6,"max: 3x1m, køres som 3 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 4x1m,4x1m,4.00,8,"max: 4x1m, køres som 4 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 5x1m,5x1m,5.00,10,"max: 5x1m, køres som 5 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 6x1m,6x1m,6.00,12,"max: 6x1m, køres som 6 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 7x1m,7x1m,7.00,14,"max: 7x1m, køres som 7 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 8x1m,8x1m,8.00,16,"max: 8x1m, køres som 8 intervaller á 1 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x4(40+20)s,3x4(40+20)s,8.00,16,"max: 3x4(40+20)s, køres som 3 intervalserier med 4 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x5(40+20)s,3x5(40+20)s,10.00,20,"max: 3x5(40+20)s, køres som 3 intervalserier med 5 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x6(40+20)s,3x6(40+20)s,12,24,"max: 3x6(40+20)s, køres som 3 intervalserier med 6 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x7(40+20)s,3x7(40+20)s,14,28,"max: 3x7(40+20)s, køres som 3 intervalserier med 7 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x8(40+20)s,3x8(40+20)s,16,32,"max: 3x8(40+20)s, køres som 3 intervalserier med 8 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x9(40+20)s,3x9(40+20)s,18,36,"max: 3x9(40+20)s, køres som 3 intervalserier med 9 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x10(40+20)s,3x10(40+20)s,20,40,"max: 3x10(40+20)s, køres som 3 intervalserier med 10 gentagelser af 40 sekunders arbejde og 20 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
-Max: 1x2m,1x2m,2.00,4,"max: 1x2m, køres som 1 interval á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x2m,2x2m,4.00,8,"max: 2x2m, køres som 2 intervaller á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x2m,3x2m,6.00,12,"max: 3x2m, køres som 3 intervaller á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 4x2m,4x2m,8.00,16,"max: 4x2m, køres som 4 intervaller á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 5x2m,5x2m,10.00,20,"max: 5x2m, køres som 5 intervaller á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 6x2m,6x2m,12.00,24,"max: 6x2m, køres som 6 intervaller á 2 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x3(60+60)s,1x3(60+60)s,3,6,"max: 1x3(60+60)s, køres som 1 intervalserie med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x4(60+60)s,1x4(60+60)s,4,8,"max: 1x4(60+60)s, køres som 1 intervalserie med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x5(60+60)s,1x5(60+60)s,5,10,"max: 1x5(60+60)s, køres som 1 intervalserie med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 1x6(60+60)s,1x6(60+60)s,6,12,"max: 1x6(60+60)s, køres som 1 intervalserie med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
-Max: 1x3m,1x3m,3.00,6,"max: 1x3m, køres som 1 interval á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x3m,2x3m,6.00,12,"max: 2x3m, køres som 2 intervaller á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x3m,3x3m,9.00,18,"max: 3x3m, køres som 3 intervaller á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 4x3m,4x3m,12.00,24,"max: 4x3m, køres som 4 intervaller á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 5x3m,5x3m,15.00,30,"max: 5x3m, køres som 5 intervaller á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 6x3m,6x3m,18.00,36,"max: 5x3m, køres som 6 intervaller á 3 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
-Max: 1x4m,1x4m,4.00,8,"max: 1x4m, køres som 1 interval á 4 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 2x4m,2x4m,8.00,16,"max: 2x4m, køres som 2 intervaller á 4 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 3x4m,3x4m,12.00,24,"max: 3x4m, køres som 3 intervaller á 4 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
-Max: 4x4m,4x4m,16.00,32,"max: 4x4m, køres som 4 intervaller á 4 min. Kadance 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x3(60+60)s,2x3(60+60)s,6,12,"max: 2x3(60+60)s, køres som 2 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x4(60+60)s,2x4(60+60)s,8,16,"max: 2x4(60+60)s, køres som 2 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x5(60+60)s,2x5(60+60)s,10,20,"max: 2x5(60+60)s, køres som 2 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x6(60+60)s,2x6(60+60)s,12,24,"max: 2x6(60+60)s, køres som 2 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+,,,,
+,,,,
+Max: 3x3(60+60)s,3x3(60+60)s,9,18,"max: 3x3(60+60)s, køres som 3 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x4(60+60)s,3x4(60+60)s,12,24,"max: 3x4(60+60)s, køres som 3 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x5(60+60)s,3x5(60+60)s,15,30,"max: 3x5(60+60)s, køres som 3 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x6(60+60)s,3x6(60+60)s,18,36,"max: 3x6(60+60)s, køres som 3 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+,,,,
+,,,,
+Max: 4x3(60+60)s,4x3(60+60)s,12,24,"max: 4x3(60+60)s, køres som 4 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x4(60+60)s,4x4(60+60)s,16,32,"max: 4x4(60+60)s, køres som 4 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x5(60+60)s,4x5(60+60)s,20,40,"max: 4x5(60+60)s, køres som 4 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x6(60+60)s,4x6(60+60)s,24,48,"max: 4x6(60+60)s, køres som 4 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver serie. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
 ,,,,
-Max: 2x15(30+10)s,2x15(30+10)s,15.00,30,"max: 2x15(30+10)s køres som 2 intervalserier med 15 gentagelser af 30 sekunders arbejde og 10 sekunders pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Max: 2x30(10+10)s,2x30(10+10)s,10.00,20,"max: 2x30(10+10)s køres som 2 intervalserier af 30 gentagelser af 10 sekunder og 10 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Max: 2x20(15+15)s,2x20(15+15)s,10.00,20,"max: 2x20(15+15)s køres som 2 intervalserier af 20 gentagelser af 15 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
-Max: 2x20(30+15)s,2x20(30+15)s,20.00,40,"max: 2x20(30+15)s køres som 2 intervalserier af 20 gentagelser af 30 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Max: 3x30(15+5)s,3x30(15+5)s,22.50,45,"max: 3x30(15+5)s køres som 3 intervalserier af 30 gentagelser af 15 sekunder og 5 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
-Max: 8x(30+30)s,8x(30+30)s,4.00,8,"max: 8x(30+30)s køres som 8 gentagelser af 30 sekunder og 30 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Max: 10x(30+30)s,10x(30+30)s,5.00,10,"max: 10x(30+30)s køres som 10 gentagelser af 30 sekunder og 30 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Max: 2x30(20+10)s,2x30(20+10)s,19.80,39.6,"max: 2x30(20+10)s køres som 2 intervalserier af 30 gentagelser af 20 sekunder og 10 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 20 sek. Intervallet køres siddende"
-Max: 2x5(90+90)s,2x5(90+90)s,15.00,30,"max: 2x5(90+90)s, køres som 2 intervalserier med 5 gentagelser, af 90 sekunders arbejde og 90 sekunders pause, i hver serie. Kadance 60-70. Max mulig max i intervallet. Køres siddende"
-Max: 3x10(30+15)s,3x10(30+15)s,15.00,30,"max: 3x10(30+15)s køres som 3 intervalserier af 10 gentagelser af 30 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Max: 1x1m,1x1m,1.00,2,"max: 1x1m, køres som 1 interval af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x1m,2x1m,2.00,4,"max: 2x1m, køres som 2 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x1m,3x1m,3.00,6,"max: 3x1m, køres som 3 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x1m,4x1m,4.00,8,"max: 4x1m, køres som 4 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 5x1m,5x1m,5.00,10,"max: 5x1m, køres som 5 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 6x1m,6x1m,6.00,12,"max: 6x1m, køres som 6 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 7x1m,7x1m,7.00,14,"max: 7x1m, køres som 7 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 8x1m,8x1m,8.00,16,"max: 8x1m, køres som 8 intervaller af 1 min. kadence 90-100. Køres med samme belastning i hele intervallet"
 ,,,,
 ,,,,
-Max: 1x(2-3-10)m,1x(2-3-10)m,2_3_10,14.7,"max: 1x(2-3-10)m køres som 1 interval a ialt 15 min. (2 minutter køres med max effekt, 3 min køres med effekt i den høje ende af AT, 10 min køres med stabilisering af intensitet i sub-AT)"
-Max: 1x(2-3-5)m,1x(2-3-5)m,2_3_5,10.8,"max: 1x(2-3-5)m køres som 1 interval a ialt 10 min. (2 minutter køres med max effekt, 3 min køres med effekt i den høje ende af AT, 5 min køres med stabilisering af intensitet i sub-AT)"
-,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
+Max: 1x2m,1x2m,2.00,4,"max: 1x2m, køres som 1 interval af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x2m,2x2m,4.00,8,"max: 2x2m, køres som 2 intervaller af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x2m,3x2m,6.00,12,"max: 3x2m, køres som 3 intervaller af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x2m,4x2m,8.00,16,"max: 4x2m, køres som 4 intervaller af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 5x2m,5x2m,10.00,20,"max: 5x2m, køres som 5 intervaller af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 6x2m,6x2m,12.00,24,"max: 6x2m, køres som 6 intervaller af 2 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+,,,,
+Max: 1x3m,1x3m,3.00,6,"max: 1x3m, køres som 1 interval af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x3m,2x3m,6.00,12,"max: 2x3m, køres som 2 intervaller af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x3m,3x3m,9.00,18,"max: 3x3m, køres som 3 intervaller af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x3m,4x3m,12.00,24,"max: 4x3m, køres som 4 intervaller af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 5x3m,5x3m,15.00,30,"max: 5x3m, køres som 5 intervaller af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 6x3m,6x3m,18.00,36,"max: 5x3m, køres som 6 intervaller af 3 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+,,,,
+Max: 1x4m,1x4m,4.00,8,"max: 1x4m, køres som 1 interval af 4 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 2x4m,2x4m,8.00,16,"max: 2x4m, køres som 2 intervaller af 4 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 3x4m,3x4m,12.00,24,"max: 3x4m, køres som 3 intervaller af 4 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+Max: 4x4m,4x4m,16.00,32,"max: 4x4m, køres som 4 intervaller af 4 min. kadence 90-100. Køres med samme belastning i hele intervallet"
+,,,,
+,,,,
+,,,,
+Max: 2x15(30+10)s,2x15(30+10)s,15.00,30,"max: 2x15(30+10)s køres som 2 intervalserier med 15 gentagelser af 30 sekunders arbejde og 10 sekunders pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Max: 2x30(10+10)s,2x30(10+10)s,10.00,20,"max: 2x30(10+10)s køres som 2 intervalserier af 30 gentagelser af 10 sekunder og 10 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Max: 2x20(15+15)s,2x20(15+15)s,10.00,20,"max: 2x20(15+15)s køres som 2 intervalserier af 20 gentagelser af 15 sekunder og 15 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
+Max: 2x20(30+15)s,2x20(30+15)s,20.00,40,"max: 2x20(30+15)s køres som 2 intervalserier af 20 gentagelser af 30 sekunder og 15 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Max: 3x30(15+5)s,3x30(15+5)s,22.50,45,"max: 3x30(15+5)s køres som 3 intervalserier af 30 gentagelser af 15 sekunder og 5 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
+Max: 8x(30+30)s,8x(30+30)s,4.00,8,"max: 8x(30+30)s køres som 8 gentagelser af 30 sekunder og 30 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Max: 10x(30+30)s,10x(30+30)s,5.00,10,"max: 10x(30+30)s køres som 10 gentagelser af 30 sekunder og 30 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Max: 2x30(20+10)s,2x30(20+10)s,19.80,39.6,"max: 2x30(20+10)s køres som 2 intervalserier af 30 gentagelser af 20 sekunder og 10 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 20 sek. Intervallet køres siddende"
+Max: 2x5(90+90)s,2x5(90+90)s,15.00,30,"max: 2x5(90+90)s, køres som 2 intervalserier med 5 gentagelser af 90 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig max i intervallet. Køres siddende"
+Max: 3x10(30+15)s,3x10(30+15)s,15.00,30,"max: 3x10(30+15)s køres som 3 intervalserier af 10 gentagelser af 30 sekunder og 15 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+,,,,
+,,,,
+Max: 1x(2-3-10)m,1x(2-3-10)m,2_3_10,14.7,"max: 1x(2-3-10)m køres som 1 interval af ialt 15 min. (2 minutter køres med max effekt, 3 min køres med effekt i den høje ende af AT, 10 min køres med stabilisering af intensitet i sub-AT)"
+Max: 1x(2-3-5)m,1x(2-3-5)m,2_3_5,10.8,"max: 1x(2-3-5)m køres som 1 interval af ialt 10 min. (2 minutter køres med max effekt, 3 min køres med effekt i den høje ende af AT, 5 min køres med stabilisering af intensitet i sub-AT)"
+,,,,
 ,,,,
 ,BANE,,,
-,1x4(40+60)s,2.66,5.32,"max: 1x4(40+60)s, køres som 1 intervalserie med 4 gentagelser, af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
-,1x5(40+60)s,3.33,6.66,"max: 1x5(40+60)s, køres som 1 intervalserie med 5 gentagelser, af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
-,1x6(40+60)s,4.00,8,"max: 1x6(40+60)s, køres som 1 intervalserie med 6 gentagelser, af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
-,1x7(40+60)s,4.66,9.32,"max: 1x7(40+60)s, køres som 1 intervalserie med 7 gentagelser, af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
-,1x8(40+60)s,5.33,10.66,"max: 1x8(40+60)s, køres som 1 intervalserie med 8 gentagelser, af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x4(40+60)s,1x4(40+60)s,2.66,5.32,"max: 1x4(40+60)s, køres som 1 intervalserie med 4 gentagelser af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x5(40+60)s,1x5(40+60)s,3.33,6.66,"max: 1x5(40+60)s, køres som 1 intervalserie med 5 gentagelser af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x6(40+60)s,1x6(40+60)s,4.00,8,"max: 1x6(40+60)s, køres som 1 intervalserie med 6 gentagelser af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x7(40+60)s,1x7(40+60)s,4.66,9.32,"max: 1x7(40+60)s, køres som 1 intervalserie med 7 gentagelser af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x8(40+60)s,1x8(40+60)s,5.33,10.66,"max: 1x8(40+60)s, køres som 1 intervalserie med 8 gentagelser af 40 sekunders arbejde og 60 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
 ,,,,
 ,,,,
+Max: 1x4(30+30)s ,1x4(30+30)s ,2.00,4,"max:1x4(30+30)s, løbes som 1 intervalserie med 4 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x5(30+30)s ,1x5(30+30)s ,2.50,5,"max: 1x5(30+30)s, løbes som 1 intervalserie med 5 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x6(30+30)s ,1x6(30+30)s ,3.00,6,"max: 1x6(30+30)s, løbes som 1 intervalserie med 6 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x7(30+30)s ,1x7(30+30)s ,3.50,7,"max: 1x7(30+30)s, løbes som 1 intervalserie med 7 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x8(30+30)s ,1x8(30+30)s ,4.00,8,"max: 1x8(30+30)s, løbes som 1 intervalserie med 8 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x9(30+30)s ,1x9(30+30)s ,4.50,9,"max: 1x9(30+30)s, løbes som 1 intervalserie med 9 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 1x10(30+30)s ,1x10(30+30)s ,5.00,10,"max: 1x10(30+30)s, løbes som 1 intervalserie med 10 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+,,,,
+Max: 2x4(30+30)s ,2x4(30+30)s ,4.00,8,"max: 2x4(30+30)s, løbes som 2 intervalserier med 4 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x5(30+30)s ,2x5(30+30)s ,5.00,10,"max: 2x5(30+30)s, løbes som 2 intervalserier med 5 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x6(30+30)s ,2x6(30+30)s ,6.00,12,"max: 2x6(30+30)s, løbes som 2 intervalserier med 6 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x7(30+30)s ,2x7(30+30)s ,7.00,14,"max: 2x7(30+30)s, løbes som 2 intervalserier med 7 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x8(30+30)s ,2x8(30+30)s ,8.00,16,"max: 2x8(30+30)s, løbes som 2 intervalserier med 8 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x9(30+30)s ,2x9(30+30)s ,9.00,18,"max: 2x9(30+30)s, løbes som 2 intervalserier med 9 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
+Max: 2x10(30+30)s ,2x10(30+30)s ,10.00,20,"max: 2x10(30+30)s, løbes som 2 intervalserier med 10 gentagelser, af 30 sekunders arbejde og 30 sekunders pause, i hver serie. Pulsen kommer ikke nødvendigvis op i max-zonen"
 ,,,,
 ,,,,
+Max: 1x4(40+20)s ,1x4(40+20)s ,2.66,5.32,"max: 1x4(40+20)s, løbes som 1 intervalserie med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x5(40+20)s ,1x5(40+20)s ,3.33,6.66,"max: 1x5(40+20)s, løbes som 1 intervalserie med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x6(40+20)s ,1x6(40+20)s ,4.00,8,"max: 1x6(40+20)s, løbes som 1 intervalserie med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x7(40+20)s ,1x7(40+20)s ,4.66,9.32,"max: 1x7(40+20)s, løbes som 1 intervalserie med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x8(40+20)s ,1x8(40+20)s ,8.33,16.66,"max: 1x8(40+20)s, løbes som 1 intervalserie med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x9(40+20)s ,1x9(40+20)s ,6.00,12,"max: 1x9(40+20)s, løbes som 1 intervalserie med 9 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 1x10(40+20)s ,1x10(40+20)s ,6.66,13.32,"max: 1x10(40+20)s, løbes som 1 intervalserie med 10 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
 ,,,,
+Max: 2x4(40+20)s ,2x4(40+20)s ,5.30,10.6,"max: 2x4(40+20)s, løbes som 2 intervalserier med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x5(40+20)s ,2x5(40+20)s ,6.66,13.32,"max: 2x5(40+20)s, løbes som 2 intervalserier med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x6(40+20)s ,2x6(40+20)s ,8.00,16,"max: 2x6(40+20)s, løbes som 2 intervalserier med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x7(40+20)s ,2x7(40+20)s ,9.33,18.66,"max: 2x7(40+20)s, løbes som 2 intervalserier med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x8(40+20)s ,2x8(40+20)s ,10.66,21.32,"max: 2x8(40+20)s, løbes som 2 intervalserier med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x9(40+20)s ,2x9(40+20)s ,12.00,24,"max: 2x9(40+20)s, løbes som 2 intervalserier med 9 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 2x10(40+20)s ,2x10(40+20)s ,13.33,26.66,"max: 2x10(40+20)s, løbes som 2 intervalserier med 10 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+,,,,
+Max: 3x4(40+20)s ,3x4(40+20)s ,8.00,16,"max: 3x4(40+20)s, løbes som 3 intervalserier med 4 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 3x5(40+20)s ,3x5(40+20)s ,10.00,20,"max: 3x5(40+20)s, løbes som 3 intervalserier med 5 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 3x6(40+20)s ,3x6(40+20)s ,12.00,24,"max: 3x6(40+20)s, løbes som 3 intervalserier med 6 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 3x7(40+20)s ,3x7(40+20)s ,14.00,28,"max: 3x7(40+20)s, løbes som 3 intervalserier med 7 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+Max: 3x8(40+20)s ,3x8(40+20)s ,16,32,"max: 3x8(40+20)s, løbes som 3 intervalserier med 8 gentagelser, af 40 sekunders arbejde og 20 sekunders pause, i hver serie. Pulsen skal i løbet af de første 3-4 intervaller komme op i max-zonen"
+,,,,
+,,,,
+Max: 1x3(60+60)s,1x3(60+60)s,6,12,"max: 1x3(60+60)s, løbes som 1 intervalserie med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 1x4(60+60)s,1x4(60+60)s,8,16,"max: 1x4(60+60)s, løbes som 1 intervalserie med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 1x5(60+60)s,1x5(60+60)s,10,20,"max: 1x5(60+60)s, løbes som 1 intervalserie med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 1x6(60+60)s,1x6(60+60)s,12,24,"max: 1x6(60+60)s, løbes som 1 intervalserie med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+,,,,
+,,,,
+Max: 2x3(60+60)s,2x3(60+60)s,6,12,"max: 2x3(60+60)s, løbes som 2 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 2x4(60+60)s,2x4(60+60)s,8,16,"max: 2x4(60+60)s, løbes som 2 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 2x5(60+60)s,2x5(60+60)s,10,20,"max: 2x5(60+60)s, løbes som 2 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 2x6(60+60)s,2x6(60+60)s,12,24,"max: 2x6(60+60)s, løbes som 2 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+,,,,
+,,,,
+Max: 3x3(60+60)s,3x3(60+60)s,9,18,"max: 3x3(60+60)s, løbes som 3 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 3x4(60+60)s,3x4(60+60)s,12,24,"max: 3x4(60+60)s, løbes som 3 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 3x5(60+60)s,3x5(60+60)s,15,30,"max: 3x5(60+60)s, løbes som 3 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 3x6(60+60)s,3x6(60+60)s,18,36,"max: 3x6(60+60)s, løbes som 3 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+,,,,
+,,,,
+Max: 4x3(60+60)s,4x3(60+60)s,12,24,"max: 4x3(60+60)s, løbes som 4 intervalserier med 3 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 4x4(60+60)s,4x4(60+60)s,16,32,"max: 4x4(60+60)s, løbes som 4 intervalserier med 4 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 4x5(60+60)s,4x5(60+60)s,20,40,"max: 4x5(60+60)s, løbes som 4 intervalserier med 5 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+Max: 4x6(60+60)s,4x6(60+60)s,24,48,"max: 4x6(60+60)s, løbes som 4 intervalserier med 6 gentagelser af 60 sekunders arbejde og 60 sekunders pause, i hver  serie. Pulsen skal i løbet af de første 2-3 intervaller komme op i max-zonen"
+,,,,
+,,,,
+Max: 1x1m ,1x1m ,1.00,2,"max: 1x1m, løbes som 1 interval af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 2x1m ,2x1m ,2.00,4,"max: 2x1m, løbes som 2 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 3x1m ,3x1m ,3.00,6,"max: 3x1m, løbes som 3 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 4x1m ,4x1m ,4.00,8,"max: 4x1m, løbes som 4 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 5x1m ,5x1m ,5.00,10,"max: 5x1m, løbes som 5 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 6x1m ,6x1m ,6.00,12,"max: 6x1m, løbes som 6 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 7x1m ,7x1m ,7.00,14,"max: 7x1m, løbes som 7 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 8x1m ,8x1m ,8.00,16,"max: 8x1m, løbes som 8 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 9x1m ,9x1m ,9.00,18,"max: 9x1m, løbes som 9 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+Max: 10x1m ,10x1m ,10.00,20,"max: 10x1m, løbes som 10 intervaller af 1 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+,,,0,
+"Max: 1x1,5m ","1x1,5m ",1.50,3,"max: 1x1,5m, løbes som 1 interval af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 2x1,5m ","2x1,5m ",3.00,6,"max: 2x1,5m, løbes som 2 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 3x1,5m ","3x1,5m ",4.50,9,"max: 3x1,5m, løbes som 3 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 4x1,5m ","4x1,5m ",6.00,12,"max: 4x1,5m, løbes som 4 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 5x1,5m ","5x1,5m ",7.50,15,"max: 5x1,5m, løbes som 5 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 6x1,5m ","6x1,5m ",9.00,18,"max: 6x1,5m, løbes som 6 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 7x1,5m ","7x1,5m ",10.50,21,"max: 7x1,5m, løbes som 7 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 8x1,5m ","8x1,5m ",12.00,24,"max: 8x1,5m, løbes som 8 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 9x1,5m ","9x1,5m ",13.50,27,"max: 9x1,5m, løbes som 9 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+"Max: 10x1,5m ","10x1,5m ",15.00,30,"max: 10x1,5m, løbes som 10 intervaller af 1,5 min. Pulsen skal i løbet af de første 1 minutter af første interval komme op i max-zonen"
+,,,,
+,,,,
+Max: 1x2m ,1x2m ,2.00,4,"max: 1x2m, løbes som 1 interval af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 2x2m ,2x2m ,4.00,8,"max: 2x2m, løbes som 2 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 3x2m ,3x2m ,6.00,12,"max: 3x2m, løbes som 3 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 4x2m ,4x2m ,8.00,16,"max: 4x2m, løbes som 4 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 5x2m ,5x2m ,10.00,20,"max: 5x2m, løbes som 5 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 6x2m ,6x2m ,12.00,24,"max: 6x2m, løbes som 6 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 7x2m ,7x2m ,14.00,28,"max: 7x2m, løbes som 7 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 8x2m ,8x2m ,16.00,32,"max: 8x2m, løbes som 8 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 9x2m ,9x2m ,18.00,36,"max: 9x2m, løbes som 9 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 10x2m ,10x2m ,20.00,40,"max: 10x2m, løbes som 10 intervaller af 2 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+,,,,
+,,,,
+Max: 1x3m ,1x3m ,3.00,6,"max: 1x3m, løbes som 1 interval af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 2x3m ,2x3m ,6.00,12,"max: 2x3m, løbes som 2 intervaller af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 3x3m ,3x3m ,9.00,18,"max: 3x3m, løbes som 3 intervaller af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 4x3m ,4x3m ,12.00,24,"max: 4x3m, løbes som 4 intervaller af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 5x3m ,5x3m ,15.00,30,"max: 5x3m, løbes som 5 intervaller af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 6x3m ,6x3m ,18.00,36,"max:68x3m, løbes som 6 intervaller af 3 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+,,,0,
+Max: 1x4m ,1x4m ,4.00,8,"max: 1x4m, løbes som 1 interval af 4 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 2x4m ,2x4m ,8.00,16,"max: 2x4m, løbes som 2 intervaller af 4 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 3x4m ,3x4m ,12.00,24,"max: 3x4m, løbes som 3 intervaller af 4 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 4x4m ,4x4m ,16.00,32,"max: 4x4m, løbes som 4 intervaller af 4 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+Max: 5x4m ,5x4m ,20.00,40,"max: 5x4m, løbes som 5 intervaller af 4 min. Pulsen skal i løbet af de første 2 minutter af første interval komme op i max-zonen"
+,,,,
+,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,Funktionel styrke,,,
 ,,,0.77,
-FS: 1x5m,1x5m,5,3.85,"Funktionel styrke: 1x5 min køres som 1 interval á 5 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x8m,1x8m,8,6.16,"Funktionel styrke: 1x8 min køres som 1 interval á 8 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x10m,1x10m,10,7.7,"Funktionel styrke: 1x10 min køres som 1 interval á 10 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x12m,1x12m,12,9.24,"Funktionel styrke: 1x12 min køres som 1 interval á 12 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x15m,1x15m,15,11.55,"Funktionel styrke: 1x15 min køres som 1 interval á 15 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x20m,1x20m,20,15.4,"Funktionel styrke: 1x20 min køres som 1 interval á 20 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x25m,1x25m,25,19.25,"Funktionel styrke: 1x25 min køres som 1 interval á 25 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 1x30m,1x30m,30,23.1,"Funktionel styrke: 1x30 min køres som 1 interval á 30 minutter. Kadance 60, og puls 10-20 slag under AT"
+FS: 1x5m,1x5m,5,3.85,"Funktionel styrke: 1x5 min køres som 1 interval af 5 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x8m,1x8m,8,6.16,"Funktionel styrke: 1x8 min køres som 1 interval af 8 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x10m,1x10m,10,7.7,"Funktionel styrke: 1x10 min køres som 1 interval af 10 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x12m,1x12m,12,9.24,"Funktionel styrke: 1x12 min køres som 1 interval af 12 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x15m,1x15m,15,11.55,"Funktionel styrke: 1x15 min køres som 1 interval af 15 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x20m,1x20m,20,15.4,"Funktionel styrke: 1x20 min køres som 1 interval af 20 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x25m,1x25m,25,19.25,"Funktionel styrke: 1x25 min køres som 1 interval af 25 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 1x30m,1x30m,30,23.1,"Funktionel styrke: 1x30 min køres som 1 interval af 30 minutter. kadence 60, og puls 10-20 slag under AT"
 ,,,,
 ,,,,
-FS: 2x5m,2x5m,10,7.7,"Funktionel styrke: 2x5 min køres som to intervaller á 5 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x8m,2x8m,16,12.32,"Funktionel styrke: 2x8 min køres som to intervaller á 8 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x10m,2x10m,20,15.4,"Funktionel styrke: 2x10 min køres som to intervaller á 10 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x12m,2x12m,24,18.48,"Funktionel styrke: 2x12 min køres som to intervaller á 12 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x15m,2x15m,30,23.1,"Funktionel styrke: 2x15 min køres som to intervaller á 15 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x20m,2x20m,40,30.8,"Funktionel styrke: 2x20 min køres som to intervaller á 20 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 2x30m,2x30m,60,46.2,"Funktionel styrke: 2x30 min køres som to intervaller á 30 minutter. Kadance 60, og puls 10-20 slag under AT"
+FS: 2x5m,2x5m,10,7.7,"Funktionel styrke: 2x5 min køres som 2 intervaller af 5 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x8m,2x8m,16,12.32,"Funktionel styrke: 2x8 min køres som 2 intervaller af 8 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x10m,2x10m,20,15.4,"Funktionel styrke: 2x10 min køres som 2 intervaller af 10 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x12m,2x12m,24,18.48,"Funktionel styrke: 2x12 min køres som 2 intervaller af 12 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x15m,2x15m,30,23.1,"Funktionel styrke: 2x15 min køres som 2 intervaller af 15 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x20m,2x20m,40,30.8,"Funktionel styrke: 2x20 min køres som 2 intervaller af 20 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 2x30m,2x30m,60,46.2,"Funktionel styrke: 2x30 min køres som 2 intervaller af 30 minutter. kadence 60, og puls 10-20 slag under AT"
 ,,,,
-FS: 3x5m,3x5m,15,11.55,"Funktionel styrke: 3x5 min køres som 3 intervaller á 5 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x8m,3x8m,24,18.48,"Funktionel styrke: 3x8 min køres som 3 intervaller á 8 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x10m,3x10m,30,23.1,"Funktionel styrke: 3x10 min køres som 3 intervaller á 10 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x12m,3x12m,36,27.72,"Funktionel styrke: 3x12 min køres som 3 intervaller á 12 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x15m,3x15m,45,34.65,"Funktionel styrke: 3x15 min køres som 3 intervaller á 15 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x20m,3x20m,60,46.2,"Funktionel styrke: 3x20 min køres som 3 intervaller á 20 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 3x30m,3x30m,90,69.3,"Funktionel styrke: 3x30 min køres som 3 intervaller á 30 minutter. Kadance 60, og puls 10-20 slag under AT"
+FS: 3x5m,3x5m,15,11.55,"Funktionel styrke: 3x5 min køres som 3 intervaller af 5 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x8m,3x8m,24,18.48,"Funktionel styrke: 3x8 min køres som 3 intervaller af 8 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x10m,3x10m,30,23.1,"Funktionel styrke: 3x10 min køres som 3 intervaller af 10 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x12m,3x12m,36,27.72,"Funktionel styrke: 3x12 min køres som 3 intervaller af 12 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x15m,3x15m,45,34.65,"Funktionel styrke: 3x15 min køres som 3 intervaller af 15 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x20m,3x20m,60,46.2,"Funktionel styrke: 3x20 min køres som 3 intervaller af 20 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 3x30m,3x30m,90,69.3,"Funktionel styrke: 3x30 min køres som 3 intervaller af 30 minutter. kadence 60, og puls 10-20 slag under AT"
 ,,,,
-FS: 4x5m,4x5m,20,15.4,"Funktionel styrke: 4x5 min køres som 4 intervaller á 5 minutter. Kadance 60, og puls 10-20 slag under AT"
-FS: 4x8m,4x8m,32,24.64,"Funktionel styrke: 4x8 min køres som 4 intervaller á 8 minutter. Kadance 60, og puls 10-20 slag under AT"
+FS: 4x5m,4x5m,20,15.4,"Funktionel styrke: 4x5 min køres som 4 intervaller af 5 minutter. kadence 60, og puls 10-20 slag under AT"
+FS: 4x8m,4x8m,32,24.64,"Funktionel styrke: 4x8 min køres som 4 intervaller af 8 minutter. kadence 60, og puls 10-20 slag under AT"
+,,,,
+,,,,
+,,,,
+FS: 1x5m ,1x5m ,5,3.85,Funktionel styrke: 1x5 min løbes som 1 interval af 5 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x8m ,1x8m ,8,6.16,Funktionel styrke: 1x8 min løbes som 1 interval af 8 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x10m ,1x10m ,10,7.7,Funktionel styrke: 1x10 min løbes som 1 interval af 10 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x12m ,1x12m ,12,9.24,Funktionel styrke: 1x12 min løbes som 1 interval af 12 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x15m ,1x15m ,15,11.55,Funktionel styrke: 1x15 min løbes som 1 interval af 15 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x20m ,1x20m ,20,15.4,Funktionel styrke: 1x20 min løbes som 1 interval af 20 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+FS: 1x30m ,1x30m ,30,23.1,Funktionel styrke: 1x30 min løbes som 1 interval af 30 minutter. Løbes på tungt underlag.  Puls 10-20 slag under AT
+,,,,
+,,,,
+FS: 2x5m ,2x5m ,10,7.7,Funktionel styrke: 2x5 min løbes som to intervaller af 5 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x8m ,2x8m ,16,12.32,Funktionel styrke: 2x8 min løbes som to intervaller af 8 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x10m ,2x10m ,20,15.4,Funktionel styrke: 2x10 min løbes som to intervaller af 10 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x12m ,2x12m ,24,18.48,Funktionel styrke: 2x12 min løbes som to intervaller af 12 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x15m ,2x15m ,30,23.1,Funktionel styrke: 2x15 min løbes som to intervaller af 15 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x20m ,2x20m ,40,30.8,Funktionel styrke: 2x20 min løbes som to intervaller af 20 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 2x30m ,2x30m ,60,46.2,Funktionel styrke: 2x30 min løbes som to intervaller af 30 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+,,,,
+FS: 3x5m ,3x5m ,15,11.55,Funktionel styrke: 3x5 min løbes som 3 intervaller af 5 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x8m ,3x8m ,16,12.32,Funktionel styrke: 3x8 min løbes som 3 intervaller af 8 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x10m ,3x10m ,30,23.1,Funktionel styrke: 3x10 min løbes som 3 intervaller af 10 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x12m ,3x12m ,36,27.72,Funktionel styrke: 3x12 min løbes som 3 intervaller af 12 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x15m ,3x15m ,45,34.65,Funktionel styrke: 3x15 min løbes som 3 intervaller af 15 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x20m ,3x20m ,60,46.2,Funktionel styrke: 3x20 min løbes som 3 intervaller af 20 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+FS: 3x30m ,3x30m ,90,69.3,Funktionel styrke: 3x30 min løbes som 3 intervaller af 30 minutter. Løbes på tungt underlag. Puls 10-20 slag under AT
+,,,,
+,,,,
 ,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,Power,,2.0,
-Power: 1x3(6+54)s,1x3(6+54)s,3,6,"Power: 1x3(6+54)s køres som 1 intervalserie af 3 gentagelser af 6 sekunder og 54 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 6 sek. Intervalet køres stående"
-Power: 1x5(6+54)s,1x5(6+54)s,5,10,"Power: 1x5(6+54)s køres som 1 intervalserie af 5 gentagelser af 6 sekunder og 54 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 6 sek. Intervalet køres stående"
-Power: 1x8(6+54)s,1x8(6+54)s,8,16,"Power: 1x8(6+54)s køres som 1 intervalserie af 8 gentagelser af 6 sekunder og 54 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 6 sek. Intervalet køres stående"
+Power: 1x3(6+54)s,1x3(6+54)s,3,6,"Power: 1x3(6+54)s køres som 1 intervalserie af 3 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 1x5(6+54)s,1x5(6+54)s,5,10,"Power: 1x5(6+54)s køres som 1 intervalserie af 5 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 1x8(6+54)s,1x8(6+54)s,8,16,"Power: 1x8(6+54)s køres som 1 intervalserie af 8 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 1x10(6+54)s,1x10(6+54)s,10,20,"Power: 1x10(6+54)s køres som 1 intervalserie af 10 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
 ,,,,
-Power: 2x5(6+54)s,2x5(6+54)s,10,20,"Power: 2x5(6+54)s køres som 2 intervalserier af 5 gentagelser af 6 sekunder og 54 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 6 sek. Intervalet køres stående"
-Power: 2x8(6+54)s,2x8(6+54)s,16,32,"Power: 2x8(6+54)s køres som 2 intervalserier af 8 gentagelser af 6 sekunder og 54 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 6 sek. Intervalet køres stående"
+Power: 2x5(6+54)s,2x5(6+54)s,10,20,"Power: 2x5(6+54)s køres som 2 intervalserier af 5 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 2x8(6+54)s,2x8(6+54)s,16,32,"Power: 2x8(6+54)s køres som 2 intervalserier af 8 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 2x10(6+54)s,2x10(6+54)s,20,40,"Power: 2x10(6+54)s køres som 2 intervalserier af 10 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
 ,,,,
-,,,,
-Power: 1x3(10+50)s ,1x3(10+50)s ,3,6,"Power: 1x3(10+50)s køres som 1 intervalserie af 3 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 1x5(10+50)s ,1x5(10+50)s ,5,10,"Power: 1x5(10+50)s køres som 1 intervalserie af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 1x8(10+50)s,1x8(10+50)s,8,16,"Power: 1x8(10+50)s køres som 1 intervalserie af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-,,,,
-Power: 2x5(10+50)s ,2x5(10+50)s ,10,20,"Power: 2x5(10+50)s køres som 2 intervalserier af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 2x8(10+50)s,2x8(10+50)s,16,32,"Power: 2x8(10+50)s køres som 2 intervalserier af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-,,,,
-Power: 3x5(10+50)s ,3x5(10+50)s ,15,30,"Power: 3x5(10+50)s køres som 3 intervalserier af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 3x8(10+50)s,3x8(10+50)s,24,48,"Power: 3x8(10+50)s køres som 3 intervalserier af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 3x5(6+54)s,3x5(6+54)s,15,30,"Power: 3x5(6+54)s køres som 3 intervalserier af 5 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 3x8(6+54)s,3x8(6+54)s,24,48,"Power: 3x8(6+54)s køres som 3 intervalserier af 8 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
+Power: 3x10(6+54)s,3x10(6+54)s,30,60,"Power: 3x10(6+54)s køres som 3 intervalserier af 10 gentagelser af 6 sekunder og 54 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 6 sek. intervallet køres stående"
 ,,,,
 ,,,,
-Power: 1x5(10+170)s ,1x5(10+170)s ,5,10,"Power: 1x5(10+170)s køres som 1 intervalserie af 5 gentagelser af 10 sekunder og 170 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 1x8(10+170)s,1x8(10+170)s,8,16,"Power: 1x8(10+170)s køres som 1 intervalserie af 8 gentagelser af 10 sekunder og 170 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
-Power: 2x5(10+170)s ,2x5(10+170)s ,10,20,"Power: 2x5(10+170)s køres som 2 intervalserier af 5 gentagelser af 10 sekunder og 170 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 2x8(10+170)s,2x8(10+170)s,16,32,"Power: 2x8(10+170)s køres som 2 intervalserier af 8 gentagelser af 10 sekunder og 170 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 1x3(10+50)s,1x3(10+50)s,3,6,"Power: 1x3(10+50)s køres som 1 intervalserie af 3 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 1x5(10+50)s,1x5(10+50)s,5,10,"Power: 1x5(10+50)s køres som 1 intervalserie af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 1x8(10+50)s,1x8(10+50)s,8,16,"Power: 1x8(10+50)s køres som 1 intervalserie af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 1x10(10+50)s,1x10(10+50)s,10,20,"Power: 1x10(10+50)s køres som 1 intervalserie af 10 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
+Power: 2x5(10+50)s,2x5(10+50)s,10,20,"Power: 2x5(10+50)s køres som 2 intervalserier af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 2x8(10+50)s,2x8(10+50)s,16,32,"Power: 2x8(10+50)s køres som 2 intervalserier af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 2x10(10+50)s,2x10(10+50)s,20,40,"Power: 2x10(10+50)s køres som 2 intervalserier af 10 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
-Power: 2x4antrit,2x4antrit,12,24,Power: 2x4 antrit køres som 2 intervaslserier á 4 gentagelser med max power i 10-20 sek.
-,,,,
-,,,,
-Power: 3xantrit,3xantrit,3,6,Power: 3 x antrit køres som antrit på mindre stejle stigninger á 5-10 sek. På stigningerne køres med fuld kraft
-Power: 5xantrit,5xantrit,5,10,Power: 5 x antrit køres som antrit på mindre stejle stigninger á 5-10 sek. På stigningerne køres med fuld kraft
-Power: 8xantrit,8xantrit,8,16,Power: 8 x antrit køres som antrit på mindre stejle stigninger á 5-10 sek. På stigningerne køres med fuld kraft
-,,,,
-Power: 2x(5xantrit),2x(5xantrit),10,20,Power: 2x(5 x antrit) køres som 2 intervalserier af 5 antrit på mindre stejle stigninger á 5-10 sek. På stigningerne køres med fuld kraft
-Power: 2x(8xantrit),2x(8xantrit),16,32,Power: 2x(8 x antrit) køres som 2 intervalserier af 8 antrit på mindre stejle stigninger á 5-10 sek. På stigningerne køres med fuld kraft
+Power: 3x5(10+50)s,3x5(10+50)s,15,30,"Power: 3x5(10+50)s køres som 3 intervalserier af 5 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 3x8(10+50)s,3x8(10+50)s,24,48,"Power: 3x8(10+50)s køres som 3 intervalserier af 8 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 3x10(10+50)s,3x10(10+50)s,30,60,"Power: 3x10(10+50)s køres som 3 intervalserier af 10 gentagelser af 10 sekunder og 50 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
 ,,,,
-Power: 1x5(60+180)s,1x5(60+180)s,10,20,"Power: 1x5(60+180)s, køres som 1 intervalserie med 5 gentagelser, af 60 sekunders arbejde og 180 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet. Køres siddende"
-Power: 1x8(60+180)s,1x8(60+180)s,16,32,"Power: 1x8(60+180)s, køres som 1 intervalserie med 8 gentagelser, af 60 sekunders arbejde og 180 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet. Køres siddende"
+Power: 1x5(10+170)s,1x5(10+170)s,5,10,"Power: 1x5(10+170)s køres som 1 intervalserie af 5 gentagelser af 10 sekunder og 170 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 1x8(10+170)s,1x8(10+170)s,8,16,"Power: 1x8(10+170)s køres som 1 intervalserie af 8 gentagelser af 10 sekunder og 170 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
-Power: 2x5(60+180)s,2x5(60+180)s,20,40,"Power: 2x5(60+180)s, køres som 2 intervalserier med 5 gentagelser, af 60 sekunders arbejde og 180 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet. Køres siddende"
-Power: 2x8(60+180)s,2x8(60+180)s,32,64,"Power: 2x8(60+180)s, køres som 2 intervalserier med 8 gentagelser, af 60 sekunders arbejde og 180 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet. Køres siddende"
-,,,,
-Power: 1x4(30+90)s,1x4(30+90)s,8,16,"Power: 1x4(30+90)s, køres som 1 intervalserie med 4 gentagelser, af 30 sekunders arbejde og 90 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet"
-Power: 2x4(30+90)s,2x4(30+90)s,16,32,"Power: 2x4(30+90)s, køres som 2 intervalserier med 4 gentagelser, af 30 sekunders arbejde og 90 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet"
+Power: 2x5(10+170)s,2x5(10+170)s,10,20,"Power: 2x5(10+170)s køres som 2 intervalserier af 5 gentagelser af 10 sekunder og 170 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
+Power: 2x8(10+170)s,2x8(10+170)s,16,32,"Power: 2x8(10+170)s køres som 2 intervalserier af 8 gentagelser af 10 sekunder og 170 sek. pause. Fra kadence ca. 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
 ,,,,
 ,,,,
-Power: 1x4(20+40),1x4(20+40),6,12,"Power: 1x4(20+40)s køres som 1 intervalserie med 4 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
-Power: 1x5(20+40),1x5(20+40),7.5,15,"Power: 1x5(20+40)s køres som 1 intervalserie med 5 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
-Power: 1x6(20+40),1x6(20+40),9,18,"Power: 1x6(20+40)s køres som 1 intervalserie med 6 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
+Power: 3xantrit,3xantrit,3,6,Power: 3 x antrit køres som antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 5xantrit,5xantrit,5,10,Power: 5 x antrit køres som antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 8xantrit,8xantrit,8,16,Power: 8 x antrit køres som antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 10xantrit,10xantrit,10,20,Power: 10 x antrit køres som antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
 ,,,,
-Power: 2x4(20+40),2x4(20+40),12,24,"Power: 2x4(20+40)s køres som 2 intervalserier med 4 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
-Power: 2x5(20+40),2x5(20+40),15,30,"Power: 2x5(20+40)s køres som 2 intervalserier med 5 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
-Power: 2x6(20+40),2x6(20+40),18,36,"Power: 2x6(20+40)s køres som 2 intervalserier med 6 gentagelser, af 20 sek arbejde og 40 sek pause. Kadance 60-70. max mulig power i intervallet. Køres siddende."
+Power: 2x(5xantrit),2x(5xantrit),10,20,Power: 2x(5 x antrit) køres som 2 intervalserier af 5 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 2x(8xantrit),2x(8xantrit),16,32,Power: 2x(8 x antrit) køres som 2 intervalserier af 8 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 2x(10xantrit),2x(10xantrit),20,40,Power: 2x(10 x antrit) køres som 2 intervalserier af 10 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
 ,,,,
-,,,,
-Power: 2x30 s. stign.,2x30 s. stign.,4,8,"Power: 2x30 s. stign., køres som 2 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 3x30 s. stign.,3x30 s. stign.,6,12,"Power: 3x30 s. stign., køres som 3 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 4x30 s. stign.,4x30 s. stign.,8,16,"Power: 4x30 s. stign., køres som 4 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 5x30 s. stign.,5x30 s. stign.,10,20,"Power: 5x30 s. stign., køres som 5 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 6x30 s. stign.,6x30 s. stign.,12,24,"Power: 6x30 s. stign., køres som 6 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 7x30 s. stign.,7x30 s. stign.,14,28,"Power: 7x30 s. stign., køres som 7 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 8x30 s. stign.,8x30 s. stign.,16,32,"Power: 8x30 s. stign., køres som 8 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 9x30 s. stign.,9x30 s. stign.,18,36,"Power: 9x30 s. stign., køres som 9 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 10x30 s. stign.,10x30 s. stign.,20,40,"Power: 10x30 s. stign., køres som 10 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
+Power: 3x(5xantrit),3x(5xantrit),15,30,Power: 3x(5 x antrit) køres som 3 intervalserier af 5 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 3x(8xantrit),3x(8xantrit),24,48,Power: 3x(8 x antrit) køres som 3 intervalserier af 8 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
+Power: 3x(10xantrit),3x(10xantrit),30,60,Power: 3x(10 x antrit) køres som 3 intervalserier af 10 antrit på mindre stejle stigninger af 5-10 sek. På stigningerne køres med fuld kraft
 ,,,,
 ,,,,
-Power: 3x60 s. stign.,3x60 s. stign.,6,12,"Power: 3x60 s. stign., køres som 3 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 4x60 s. stign.,4x60 s. stign.,8,16,"Power: 4x60 s. stign., køres som 4 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 5x60 s. stign.,5x60 s. stign.,10,20,"Power: 5x60 s. stign., køres som 5 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
-Power: 6x60 s. stign.,6x60 s. stign.,12,24,"Power: 6x60 s. stign., køres som 6 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. Kadance 60-70 rpm."
+Power: 1x4(30+90)s,1x4(30+90)s,8,16,"Power: 1x4(30+90)s, køres som 1 intervalserie med 4 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x5(30+90)s,1x5(30+90)s,10,20,"Power: 1x5(30+90)s, køres som 1 intervalserie med 5 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x6(30+90)s,1x6(30+90)s,12,24,"Power: 1x6(30+90)s, køres som 1 intervalserie med 6 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x7(30+90)s,1x7(30+90)s,14,28,"Power: 1x7(30+90)s, køres som 1 intervalserie med 7 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x8(30+90)s,1x8(30+90)s,16,32,"Power: 1x8(30+90)s, køres som 1 intervalserie med 8 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x9(30+90)s,1x9(30+90)s,18,36,"Power: 1x9(30+90)s, køres som 1 intervalserie med 9 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 1x10(30+90)s,1x10(30+90)s,20,40,"Power: 1x10(30+90)s, køres som 1 intervalserie med 10 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
 ,,,,
 ,,,,
-Power: 2x15(30+10)s,2x15(30+10)s,60,120,"Power: 2x15(30+10)s køres som 2 intervalserier med 15 gentagelser af 30 sekunders arbejde og 10 sekunders pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Power: 2x30(10+10)s,2x30(10+10)s,60,120,"Power: 2x30(10+10)s køres som 2 intervalserier af 30 gentagelser af 10 sekunder og 10 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 10 sek. Intervallet køres siddende"
-Power: 2x20(15+15)s,2x20(15+15)s,60,120,"Power: 2x20(15+15)s køres som 2 intervalserier af 20 gentagelser af 15 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
-Power: 2x20(30+15)s,2x20(30+15)s,80,160,"Power: 2x20(30+15)s køres som 2 intervalserier af 20 gentagelser af 30 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Power: 3x30(15+5)s,3x30(15+5)s,135,270,"Power: 3x30(15+5)s køres som 3 intervalserier af 30 gentagelser af 15 sekunder og 5 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 15 sek. Intervallet køres siddende"
-Power: 8x(30+30)s,8x(30+30)s,16,32,"Power: 8x(30+30)s køres som 8 gentagelser af 30 sekunder og 30 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Power: 10x(30+30)s,10x(30+30)s,20,40,"Power: 10x(30+30)s køres som 10 gentagelser af 30 sekunder og 30 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
-Power: 2x30(20+10)s,2x30(20+10)s,90,180,"Power: 2x30(20+10)s køres som 2 intervalserier af 30 gentagelser af 20 sekunder og 10 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 20 sek. Intervallet køres siddende"
-Power: 2x5(90+90)s,2x5(90+90)s,20,40,"Power: 2x5(90+90)s, køres som 2 intervalserier med 5 gentagelser, af 90 sekunders arbejde og 90 sekunders pause, i hver serie. Kadance 60-70. Max mulig power i intervallet. Køres siddende"
-Power: 3x10(30+15)s,3x10(30+15)s,60,120,"Power: 3x10(30+15)s køres som 3 intervalserier af 10 gentagelser af 30 sekunder og 15 sek. pause. Fra kadance ca 50, med tung belastning, trædes med fuld kraft i 30 sek. Intervallet køres siddende"
+Power: 2x4(30+90)s,2x4(30+90)s,16,32,"Power: 2x4(30+90)s, køres som 2 intervalserier med 4 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 2x5(30+90)s,2x5(30+90)s,20,40,"Power: 2x5(30+90)s, køres som 2 intervalserier med 5 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 2x6(30+90)s,2x6(30+90)s,24,48,"Power: 2x6(30+90)s, køres som 2 intervalserier med 6 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 2x7(30+90)s,2x7(30+90)s,28,56,"Power: 2x7(30+90)s, køres som 2 intervalserier med 7 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+Power: 2x8(30+90)s,2x8(30+90)s,32,64,"Power: 2x8(30+90)s, køres som 2 intervalserier med 8 gentagelser af 30 sekunders arbejde og 90 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet"
+,,,,
+,,,,
+,,,,
+Power: 1x4(20+40)s,1x4(20+40)s,6,12,Power: 1x4(20+40)s køres som 1 intervalserie med 4 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x5(20+40)s,1x5(20+40)s,7.5,15,Power: 1x5(20+40)s køres som 1 intervalserie med 5 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x6(20+40)s,1x6(20+40)s,9,18,Power: 1x6(20+40)s køres som 1 intervalserie med 6 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x7(20+40)s,1x7(20+40)s,10.5,21,Power: 1x7(20+40)s køres som 1 intervalserie med 7 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x8(20+40)s,1x8(20+40)s,12,24,Power: 1x8(20+40)s køres som 1 intervalserie med 8 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x9(20+40)s,1x9(20+40)s,13.5,27,Power: 1x9(20+40)s køres som 1 intervalserie med 9 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 1x10(20+40)s,1x10(20+40)s,15,30,Power: 1x10(20+40)s køres som 1 intervalserie med 10 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+,,,,
+Power: 2x4(20+40)s,2x4(20+40)s,12,24,Power: 2x4(20+40)s køres som 2 intervalserier med 4 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x5(20+40)s,2x5(20+40)s,15,30,Power: 2x5(20+40)s køres som 2 intervalserier med 5 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x6(20+40)s,2x6(20+40)s,18,36,Power: 2x6(20+40)s køres som 2 intervalserier med 6 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x7(20+40)s,2x7(20+40)s,21,42,Power: 2x7(20+40)s køres som 2 intervalserie med 7 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x8(20+40)s,2x8(20+40)s,24,48,Power: 2x8(20+40)s køres som 2 intervalserie med 8 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x9(20+40)s,2x9(20+40)s,27,54,Power: 2x9(20+40)s køres som 2 intervalserie med 9 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+Power: 2x10(20+40)s,2x10(20+40)s,30,60,Power: 2x10(20+40)s køres som 2 intervalserie med 10 gentagelser af 20 sek arbejde og 40 sek pause. kadence 60-70. max mulig power i intervallet. Køres siddende.
+,,,,
+,,,,
+Power: 2x30 s. stign.,2x30 s. stign.,4,8,"Power: 2x30 s. stign., køres som 2 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 3x30 s. stign.,3x30 s. stign.,6,12,"Power: 3x30 s. stign., køres som 3 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 4x30 s. stign.,4x30 s. stign.,8,16,"Power: 4x30 s. stign., køres som 4 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 5x30 s. stign.,5x30 s. stign.,10,20,"Power: 5x30 s. stign., køres som 5 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 6x30 s. stign.,6x30 s. stign.,12,24,"Power: 6x30 s. stign., køres som 6 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 7x30 s. stign.,7x30 s. stign.,14,28,"Power: 7x30 s. stign., køres som 7 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 8x30 s. stign.,8x30 s. stign.,16,32,"Power: 8x30 s. stign., køres som 8 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 9x30 s. stign.,9x30 s. stign.,18,36,"Power: 9x30 s. stign., køres som 9 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 10x30 s. stign.,10x30 s. stign.,20,40,"Power: 10x30 s. stign., køres som 10 intervaller af 30 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+,,,,
+,,,,
+Power: 3x60 s. stign.,3x60 s. stign.,6,12,"Power: 3x60 s. stign., køres som 3 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 4x60 s. stign.,4x60 s. stign.,8,16,"Power: 4x60 s. stign., køres som 4 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 5x60 s. stign.,5x60 s. stign.,10,20,"Power: 5x60 s. stign., køres som 5 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 6x60 s. stign.,6x60 s. stign.,12,24,"Power: 6x60 s. stign., køres som 6 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 7x60 s. stign.,7x60 s. stign.,14,28,"Power: 7x60 s. stign., køres som 7 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 8x60 s. stign.,8x60 s. stign.,16,32,"Power: 8x60 s. stign., køres som 8 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 9x60 s. stign.,9x60 s. stign.,18,36,"Power: 9x60 s. stign., køres som 9 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+Power: 10x60 s. stign.,10x60 s. stign.,20,40,"Power: 10x60 s. stign., køres som 10 intervaller af 60 sekunder. Intervallet køres på stigning. Samme maksimale power holdes hele vejen. kadence 60-70 rpm."
+,,,,
+Power: 3x60s,3x60s,6,12,"Power: 3x60 s, køres som 3 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 4x60s,4x60s,8,16,"Power: 4x60 s, køres som 4 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 5x60s,5x60s,10,20,"Power: 5x60 s, køres som 5 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 6x60s,6x60s,12,24,"Power: 6x60 s, køres som 6 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 7x60s,7x60s,14,28,"Power: 7x60 s, køres som 7 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 8x60s,8x60s,16,32,"Power: 8x60 s, køres som 8 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 9x60s,9x60s,18,36,"Power: 9x60 s, køres som 9 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+Power: 10x60s,10x60s,20,40,"Power: 10x60 s, køres som 10 intervaller af 60 sekunder. Samme maksimale power holdes hele vejen. kadence 55-65 rpm., 1-2 min pause ml intervaller"
+,,,,
+,,,,
+,,,,
+Power: 1x5(10+50)s ,1x5(10+50)s ,5,60,Power: 1x5(10+50)s løbes som 1 intervalserie med 5 gentagelser á 10 sekunder og 50 sek. pause. De 10 sek. løbes med maksimal effekt på relativt stejl stigning. Fokus på eksplosivitet
+Power: 1x8(10+50)s ,1x8(10+50)s ,8,96,Power: 1x8(10+50)s løbes som 1 intervalserie med 8 gentagelser á 10 sekunder og 50 sek. pause. De 10 sek. løbes med maksimal effekt på relativt stejl stigning. Fokus på eksplosivitet
+,,,,
+Power: 2x5(10+50)s ,2x5(10+50)s ,10,120,Power: 2x5(10+50)s løbes som 2 intervalserier med 5 gentagelser á 10 sekunder og 50 sek. pause. De 10 sek. løbes med maksimal effekt på relativt stejl stigning. Fokus på eksplosivitet
+Power: 2x8(10+50)s ,2x8(10+50)s ,16,192,Power: 2x8(10+50)s løbes som 2 intervalserier med 8 gentagelser á 10 sekunder og 50 sek. pause. De 10 sek. løbes med maksimal effekt på relativt stejl stigning. Fokus på eksplosivitet
+,,,,
+Power: 1x8(10+170)s ,1x8(10+170)s ,8,96,Power: 1x8(10+170)s løbes som 1 intervalserie med 8 gentagelser á 10 sekunder og 170 sek. pause. De 10 sek. løbes med maksimal effekt på relativt stejl stigning. Fokus på eksplosivitet
+,,,,
+,,,,
+Power: 1x5(30+180)s ,1x5(30+180)s ,10,120,"Power: 1x5(30+180)s, løbes som 1 intervalserie med 5 gentagelser, af 30 sekunders arbejde og 180 sekunders pause, i hver serie. løbes med maksimal effekt på relativt stejl stigning."
+Power: 1x8(30+180)s ,1x8(30+180)s ,16,192,"Power: 1x8(30+180)s, løbes som 1 intervalserie med 8 gentagelser, af 30 sekunders arbejde og 180 sekunders pause, i hver serie. løbes med maksimal effekt på relativt stejl stigning."
+,,,,
+Power: 2x5(30+180)s ,2x5(30+180)s ,20,240,"Power: 2x5(30+180)s, løbes som 2 intervalserier med 5 gentagelser, af 30 sekunders arbejde og 180 sekunders pause, i hver serie. løbes med maksimal effekt på relativt stejl stigning."
+Power: 2x8(30+180)s ,2x8(30+180)s ,32,384,"Power: 2x8(30+180)s, løbes som 2 intervalserier med 8 gentagelser, af 30 sekunders arbejde og 180 sekunders pause, i hver serie. kadence 60-70. Max mulig power i intervallet. løbes siddende"
+,,,,
+,,,,
+,,,,
 ,Indset ny linje foer denne linje hvis du tilfoejer nye intervaller,,,
 ,,,,
 ,,,,
 ,,,,
 ,Bjergtræning,,,
 ,,,,
-,2+1+2...m,,,"Bjergtræning: 2+1+2…m, køres som 2 min siddende + 1 min stående i samme el. højere gear + 2 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. Kadance 60-70"
-,5+2+5…m,,,"Bjergtræning: 5+2+5…m, køres som 5 min siddende + 2 min stående i samme el. højere gear + 5 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. Kadance 60-70"
-,7+3+7…m,,,"Bjergtræning: 7+3+7…m, køres som 7 min siddende + 3 min stående i samme el. højere gear + 7 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. Kadance 60-70"
-,10+3+10…m,,,"Bjergtræning: 10+3+10…m, køres som 10 min siddende + 3 min stående i samme el. højere gear + 10 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. Kadance 60-70"
+,2+1+2...m,,,"Bjergtræning: 2+1+2…m, køres som 2 min siddende + 1 min stående i samme el. højere gear + 2 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. kadence 60-70"
+,5+2+5…m,,,"Bjergtræning: 5+2+5…m, køres som 5 min siddende + 2 min stående i samme el. højere gear + 5 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. kadence 60-70"
+,7+3+7…m,,,"Bjergtræning: 7+3+7…m, køres som 7 min siddende + 3 min stående i samme el. højere gear + 7 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. kadence 60-70"
+,10+3+10…m,,,"Bjergtræning: 10+3+10…m, køres som 10 min siddende + 3 min stående i samme el. højere gear + 10 siddende osv. Tidsperiode for intervalserien er nævnt i ""Andet"". Puls 10-20 slag under AT. kadence 60-70"
 ,,,,
-,5 m stående,,,"Bjergtræning: 5 m stående køres som 1 interval á 5 stående i højt gear (kadance 60-70), og puls 10-20 slag under AT"
-,10 m stående,,,"Bjergtræning: 10 m stående køres som 1 interval á 10 stående i højt gear (kadance 60-70), og puls 10-20 slag under AT"
-,15 m stående,,,"Bjergtræning: 15 m stående køres som 1 interval á 15 stående i højt gear (kadance 60-70), og puls 10-20 slag under AT"
+,5 m stående,,,"Bjergtræning: 5 m stående køres som 1 interval af 5 stående i højt gear (kadence 60-70), og puls 10-20 slag under AT"
+,10 m stående,,,"Bjergtræning: 10 m stående køres som 1 interval af 10 stående i højt gear (kadence 60-70), og puls 10-20 slag under AT"
+,15 m stående,,,"Bjergtræning: 15 m stående køres som 1 interval af 15 stående i højt gear (kadence 60-70), og puls 10-20 slag under AT"
 ,,,,
 ,,,,
 ,,,,

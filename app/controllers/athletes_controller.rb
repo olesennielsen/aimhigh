@@ -29,6 +29,17 @@ class AthletesController < ApplicationController
       from_date = params[:start_date_pdf].to_datetime
       to_date = params[:end_date_pdf].to_datetime
       @events = Event.where(:attachment_id => @attachment.id).where("starts_at >= ? AND ends_at <= ?" , from_date, to_date)
+      
+      # Fill events with days without events
+      (from_date.to_date..to_date.to_date).each do |date|
+        unless( @events.where(:starts_at => date).exists?)
+          @events << Event.new(:starts_at => date+1.days)
+        end
+      end
+
+      # Sort by event_date
+      @events.sort_by! {|e| e.starts_at}
+      
       pdf = pdf::EventPdf.new(@athlete, @events )
       send_data pdf.render, filename: "events_#{from_date.strftime("%d/%m/%Y")}.pdf", type: "application/pdf"
       headers['Content-Type'] = "text/pdf; charset=UTF-8"
@@ -59,20 +70,23 @@ class AthletesController < ApplicationController
       logo
       move_down 40
       unless(athlete.name.blank?)
-        text "Navn: #{athlete.name}", :size => 12
+        text "Navn: #{athlete.name}", :size => 9
       else
-        text "Email: #{athlete.email}", :size => 12
+        text "Email: #{athlete.email}", :size => 9
       end
+      move_down 20
       draw_table(events)
       move_down 20
       stroke_horizontal_rule
-      move_down 10
-      draw_descriptions(events)
+      move_down 20
       unless(athlete.max_puls.nil?)
-        indent(600) do
-          pulsbox(athlete)
+        float do
+          indent(665) do
+            pulsbox(athlete)
+          end
         end
       end
+      draw_descriptions(events)
     end
 
     def logo
@@ -98,9 +112,12 @@ class AthletesController < ApplicationController
         cells.size = 6
         cells.border_width = 0.1
         cells.borders = []
+        cells.padding = [2,2,2,2]
+        columns(0).padding = [2,2,2,6]
         self.header = true
         columns(1..2).align = :center
         columns(0).borders = [:left]
+
       end
 
     end
@@ -133,16 +150,19 @@ class AthletesController < ApplicationController
 
     def draw_table(events)
       data = create_data(events)
-      table data do
-        cells.size = 7
+      table data, :width => 770 do
+        cells.size = 6
         cells.borders = [:bottom, :top, :right, :left]
         cells.border_width = 0.1
+        cells.padding = [2,2,2,2]
         row(0).borders      = [:bottom]
         row(0).font_style   = :bold
         self.header = true
         columns(2).align = :right
         columns(3..10).align = :center
-        columns(3..10).width = 60
+        columns(0).width = 25
+        columns(2).width = 20
+        columns(3..10).width = 50
       end
     end
 
@@ -156,10 +176,10 @@ class AthletesController < ApplicationController
         end
       end
       unless session_descriptions.empty? 
-        text "Beskrivelser", :size => 12
+        text "Beskrivelser", :size => 9
         move_down 10
         session_descriptions.each do |desc|
-          text desc.description, :size => 8
+          text desc.description, :size => 6, :width => 550
           move_down 2
         end
       end
@@ -219,7 +239,7 @@ class AthletesController < ApplicationController
     unless sessions.empty? then
       sessions.each do |session|
         unless(session.session_description.nil?) then
-          description_string = description_string + session.session_description.description + " :: "
+          description_string = description_string + session.session_description.description + "\n"
         end
       end
     end
