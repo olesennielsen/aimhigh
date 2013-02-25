@@ -1,0 +1,27 @@
+<% provide(:title, 'Documents') %>
+<div class="alert alert-block">
+<% if @documents.empty? %>
+<p>The user has no current tests <p>
+<% else %>
+<table class="table ">
+	<thead>
+		<tr>
+			<td>Filename</td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+	<% @documents.each do |document| %>
+		<tr>
+			<td><%= link_to document.file.path.split("/").last, document.file.url %></td>
+			<td><%= link_to [@athlete,document] , :confirm => "Do you want to remove this attachment from your athlete?", :method => :delete do %>
+				<i class="icon-remove"></i>
+				<% end %>
+			</td>
+		</tr>
+	<% end %>	
+	</tbody>	
+</table>
+<% end %>
+<%= link_to "Upload new Document", new_athlete_document_path(@athlete) %>
+</div>

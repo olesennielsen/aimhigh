@@ -1,0 +1,21 @@
+<% provide(:title, 'Documents') %>
+<div class="alert alert-block">
+<% if @documents.empty? %>
+<p>The user has no current tests <p>
+<% else %>
+<table class="table ">
+	<thead>
+		<tr>
+			<td>Filename</td>
+		</tr>
+	</thead>
+	<tbody>
+	<% @documents.each do |document| %>
+		<tr>
+			<td><%= link_to document.file.path.split("/").last, document.file.url %></td>
+		</tr>
+	<% end %>	
+	</tbody>	
+</table>
+<% end %>
+</div>

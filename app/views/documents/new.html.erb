@@ -1,0 +1,27 @@
+<% provide(:title, 'Documents') %>
+<div class="alert alert-block">
+<%= form_for [@athlete,@document], :html => {:multipart => true} do |f| %>
+	<fieldset>
+	<legend>Document</legend>
+	<% if @document.errors.any? %>
+	<div id="error_explanation">
+		<h2><%= pluralize(@event.errors.count, "error") %> prohibited this document from being saved:</h2>
+		<ul>
+			<% @document.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+	<% end %>
+	<div class="field">
+		<label>Upload File</label>
+		<%= f.file_field :file, :required => true %>
+	</div>
+	<br/>
+	<div class="actions">
+		<%= f.submit "Upload", :class => "btn btn-warning" %>
+	</div>
+	</fieldset>
+	<% end %>
+	</div>
+	
