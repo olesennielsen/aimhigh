@@ -19,6 +19,7 @@
 				<th><%= sort_link @search, :status, "Status" %></th>
 				<th></th>
 				<th></th>
+				<th></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -35,6 +36,7 @@
 						<% end %>
 						</td>
 				<td><%= link_to athlete.status_string, athlete_changestatus_path(athlete), :method => 'put' %></td>
+				<td style="text-align:center;"><%= link_to athlete_documents_path(athlete) do %><i class="icon-folder-open"></i><% end %></td>
 				<td style="text-align:center;"><%= link_to athlete_attachments_path(athlete) do %><i class="icon-file"></i><% end %></td>	
 				<td style="text-align:center;"><%= link_to athlete, :confirm => "Do you really want to delete this athlete and all its files?", :method => :delete do %>
 					<i class="icon-remove"></i><% end %></td>

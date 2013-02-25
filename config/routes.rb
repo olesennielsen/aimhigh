@@ -22,6 +22,8 @@ Aimhigh::Application.routes.draw do
   resources :athletes do 
     resources :events, :only => [:index, :show] 
     resources :attachments, :only => [:create, :index, :new, :destroy]
+    resources :documents
+    get 'listdocs' => 'documents#listdocs'
     put 'changestatus' => 'athletes#changestatus'
     post 'exportcal' => 'athletes#exportcal'      	
     post 'exportpdf' => 'athletes#exportpdf'      	

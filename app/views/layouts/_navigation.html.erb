@@ -5,6 +5,7 @@
 					<%= link_to "Log out", destroy_admin_session_path, :method => :delete, :class => "btn btn-warning" %>
 				<% elsif athlete_signed_in? %>
 					<%= link_to "Home", current_athlete, :class => "btn btn-warning" %>
+					<%= link_to "Test Documents", athlete_listdocs_path(current_athlete), :class => "btn btn-warning" %>
 					<%= link_to "Edit profile", edit_athletes_registration_path, :class => "btn btn-warning" %>
 					<%= link_to "Log out", destroy_athlete_session_path, :method => :delete, :class => "btn btn-warning" %>
 				<% end %>

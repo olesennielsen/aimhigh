@@ -10,6 +10,7 @@ class Athlete < ActiveRecord::Base
   
   has_one :attachment
   has_many :events, :through => :attachment
+  has_many :documents
   
   def active_for_authentication?
     #remember to call the super
