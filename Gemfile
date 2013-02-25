@@ -42,7 +42,7 @@ gem 'magic_encoding'
 gem 'carrierwave'
 
 # Spreadsheet parser gem
-gem 'roo'
+gem 'roo', :git => 'git://github.com/Empact/roo.git'
 
 # PDF generator gem
 gem "prawn"

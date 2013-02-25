@@ -27,7 +27,7 @@ class Attachment < ActiveRecord::Base
 
   # Getting access to the file
   def get_workbook( file_path )
-    return Excelx.new(file_path)
+    return Roo::Excelx.new(file_path)
   end
 
   # Getting the athletes name according to the xlsx file
