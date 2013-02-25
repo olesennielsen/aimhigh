@@ -4,6 +4,7 @@ class Ability
   def initialize(user)
     if user.is_a?(Athlete) then
       can [:show,:exportcal,:exportpdf], Athlete, :id => user.id
+      can :listdocs, Document, :athlete_id => user.id 
     elsif user.is_a?(Admin) then
       can :manage, :all
     end

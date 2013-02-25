@@ -1,7 +1,8 @@
 class DocumentsController < ApplicationController
 	before_filter :find_athlete, :only => [:index, :listdocs, :new, :create, :destroy]
 	before_filter :authenticate_admin!, :only => [:index, :new, :create, :destroy]
-  before_filter :authenticate_athlete! => :listdocs
+  load_and_authorize_resource :athlete
+  load_and_authorize_resource :document, :through => :athlete
 	def index
 		@documents = @athlete.documents
 	end
