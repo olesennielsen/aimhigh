@@ -57,6 +57,7 @@ $(document).ready(function() {
 	timeFormat: "{H 'h' mm 'min\n'}",
 	editable: false,
 	axisFormat: '',
+	currentTimezone: 'UTC',
 
 	loading: function(bool){
 	    if (bool) 

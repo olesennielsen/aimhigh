@@ -26,14 +26,14 @@ class AthletesController < ApplicationController
       redirect_to athlete_path(@athlete)
     else
       @attachment = @athlete.attachment
-      from_date = params[:start_date_pdf].to_datetime
-      to_date = params[:end_date_pdf].to_datetime
+      from_date = params[:start_date_pdf].to_datetime.utc
+      to_date = params[:end_date_pdf].to_datetime.utc
       @events = Event.where(:attachment_id => @attachment.id).where("starts_at >= ? AND ends_at <= ?" , from_date, to_date)
       
       # Fill events with days without events
-      (from_date.to_date..to_date.to_date).each do |date|
+      (from_date..to_date).each do |date|
         unless( @events.where(:starts_at => date).exists?)
-          @events << Event.new(:starts_at => date+1.days)
+          @events << Event.new(:starts_at => date)
         end
       end
 

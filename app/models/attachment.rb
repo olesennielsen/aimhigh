@@ -57,6 +57,7 @@ class Attachment < ActiveRecord::Base
       cell = workbook.cell(row, 'G')                        # Check for blank line 
       if !cell.nil? then
         date = workbook.cell(row, 'F')                      # Getting data for the event
+        date = date.to_s + ' UTC'                                      # Using UTC
         title = workbook.cell(row, 'G')
         duration = workbook.cell(row, 'H')
         description = workbook.cell(row, 'Q')
