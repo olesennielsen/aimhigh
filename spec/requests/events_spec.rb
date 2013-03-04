@@ -23,7 +23,7 @@ describe "Events" do
       visit new_athlete_attachment_path(:athlete_id => @athlete.id)
       attach_file "attachment[file]", File.join(Rails.root, '/spec/files/stub.xlsx')
       click_button 'Create Attachment'
-      page.should have_content('stub.xlsx')
+      page.should have_content('xlsx')
     end
   end
 end
