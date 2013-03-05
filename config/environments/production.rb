@@ -59,10 +59,10 @@ Aimhigh::Application.configure do
   config.action_mailer.default :charset => "utf-8"
 
   config.action_mailer.smtp_settings = {
-    address: "asmtp.danhost.dk",
-    port: 1025,
-    domain: "aimhigh.herokuapp.com",
-    authentication: "plain",
+    address: "mail.aimhigh.dk",
+    port: 587,
+    domain: "aimhigh.heroku.com",
+    authentication: "login",
     enable_starttls_auto: true,
     user_name: "aimhigh@aimhigh.dk",
     password: "ida1980"
