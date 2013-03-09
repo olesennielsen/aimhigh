@@ -50,7 +50,7 @@ $(document).ready(function() {
 	firstDay: 1,
 	defaultView: 'month',
 	allDaySlot: false,
-	height: 600,
+	height: 400,
 	firstHour: 0,
 	minTime: 0,
 	maxTime: 5,

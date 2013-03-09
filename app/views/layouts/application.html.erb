@@ -31,8 +31,13 @@
 						<br />
 					</div>
 				</div>
+				<% if admin_signed_in? || athlete_signed_in? %>
 				<footer>
+					<p class ="left">Mobil 20 42 04 62 | Email <a href="mailto:aimhigh@aimhigh.dk">aimhigh@aimhigh.dk</a> | </p>
+					<p class ="right">Designed and implemented by Olesen & Nielsen</p>
 				</footer>
+
+				<% end %>
 			</div>
 		</div> <!--! end of .container -->
 	</div> <!--! end of #main -->

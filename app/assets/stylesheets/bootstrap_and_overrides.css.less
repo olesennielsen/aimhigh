@@ -38,12 +38,46 @@ background-color:
 rgba(254, 199, 138, 0.546875);
 color: black;
 }
-a {
+a, a:hover {
 color: black
 }
-
 .table { border:0 }
 .table td, .table th { border: none !important; }
+.fc-view {color:white}
+h1 {color:white}
+
+.modal.short{
+    width: 350px;
+    margin-left: -175px; /* - width/2 */
+}
+
+#calModal{
+	background-image: url('/assets/calendar-icon.png');
+	background-repeat: no-repeat;
+	background-position: 75% 60%;
+
+}
+#pdfModal{
+	background-image: url('/assets/pdf-icon.png');
+	background-repeat: no-repeat;
+	background-position: 75% 60%;
+
+}
+
+body footer, body footer a:hover, body footer a {
+font-size: 12px;
+padding: 6px;
+margin: 6px 0 100px;
+color: white;
+clear: both;
+}
+body footer p.left {
+    float:left;
+}
+body footer p.right {
+    float:right;
+	}
+
 @import "twitter/bootstrap/responsive";
 
 // Your custom LESS stylesheets goes here
