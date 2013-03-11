@@ -20,6 +20,9 @@ Aimhigh::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # Google Analytics ID
+  GA.tracker = "UA-39180416-1"
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 

@@ -103,6 +103,7 @@ GEM
       i18n (~> 0.5)
     ffi (1.3.1)
     ffi (1.3.1-x86-mingw32)
+    google-analytics-rails (0.0.4)
     guard (1.6.1)
       listen (>= 0.6.0)
       lumberjack (>= 1.0.2)
@@ -287,6 +288,7 @@ DEPENDENCIES
   email_spec
   factory_girl_rails
   faker
+  google-analytics-rails
   guard-rspec
   heroku
   icalendar

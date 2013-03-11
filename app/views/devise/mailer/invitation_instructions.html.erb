@@ -1,6 +1,6 @@
 <p>Hej <%= @resource.email %>!</p>
 
-<p>Du er hermed inviteret til aimhigh's nye kommunikationsplatform <%= root_url %>, Du kan acceptere invitationen ved at trykke på linket nedenunder.</p>
+<p>Du er hermed inviteret til aimhigh's kommunikationsplatform <%= root_url %>. Du kan acceptere invitationen ved at trykke på linket nedenunder.</p>
 
 <p><%= link_to 'Acceptér invitation', accept_invitation_url(@resource, :invitation_token => @resource.invitation_token) %></p>
 

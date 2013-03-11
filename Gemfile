@@ -62,4 +62,7 @@ gem 'bootstrap-sass'
 gem 'nested_form'
 gem 'jquery-rails'
 
+# Deploy Analysis
+gem 'google-analytics-rails'
+
 
