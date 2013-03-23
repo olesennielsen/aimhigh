@@ -23,15 +23,14 @@ Aimhigh::Application.configure do
   config.action_mailer.perform_deliveries = true
 
   config.action_mailer.smtp_settings = {
-    address: "mail.aimhigh.dk",
+    address: "smtp.gmail.com",
     port: 587,
     domain: "aimhigh.heroku.com",
-    authentication: "login",
+    authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "aimhigh@aimhigh.dk",
-    password: "ida1980"
+    user_name: "anders.konring@gmail.com",
+    password: "koNy2771"
   }
-
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log

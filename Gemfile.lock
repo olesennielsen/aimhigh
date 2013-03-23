@@ -91,7 +91,6 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.0)
     eventmachine (1.0.0-x86-mingw32)
-    excon (0.16.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
     factory_girl (4.1.0)
@@ -113,14 +112,6 @@ GEM
       guard (>= 1.1)
       rspec (~> 2.11)
     hashery (2.1.0)
-    heroku (2.34.0)
-      heroku-api (~> 0.3.7)
-      launchy (>= 0.3.2)
-      netrc (~> 0.7.7)
-      rest-client (~> 1.6.1)
-      rubyzip
-    heroku-api (0.3.7)
-      excon (~> 0.16.10)
     hike (1.2.1)
     i18n (0.6.1)
     icalendar (1.2.1)
@@ -153,7 +144,6 @@ GEM
     mime-types (1.19)
     multi_json (1.5.0)
     nested_form (0.3.1)
-    netrc (0.7.7)
     nokogiri (1.5.6)
     nokogiri (1.5.6-x86-mingw32)
     orm_adapter (0.4.0)
@@ -211,8 +201,6 @@ GEM
     rdoc (3.12)
       json (~> 1.4)
     ref (1.0.2)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
     rspec (2.12.0)
       rspec-core (~> 2.12.0)
       rspec-expectations (~> 2.12.0)
@@ -290,7 +278,6 @@ DEPENDENCIES
   faker
   google-analytics-rails
   guard-rspec
-  heroku
   icalendar
   jquery-rails
   jquery-ui-rails
