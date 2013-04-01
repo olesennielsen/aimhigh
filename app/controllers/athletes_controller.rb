@@ -95,10 +95,10 @@ class AthletesController < ApplicationController
     end
 
     def pulsbox(athlete)
-      max_puls = athlete.max_puls
-      max_effect = athlete.max_effect
-      at_puls = athlete.at_puls
-      at_effect = athlete.at_effect
+      max_puls = athlete.max_puls || 0
+      max_effect = athlete.max_effect || 0
+      at_puls = athlete.at_puls || 0
+      at_effect = athlete.at_effect || 0
       data = [["Zone","Puls","Effekt"],
               ["Max", "#{max_puls}", "#{max_effect}"],
               ["AT", "#{at_puls}", "#{at_effect}"],
