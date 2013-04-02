@@ -1,6 +1,6 @@
 #Aimhigh Training Center
 
-## TODO List
+## BackLog
 * <del>Attach real firstname and lastname to athletes</del>
 * <del>Make the duration of the session visible in calendar</del>
 * <del>Take out all of the information in excelfile (interval)</del>
@@ -8,7 +8,9 @@
 * <del>Make PDF template for export</del>
 * <del>Ability to Destroy Athlete</del>
 * <del>Make jquery on calendar export parameters</del>
-* Passive and Active Athletes
-* Page Design as in aimhigh.dk
-* Prevent email from ending up in spamfilter
+* <del>Passive and Active Athletes</del>
+* <del>Page Design as in aimhigh.dk</del>
+* <del>Prevent email from ending up in spamfilter</del>
+* Make link, username and password in edit athletes and visible to admin
+* Make the username visible in the upload attachment view
 
