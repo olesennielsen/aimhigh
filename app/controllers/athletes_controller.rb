@@ -54,6 +54,10 @@ class AthletesController < ApplicationController
     end
   end
 
+  def showlink
+    @athlete = Athlete.find(params[:athlete_id])
+  end
+
   def destroy
     @athlete.destroy
 
