@@ -1,5 +1,6 @@
 <% provide(:title, 'Documents') %>
 <div class="row alert alert-block">
+	<h4><%= @athlete.name || @athlete.email %></h4><br/>
 <% if @documents.empty? %>
 <p>The user has no current tests <p>
 <% else %>

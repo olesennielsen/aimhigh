@@ -1,5 +1,6 @@
 <% provide(:title, 'Documents') %>
 <div class="row alert alert-block">
+	<h4><%= @athlete.name || @athlete.email %></h4><br/>
 <%= form_for [@athlete,@document], :html => {:multipart => true} do |f| %>
 	<fieldset>
 	<legend>Document</legend>

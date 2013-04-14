@@ -6,7 +6,6 @@
     <br/>
 
     <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
-    <%= devise_error_messages! %>
 
     <div><%= f.label :email %><br />
       <%= f.email_field :email, :autofocus => true %></div>
@@ -41,6 +40,8 @@
 
           <div><%= f.label "Password" %> <i>(this password will be available to your coach)</i><br />
             <%= f.text_field :link_password %></div>
+            <%= devise_error_messages! %>
             <% end %>
           </div>
+
         </div>
