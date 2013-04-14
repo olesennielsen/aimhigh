@@ -1,4 +1,6 @@
-﻿<div class="alert alert-block">
+﻿<div class="row alert alert-block">
+<br/>
+<h4><%= link_to @athlete.name || @athlete.email, (admin_signed_in? ? athlete_showlink_path(@athlete) : edit_athletes_registration_path) %></h4>
 <br/>
 <div id='calendar'></div>
 <%= render 'calform' %>

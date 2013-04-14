@@ -26,7 +26,8 @@ Aimhigh::Application.routes.draw do
     get 'listdocs' => 'documents#listdocs'
     put 'changestatus' => 'athletes#changestatus'
     post 'exportcal' => 'athletes#exportcal'      	
-    post 'exportpdf' => 'athletes#exportpdf'      	
+    post 'exportpdf' => 'athletes#exportpdf'
+    get 'showlink' => 'athletes#showlink'      	
   end 
   resources :admins
 	

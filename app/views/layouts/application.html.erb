@@ -8,9 +8,6 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<%= stylesheet_link_tag "application", :media => "all" %>
-	<%= stylesheet_link_tag "mobile" if mobile_device %>
-
-
 	<%= javascript_include_tag "application" %>
 	<%= analytics_init if Rails.env.production? %>
 	<%= csrf_meta_tags %>
@@ -34,6 +31,7 @@
 					</div>
 				</div>
 				<% if admin_signed_in? || athlete_signed_in? %>
+				<div class="row">
 				<footer>
 					<div class="alert alert-block">
 						<table style="width: 100%">
@@ -44,6 +42,7 @@
 						</table>
 					</div>
 				</footer>
+			</div>
 				<% end %>
 			</div>
 		</div> <!--! end of .container -->

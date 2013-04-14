@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130225084926) do
+ActiveRecord::Schema.define(:version => 20130409175505) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                :default => "", :null => false
@@ -60,6 +60,9 @@ ActiveRecord::Schema.define(:version => 20130225084926) do
     t.integer  "max_effect"
     t.integer  "at_puls"
     t.integer  "at_effect"
+    t.string   "link_address"
+    t.string   "link_username"
+    t.string   "link_password"
   end
 
   add_index "athletes", ["email"], :name => "index_athletes_on_email", :unique => true

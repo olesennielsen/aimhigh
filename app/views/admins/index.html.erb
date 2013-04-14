@@ -1,5 +1,5 @@
 ﻿<% provide(:title, 'Administration') %>
-<div class="alert alert-block">
+<div class="row alert alert-block">
 	<h4>Welcome <%= current_admin.email %></h4>
 	<br/>
 	<p><%= link_to "Invite New Athlete", new_athlete_invitation_path %></p>
@@ -15,7 +15,7 @@
 				<th style="text-align:center;"><%= sort_link @search, :id %></th>
 				<th><%= sort_link @search, :email %></th>
 				<th><%= sort_link @search, :name, "Name" %></th> 
-				<th><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
+				<th style="text-align:right;"><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
 				<th><%= sort_link @search, :status, "Status" %></th>
 				<th></th>
 				<th></th>
