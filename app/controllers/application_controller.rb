@@ -29,7 +29,15 @@ class ApplicationController < ActionController::Base
   help finding the current_athlete by params
 =end
 	def find_athlete
-          @athlete = Athlete.find(params[:athlete_id])
-        end
+    @athlete = Athlete.find(params[:athlete_id])
+  end
+  private 
 
+  def mobile_device?
+    if
+      request.user_agent =~ /Mobile|webOS/
+    end
+  end
+
+  helper_method :mobile_device?
 end

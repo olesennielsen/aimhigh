@@ -1,0 +1,13 @@
+<div class="row alert alert-block">
+<br/>
+<h4><%= @athlete.name || @athlete.email %></h4>
+<br/>
+<dl class="dl-horizontal">
+  <dt>Link:</dt>
+  <dd><%= unless (@athlete.link_address.nil?) then @athlete.link_address else "-" end %></dd>
+  <dt>Username:</dt>
+  <dd><%= unless (@athlete.link_username.nil?) then @athlete.link_username else "-" end %></dd>
+  <dt>Password:</dt>
+  <dd><%= unless (@athlete.link_password.nil?) then @athlete.link_password else "-" end %></dd>
+</dl>
+</div>
