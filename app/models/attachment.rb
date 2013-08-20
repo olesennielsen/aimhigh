@@ -14,6 +14,7 @@ class Attachment < ActiveRecord::Base
   # Parsing the document
   def parse_document
     @workbook = get_workbook(self.file.current_path.to_s)
+    @workbook.default_sheet = "Ugeplan"
     @athlete = Athlete.find(self.athlete_id)
     unless get_name( @workbook ).nil? then
       name = get_name( @workbook )
@@ -32,28 +33,26 @@ class Attachment < ActiveRecord::Base
 
   # Getting the athletes name according to the xlsx file
   def get_name( workbook )
-    workbook.default_sheet = workbook.sheets[2]
     return workbook.cell('G',2)
   end
 
   def get_athlete_data( workbook )
-    workbook.default_sheet = workbook.sheets[2]
     max_puls = workbook.cell('Y',5)
     max_effect = workbook.cell('AB',5)
     at_puls = workbook.cell('Y',6)
     at_effect = workbook.cell('AB',6)
     return {:max_puls => max_puls, :max_effect => max_effect, :at_puls => at_puls, :at_effect => at_effect }
   end
-    
+  
   # Method responsible for retrieving data from the attachment/workbook
   # and storing them in events. It utilizes the 'roo' gem to get access to the cells
   # NOTICE: Ugly implementation because of the workbook reference that has to be kept
   
 
   def get_data( workbook )
-    workbook.default_sheet = workbook.sheets[2]
     record = []                                             # record for the events
-    16.upto(workbook.last_row) do |row|                     # Defines the row of interest - may variate 
+    puts "this is the last row #{workbook.last_row}"
+    16.upto(workbook.last_row) do |row|                     # Defines the row of interest - may variate \
       cell = workbook.cell(row, 'G')                        # Check for blank line 
       if !cell.nil? then
         date = workbook.cell(row, 'F')                      # Getting data for the event
@@ -93,9 +92,23 @@ class Attachment < ActiveRecord::Base
   # Get data via get_data and for each event store them in the event table
   
   def generate_events
-    events = get_data(@workbook)                            
+    events = get_data(@workbook)
+    prev_event = nil                            
     events.each do |event|
-      event.save
+      begin
+        event.save
+        prev_event = event
+      rescue
+        if !prev_event.starts_at.nil?
+          error = "event dated just after #{prev_event.starts_at.to_date}"
+        elsif !event.title.nil?
+          error = "event named \"#{event.title}\" with event number #{events.find_index(event)}"
+        else
+          error = "event number #{events.find_index(event)}"   
+        end  
+        self.errors.add(:events, "upload did not succeed. Take a look at the row with #{error}")
+        next
+      end
     end
   end  
 

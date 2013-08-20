@@ -22,8 +22,8 @@ class AttachmentsController < ApplicationController
     @attachment = @athlete.build_attachment(params[:attachment])
     
     respond_to do |format|
-      unless @attachment.save
-        flash[:error] = 'File could not be uploaded'
+      if !@attachment.save || !@attachment.errors.empty?
+        flash[:error] = @attachment.errors.full_messages[0]
       end
       format.html do
         redirect_to athlete_attachments_path
