@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 source 'https://rubygems.org'
 
 ruby '1.9.3'
@@ -60,6 +61,7 @@ gem 'cancan'
 gem 'bootstrap-sass'
 gem 'nested_form'
 gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
 
 # Deploy Analysis
 gem 'google-analytics-rails'
