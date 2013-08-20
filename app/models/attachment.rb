@@ -93,22 +93,9 @@ class Attachment < ActiveRecord::Base
   
   def generate_events
     events = get_data(@workbook)
-    prev_event = nil                            
+    
     events.each do |event|
-      begin
-        event.save
-        prev_event = event
-      rescue
-        if !prev_event.starts_at.nil?
-          error = "event dated just after #{prev_event.starts_at.to_date}"
-        elsif !event.title.nil?
-          error = "event named \"#{event.title}\" with event number #{events.find_index(event)}"
-        else
-          error = "event number #{events.find_index(event)}"   
-        end  
-        self.errors.add(:events, "upload did not succeed. Take a look at the row with #{error}")
-        next
-      end
+      event.save
     end
   end  
 

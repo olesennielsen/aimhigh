@@ -22,14 +22,15 @@ class AttachmentsController < ApplicationController
     @attachment = @athlete.build_attachment(params[:attachment])
     
     respond_to do |format|
-      if !@attachment.save || !@attachment.errors.empty?
-        flash[:error] = @attachment.errors.full_messages[0]
+      unless @attachment.save
+        flash[:error] = "File could not be uploaded"
       end
       format.html do
         redirect_to athlete_attachments_path
       end
     end
   end
+
 
   def destroy
     @attachment = Attachment.find(params[:id])
@@ -41,4 +42,4 @@ class AttachmentsController < ApplicationController
   end
 end
 
- 
+
