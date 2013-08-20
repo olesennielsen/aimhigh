@@ -12,7 +12,6 @@ gem 'rails', '3.2.11'
 # in production environments by default.
 group :assets do
   gem 'therubyracer'
-  gem 'jquery-ui-rails'	
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
@@ -53,11 +52,14 @@ gem 'devise_invitable', '~> 1.0.0'
 # Authorization gem
 gem 'cancan'
 
-# Calendar features
+# Styles and jQuery ftw
 gem 'nested_form'
-gem 'jquery-rails'
+
 gem 'sass-rails'
 gem 'bootstrap-sass'
+
+gem 'jquery-rails'
+gem 'jquery-ui-rails'	
 
 
 # Deploy Analysis
