@@ -59,8 +59,6 @@ gem 'sass-rails'
 gem 'bootstrap-sass'
 
 gem 'jquery-rails'
-gem 'jquery-ui-rails'	
-
 
 # Deploy Analysis
 gem 'google-analytics-rails'
