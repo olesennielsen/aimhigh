@@ -58,7 +58,7 @@ gem 'nested_form'
 gem 'sass-rails'
 gem 'bootstrap-sass'
 
-gem 'jquery-rails'
+gem "jquery-rails", "~> 2.3.0" #specific branch to ensure ui
 
 # Deploy Analysis
 gem 'google-analytics-rails'
