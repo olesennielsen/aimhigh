@@ -11,12 +11,8 @@ gem 'rails', '3.2.11'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'less-rails-bootstrap'
-  gem 'less-rails'
-  gem 'less'
   gem 'therubyracer'
   gem 'jquery-ui-rails'	
-  gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
@@ -42,7 +38,7 @@ gem 'magic_encoding'
 gem 'carrierwave'
 
 # Spreadsheet parser gem
-gem 'roo', :git => 'git://github.com/Empact/roo.git'
+gem 'roo'
 
 # PDF generator gem
 gem "prawn"
@@ -51,17 +47,18 @@ gem "prawn"
 gem 'icalendar'
 
 # Authentication gems
-gem 'devise', :git => "git://github.com/plataformatec/devise.git", :branch => 'master'
+gem 'devise'
 gem 'devise_invitable', '~> 1.0.0'
 
 # Authorization gem
 gem 'cancan'
 
 # Calendar features
-gem 'bootstrap-sass'
 gem 'nested_form'
 gem 'jquery-rails'
-gem 'twitter-bootstrap-rails'
+gem 'sass-rails'
+gem 'bootstrap-sass'
+
 
 # Deploy Analysis
 gem 'google-analytics-rails'

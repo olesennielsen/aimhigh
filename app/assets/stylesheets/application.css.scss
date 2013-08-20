@@ -1,0 +1,20 @@
+/* fullcalendar and overrides are css files not compiled
+   the rest are scss bootstrap stuff 
+   ps I am awesome */
+
+@import "fullcalendar"; 
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "overrides";
+
+body {
+	margin-top: 40px;
+	#text-align: center;
+	font-size: 14px;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+#calendar {
+	width: 900px;
+	margin: 0 auto;
+}

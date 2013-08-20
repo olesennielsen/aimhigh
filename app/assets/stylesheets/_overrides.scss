@@ -1,0 +1,69 @@
+body { 
+background-color: #FFF;
+color: #000;
+background-position: 50% 0;
+background-repeat: no-repeat;
+background-size: 100% auto;
+font-family: Arial;
+background-image: url('/assets/bg.png')
+}
+
+body header{
+height: 67px;
+margin-top: 25px;
+width: 100%;
+background-image: url('/assets/header_tile.gif');
+}
+
+body header div#strip{
+height: 67px;
+margin: 0px;
+width: 100%;
+background-image: url('/assets/header.jpg');
+background-repeat: no-repeat;
+}
+
+body header div#strip img{
+margin: 4px 156px;
+}
+
+.navbar .nav.pull-right {
+margin: 15px 100px;
+}
+
+.alert {
+border: 1px solid white;
+background-color: 
+rgba(254, 199, 138, 0.546875);
+color: black;
+}
+a, a:hover {
+color: black
+}
+.table { border:0 }
+.table td, .table th { border: none !important; }
+
+.modal.short{
+    width: 350px;
+    margin-left: -175px; /* - width/2 */
+}
+
+#calModal{
+	background-image: url('/assets/calendar-icon.png');
+	background-repeat: no-repeat;
+	background-position: 75% 60%;
+
+}
+#pdfModal{
+	background-image: url('/assets/pdf-icon.png');
+	background-repeat: no-repeat;
+	background-position: 75% 60%;
+
+}
+
+footer{
+font-size: 12px;
+}
+td.right {
+    text-align:right;  
+}
