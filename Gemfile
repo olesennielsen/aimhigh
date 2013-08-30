@@ -46,9 +46,8 @@ gem "prawn"
 gem 'icalendar'
 
 # Authentication gems
-gem 'devise',           '>= 2.0.0'
-gem 'devise_invitable', '~> 1.1.0'
-
+gem 'devise', '~> 3.0.0'
+gem 'devise_invitable', :git => "git://github.com/scambra/devise_invitable.git", :branch => 'master'
 
 # Authorization gem
 gem 'cancan'
