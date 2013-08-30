@@ -47,7 +47,7 @@ gem 'icalendar'
 
 # Authentication gems
 gem 'devise', :git => "git://github.com/plataformatec/devise.git", :branch => 'master'
-gem 'devise_invitable' 
+gem 'devise_invitable', '~> 1.0.0'
 
 # Authorization gem
 gem 'cancan'
