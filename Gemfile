@@ -38,7 +38,7 @@ gem 'carrierwave'
 
 # Spreadsheet parser gem
 gem 'roo'
-gem 'rubyzip'
+gem 'rubyzip2'
 
 # PDF generator gem
 gem "prawn"
