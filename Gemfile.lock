@@ -273,6 +273,7 @@ DEPENDENCIES
   rb-fsevent (~> 0.9.1)
   roo
   rspec-rails
+  rubyzip
   sass-rails
   therubyracer
   thin
