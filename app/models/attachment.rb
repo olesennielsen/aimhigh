@@ -1,5 +1,5 @@
 class Attachment < ActiveRecord::Base
-  require 'roo/excelx'
+  require 'roo'
   belongs_to :athlete
   has_many :events, :dependent => :destroy
   mount_uploader :file, AttachmentUploader
