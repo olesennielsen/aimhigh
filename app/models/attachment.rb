@@ -52,7 +52,6 @@ class Attachment < ActiveRecord::Base
 
   def get_data( workbook )
     record = []                                             # record for the events
-    puts "this is the last row #{workbook.last_row}"
     16.upto(workbook.last_row) do |row|                     # Defines the row of interest - may variate \
       cell = workbook.cell(row, 'G')                        # Check for blank line 
       if !cell.nil? then
