@@ -14,7 +14,6 @@ describe Event do
   end
   it "has computed end time" do
     @event = FactoryGirl.create(:event)
-    puts @event.duration
     @event.ends_at.should == (DateTime.now.to_date.to_datetime + @event.duration.minutes)
   end
 end
