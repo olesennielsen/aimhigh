@@ -34,7 +34,7 @@ class Event < ActiveRecord::Base
       :recurring => false
     }
   end
-
+  
   # Date formatter to agree on date/time with fullcalendar
   def self.format_date(date_time)
     Time.at(date_time.to_i).to_formatted_s(:db)
