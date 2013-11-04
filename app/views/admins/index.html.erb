@@ -12,7 +12,6 @@
 	<table class="table table-bordered">
 		<thead>
 			<tr>
-				<th style="text-align:center;"><%= sort_link @search, :id %></th>
 				<th><%= sort_link @search, :email %></th>
 				<th><%= sort_link @search, :name, "Name" %></th> 
 				<th style="text-align:right;"><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
@@ -25,7 +24,6 @@
 		<tbody>
 			<% @athletes.each do |athlete|%>
 			<tr>
-				<td style="text-align:center;"><%= athlete.id %></td>
 				<td><%= link_to h(athlete.email), athlete %></td>
 				<td><% unless athlete.name.nil? then%>
 					<%= link_to h(athlete.name), athlete %>
@@ -36,10 +34,10 @@
 						<% end %>
 						</td>
 				<td><%= link_to athlete.status_string, athlete_changestatus_path(athlete), :method => 'put' %></td>
-				<td style="text-align:center;"><%= link_to athlete_documents_path(athlete) do %><i class="icon-folder-open"></i><% end %></td>
-				<td style="text-align:center;"><%= link_to athlete_attachments_path(athlete) do %><i class="icon-file"></i><% end %></td>	
+				<td style="text-align:center;"><%= link_to athlete_documents_path(athlete) do %><span class="glyphicon glyphicon-folder-open"></span><% end %></td>
+				<td style="text-align:center;"><%= link_to new_athlete_attachment_path(athlete) do %><span class="glyphicon glyphicon-file"></span><% end %></td>	
 				<td style="text-align:center;"><%= link_to athlete, :confirm => "Do you really want to delete this athlete and all its files?", :method => :delete do %>
-					<i class="icon-remove"></i><% end %></td>
+					<span class="glyphicon glyphicon-remove"></span><% end %></td>
 			</tr>
 			<% end %>
 		</tbody>
