@@ -72,7 +72,7 @@ class ExcelParser
           end
         end
         #Reassembling the record which is an event
-        records << Hash[starts_at: date, ends_at: date, title: title, 
+        records << Hash[starts_at: date, ends_at: calculate_ends_at(date, duration), title: title, 
                         duration: duration.to_i, all_day: false, 
                         description: description, focus_areas: event_focus,
                         sessions: sessions]
@@ -80,6 +80,11 @@ class ExcelParser
     end
     return records
   end
+
+  def calculate_ends_at(date, duration)
+    date.to_time + duration.to_i.minutes
+  end
+
 
   # Find focues eases the use of correlation between column number and
   # session intensity which is defined by strings
