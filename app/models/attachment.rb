@@ -20,7 +20,6 @@ class Attachment < ActiveRecord::Base
     excel_parser = ExcelParser.new(self.file)
     file_content = excel_parser.dispatch
     @athlete.update_attributes({name: file_content[:athlete_name]}.merge(file_content[:data]))
-    puts file_content[:events]
     batch_update(file_content[:events])
   end
 
@@ -35,8 +34,6 @@ class Attachment < ActiveRecord::Base
       sql_events << event_to_sql(event, sql_get_id)
       event[:sessions].each do |session|
         sql_sessions << session_to_sql(session, sql_get_id)
-        puts "This is the query #{session_to_sql(session, sql_get_id)}"
-
       end
       sql_get_id = (Attachment.connection.execute "SELECT nextval('events_id_seq');")[0]["nextval"].to_i
     end
