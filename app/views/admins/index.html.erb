@@ -1,45 +1,52 @@
 ﻿<% provide(:title, 'Administration') %>
 <div class="row alert alert-block">
-	<h4>Welcome <%= current_admin.email %></h4>
-	<br/>
-	<p><%= link_to "Invite New Athlete", new_athlete_invitation_path %></p>
-	<br/>
-	<%= search_form_for @search, :url => admins_path, :class => "form-search" do |f| %>
-	<%= f.label :email_cont %>
-	<%= f.text_field :email_cont, :class => "input-medium search-query" %>
-	<%= f.submit "Search", :class => "btn btn-warning"  %>
-	<% end %>
-	<table class="table table-bordered">
-		<thead>
-			<tr>
-				<th><%= sort_link @search, :email %></th>
-				<th><%= sort_link @search, :name, "Name" %></th> 
-				<th style="text-align:right;"><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
-				<th><%= sort_link @search, :status, "Status" %></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			<% @athletes.each do |athlete|%>
-			<tr>
-				<td><%= link_to h(athlete.email), athlete %></td>
-				<td><% unless athlete.name.nil? then%>
-					<%= link_to h(athlete.name), athlete %>
-					<% end %>
-				</td>
-				<td style="text-align:right;"><% unless athlete.invitation_accepted_at.nil? then%>
-						<%= athlete.invitation_accepted_at.to_date.to_s %>
-						<% end %>
-						</td>
-				<td><%= link_to athlete.status_string, athlete_changestatus_path(athlete), :method => 'put' %></td>
-				<td style="text-align:center;"><%= link_to athlete_documents_path(athlete) do %><span class="glyphicon glyphicon-folder-open"></span><% end %></td>
-				<td style="text-align:center;"><%= link_to new_athlete_attachment_path(athlete) do %><span class="glyphicon glyphicon-file"></span><% end %></td>	
-				<td style="text-align:center;"><%= link_to athlete, :confirm => "Do you really want to delete this athlete and all its files?", :method => :delete do %>
-					<span class="glyphicon glyphicon-remove"></span><% end %></td>
-			</tr>
-			<% end %>
-		</tbody>
-	</table>
+  <h4>Welcome <%= current_admin.email %></h4>
+  <br/>
+  <p><%= link_to "Invite New Athlete", new_athlete_invitation_path %></p>
+  <br/>
+  <%= search_form_for @search, :url => admins_path, role: "form", :class => "form-inline form-search" do |f| %>
+  <div class="form-group">
+    <%= f.label("Email contains", class:"sr-only",for:"search_input") %>
+    <%= f.text_field :email_cont, id: "search_input", :class => "form-control", placeholder: "Search for email" %>
+  </div>
+  <%= f.submit "Search", :class => "btn btn-warning"  %>
+  <% end %>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+	<th><%= sort_link @search, :email %></th>
+	<th><%= sort_link @search, :name, "Name" %></th> 
+	<th style="text-align:right;"><%= sort_link @search, :invitation_accepted_at, "Date" %></th>
+	<th><%= sort_link @search, :status, "Status" %></th>
+	<th></th>
+	<th></th>
+	<th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @athletes.each do |athlete|%>
+      <tr>
+	<td><%= link_to h(athlete.email), athlete %></td>
+	<td><% unless athlete.name.nil? then%>
+	  <%= link_to h(athlete.name), athlete %>
+	  <% end %>
+	</td>
+	<td style="text-align:right;"><% unless athlete.invitation_accepted_at.nil? then%>
+	  <%= athlete.invitation_accepted_at.to_date.to_s %>
+	  <% end %>
+	</td>
+	<td><%= link_to athlete.status_string, athlete_changestatus_path(athlete), :method => 'put' %></td>
+	<td style="text-align:center;"><%= link_to athlete_documents_path(athlete) do %>
+          <span class="glyphicon glyphicon-folder-open"></span><% end %>
+        </td>
+	<td style="text-align:center;"><%= link_to new_athlete_attachment_path(athlete) do %>
+          <span class="glyphicon glyphicon-file"></span><% end %>
+        </td>	
+	<td style="text-align:center;"><%= link_to athlete, :confirm => "Do you really want to delete this athlete and all its files?", :method => :delete do %>
+	  <span class="glyphicon glyphicon-remove"></span><% end %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>

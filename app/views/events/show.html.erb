@@ -1,5 +1,33 @@
 <% provide(:title, 'Event') %>
 <div class="row alert alert-block">
+<div class="right-puls pulszoner">
+  <div class="zone restitution-zone">
+    Restitution
+    <span class="badge"><%= (@athlete.at_puls*0.70).round - 1 %></span>
+  </div>
+  <div class="zone ig-zone">
+    Grundtræning
+    <span class="badge badge-success"><%=(@athlete.at_puls*0.88).round - 1 %></span>
+  </div>
+  <div class="zone intg-zone">
+    Intensiv Grundzone
+    <span class="badge badge-success"><%=(@athlete.at_puls*0.93).round - 1 %></span>
+  </div>
+  <div class="zone subat-zone">
+      Sub-AT
+      <span class="puls badge badge-warning"><%=(@athlete.at_puls*0.98).round - 1 %></span>
+  </div>
+  <div class="zone at-zone">
+    AT
+    <span class="badge badge-important"><%=(@athlete.at_puls*1.02).round - 1 %></span>
+  </div>
+  <div class="zone max-zone">
+    Max
+    <span class="badge badge-inverse"><%=(@athlete.at_puls*1.04).round - 1 %></span>
+  </div>
+</div>
+
+   
 <h5>
    Type: 
   <%= @event.title %>
@@ -15,7 +43,7 @@
 </h5>
 
 <% unless(@sessions.empty?) %>
-<dl class="dl-horizontal">
+<dl class="clear dl-horizontal">
 <% @sessions.each do |session| %>
   <dt><%= session.focus %></dt>
   <dd><%= unless (session.session_description.nil?) then session.session_description.description else "-" end %></dd>
